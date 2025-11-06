@@ -1,0 +1,676 @@
+{
+  "channel": {
+    "id": "37260",
+    "name": "BBC Scotland"
+  },
+  "events": [
+    {
+      "startTime": "2025-10-26T06:00:00+0000",
+      "duration": 360,
+      "name": "This is BBC Scotland",
+      "description": "This is BBC Scotland",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+        "event_locator": "dvb://233a..918c;2e8",
+        "main_title": "This is BBC Scotland",
+        "secondary_title": "This is BBC Scotland",
+        "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+        "start_time": "2025-10-26T06:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+        "uuid": "1522652980f1ca7d3244febe39f9539e"
+      }
+    },
+    {
+      "startTime": "2025-10-26T12:00:00+0000",
+      "duration": 360,
+      "name": "This is BBC Scotland",
+      "description": "This is BBC Scotland",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+        "event_locator": "dvb://233a..918c;2e9",
+        "main_title": "This is BBC Scotland",
+        "secondary_title": "This is BBC Scotland",
+        "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+        "start_time": "2025-10-26T12:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+        "uuid": "e3142b455ba7c2f05ae97eb5c5e8396a"
+      }
+    },
+    {
+      "startTime": "2025-10-26T18:00:00+0000",
+      "duration": 60,
+      "name": "This is BBC Scotland",
+      "description": "This is BBC Scotland",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+        "event_locator": "dvb://233a..918c;2ea",
+        "main_title": "This is BBC Scotland",
+        "secondary_title": "This is BBC Scotland",
+        "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+        "start_time": "2025-10-26T18:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+        "uuid": "8d8bbc9347246cf1cd16bd1bcc4cfaa8"
+      }
+    },
+    {
+      "startTime": "2025-10-26T19:00:00+0000",
+      "duration": 15,
+      "name": "Reporting Scotland",
+      "description": "News at Seven: 26/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkft",
+        "event_locator": "dvb://233a..918c;2eb",
+        "main_title": "Reporting Scotland",
+        "secondary_title": "News at Seven: 26/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pc938d8a5c9fb120be84b3a12fd14cafb",
+        "start_time": "2025-10-26T19:00:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2025-10-26T19:15:05+0000",
+          "end_of_availability": "2025-10-27T19:15:05+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkft&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e929f0333458cffc63b275b73381a8d82",
+        "uuid": "ab9b04ca5cae82f1b8d61ac4643ec700"
+      }
+    },
+    {
+      "startTime": "2025-10-26T19:15:00+0000",
+      "duration": 60,
+      "name": "Sportscene: Premiership Highlights",
+      "description": "2025/26: 26/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbt",
+        "event_locator": "dvb://233a..918c;2ec",
+        "main_title": "Sportscene: Premiership Highlights",
+        "secondary_title": "2025/26: 26/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pf964bdb5ba258167c3038cbeda4ab350",
+        "start_time": "2025-10-26T19:15:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-26T20:15:14+0000",
+          "end_of_availability": "2025-11-03T00:47:35+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkbt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+        "fallback_image_url": "http://img.freeviewplay.net/e15bcd7ef39e19916747e322bda477c8a",
+        "uuid": "d5c8e159bbf2435b1e20ab4f03e18e92"
+      }
+    },
+    {
+      "startTime": "2025-10-26T20:15:00+0000",
+      "duration": 15,
+      "name": "Sacked in the Morning",
+      "description": "Series 2 Shorts: 10. Alastair Campbell",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002k970",
+        "event_locator": "dvb://233a..918c;334",
+        "main_title": "Sacked in the Morning",
+        "secondary_title": "Series 2 Shorts: 10. Alastair Campbell",
+        "image_url": "https://img.freeviewplay.tv/pe25f09a3822c88f7b11c56bad3095479",
+        "start_time": "2025-10-26T20:15:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2025-09-27T19:45:24+0000",
+          "end_of_availability": "2025-11-25T20:30:41+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k970&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+        "fallback_image_url": "http://img.freeviewplay.net/ebc6670e232cad6d159940ae3e1cc8116",
+        "uuid": "9dee5fd9ab6c1a91773a8809b0d7a800"
+      }
+    },
+    {
+      "startTime": "2025-10-26T20:30:00+0000",
+      "duration": 30,
+      "name": "The Entertainment Mix",
+      "description": "Series 2: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002ld1d",
+        "event_locator": "dvb://233a..918c;335",
+        "main_title": "The Entertainment Mix",
+        "secondary_title": "Series 2: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/pfb16560cfd75f13f8b57f73fdbfb85b1",
+        "start_time": "2025-10-26T20:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-23T19:01:27+0000",
+          "end_of_availability": "2025-11-25T21:00:10+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ld1d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef1c1e134ded54debca81149b2c2b9246",
+        "uuid": "53d5161b16ca9bbf6bc27ae1fec6fa8f"
+      }
+    },
+    {
+      "startTime": "2025-10-26T21:00:00+0000",
+      "duration": 60,
+      "name": "Highland Cops",
+      "description": "Series 3: 3. Missing in the Snow",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lhjx",
+        "event_locator": "dvb://233a..918c;2ee",
+        "main_title": "Highland Cops",
+        "secondary_title": "Series 3: 3. Missing in the Snow",
+        "image_url": "https://img.freeviewplay.tv/pd6bae6734a3bc4809f7a56fcaded134c",
+        "start_time": "2025-10-26T21:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-26T22:00:25+0000",
+          "end_of_availability": "2026-11-16T21:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lhjx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eb23df8674b118b4f25c83494b63f6186",
+        "uuid": "27378996fe01dc1cc2adc7a8eef9e6bf"
+      }
+    },
+    {
+      "startTime": "2025-10-26T22:00:00+0000",
+      "duration": 30,
+      "name": "Still Game",
+      "description": "Series 4: 6. Who's the Daddy",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/b0078xyw",
+        "event_locator": "dvb://233a..918c;2ef",
+        "main_title": "Still Game",
+        "secondary_title": "Series 4: 6. Who's the Daddy",
+        "image_url": "https://img.freeviewplay.tv/pf8b483cc5f5c51d40ada86b8504916f6",
+        "start_time": "2025-10-26T22:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2021-12-20T12:00:00+0000",
+          "end_of_availability": "2027-12-31T05:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0078xyw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e7b8cd70cc3d7ebed3288bc5df58a5dbf",
+        "uuid": "436371755e74ea5cce7d19598e86983e"
+      }
+    },
+    {
+      "startTime": "2025-10-26T22:30:00+0000",
+      "duration": 30,
+      "name": "Breaking the News",
+      "description": "Series 15 - TV: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l9z4",
+        "event_locator": "dvb://233a..918c;2f0",
+        "main_title": "Breaking the News",
+        "secondary_title": "Series 15 - TV: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p38af025f3fa3e870968748ae307404d0",
+        "start_time": "2025-10-26T22:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-24T22:45:05+0000",
+          "end_of_availability": "2026-10-24T22:45:05+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l9z4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e899a35d0d3eccb8333994f1c4b0d8d18",
+        "uuid": "8483ad568d48327b385ae34e948cb71f"
+      }
+    },
+    {
+      "startTime": "2025-10-26T23:00:00+0000",
+      "duration": 30,
+      "name": "Scot Squad",
+      "description": "Series 6: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m000r1y1",
+        "event_locator": "dvb://233a..918c;2f1",
+        "main_title": "Scot Squad",
+        "secondary_title": "Series 6: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p1315e883c3be4029f01cacf7e69f4392",
+        "start_time": "2025-10-26T23:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-02-04T06:00:00+0000",
+          "end_of_availability": "2027-02-01T19:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000r1y1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e1b6e6e3994e739bfaf27af34d6970368",
+        "uuid": "8f710b01dae7aac38a99a50eb8aa91c0"
+      }
+    },
+    {
+      "startTime": "2025-10-26T23:30:00+0000",
+      "duration": 30,
+      "name": "The Sunday Show",
+      "description": "Series 5: 26/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbm",
+        "event_locator": "dvb://233a..918c;2f2",
+        "main_title": "The Sunday Show",
+        "secondary_title": "Series 5: 26/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pde2cefbe614e295a3b52164809207c6d",
+        "start_time": "2025-10-26T23:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-26T10:30:19+0000",
+          "end_of_availability": "2025-11-25T10:30:19+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkbm&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ecd9f9953aacf1b38ff4afe1a8a0bcecd",
+        "uuid": "7d1b000c0fd145e0817eabdcbc56987a"
+      }
+    }
+  ],
+  "compat": {
+    "freesat_card": [
+      {
+        "event": [
+          {
+            "startTime": "2025-10-26T06:00:00+0000",
+            "duration": 360,
+            "name": "This is BBC Scotland",
+            "description": "This is BBC Scotland",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+              "event_locator": "dvb://233a..918c;2e8",
+              "main_title": "This is BBC Scotland",
+              "secondary_title": "This is BBC Scotland",
+              "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+              "start_time": "2025-10-26T06:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+              "uuid": "1522652980f1ca7d3244febe39f9539e"
+            }
+          },
+          {
+            "startTime": "2025-10-26T12:00:00+0000",
+            "duration": 360,
+            "name": "This is BBC Scotland",
+            "description": "This is BBC Scotland",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+              "event_locator": "dvb://233a..918c;2e9",
+              "main_title": "This is BBC Scotland",
+              "secondary_title": "This is BBC Scotland",
+              "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+              "start_time": "2025-10-26T12:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+              "uuid": "e3142b455ba7c2f05ae97eb5c5e8396a"
+            }
+          },
+          {
+            "startTime": "2025-10-26T18:00:00+0000",
+            "duration": 60,
+            "name": "This is BBC Scotland",
+            "description": "This is BBC Scotland",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0003hff",
+              "event_locator": "dvb://233a..918c;2ea",
+              "main_title": "This is BBC Scotland",
+              "secondary_title": "This is BBC Scotland",
+              "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+              "start_time": "2025-10-26T18:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef1a2938e42c50e5c40bdb27a7620c8d8",
+              "uuid": "8d8bbc9347246cf1cd16bd1bcc4cfaa8"
+            }
+          },
+          {
+            "startTime": "2025-10-26T19:00:00+0000",
+            "duration": 15,
+            "name": "Reporting Scotland",
+            "description": "News at Seven: 26/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkft",
+              "event_locator": "dvb://233a..918c;2eb",
+              "main_title": "Reporting Scotland",
+              "secondary_title": "News at Seven: 26/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pc938d8a5c9fb120be84b3a12fd14cafb",
+              "start_time": "2025-10-26T19:00:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2025-10-26T19:15:05+0000",
+                "end_of_availability": "2025-10-27T19:15:05+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkft&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e929f0333458cffc63b275b73381a8d82",
+              "uuid": "ab9b04ca5cae82f1b8d61ac4643ec700"
+            }
+          },
+          {
+            "startTime": "2025-10-26T19:15:00+0000",
+            "duration": 60,
+            "name": "Sportscene: Premiership Highlights",
+            "description": "2025/26: 26/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbt",
+              "event_locator": "dvb://233a..918c;2ec",
+              "main_title": "Sportscene: Premiership Highlights",
+              "secondary_title": "2025/26: 26/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pf964bdb5ba258167c3038cbeda4ab350",
+              "start_time": "2025-10-26T19:15:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-26T20:15:14+0000",
+                "end_of_availability": "2025-11-03T00:47:35+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkbt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+              "fallback_image_url": "http://img.freeviewplay.net/e15bcd7ef39e19916747e322bda477c8a",
+              "uuid": "d5c8e159bbf2435b1e20ab4f03e18e92"
+            }
+          },
+          {
+            "startTime": "2025-10-26T20:15:00+0000",
+            "duration": 15,
+            "name": "Sacked in the Morning",
+            "description": "Series 2 Shorts: 10. Alastair Campbell",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002k970",
+              "event_locator": "dvb://233a..918c;334",
+              "main_title": "Sacked in the Morning",
+              "secondary_title": "Series 2 Shorts: 10. Alastair Campbell",
+              "image_url": "https://img.freeviewplay.tv/pe25f09a3822c88f7b11c56bad3095479",
+              "start_time": "2025-10-26T20:15:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2025-09-27T19:45:24+0000",
+                "end_of_availability": "2025-11-25T20:30:41+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k970&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+              "fallback_image_url": "http://img.freeviewplay.net/ebc6670e232cad6d159940ae3e1cc8116",
+              "uuid": "9dee5fd9ab6c1a91773a8809b0d7a800"
+            }
+          },
+          {
+            "startTime": "2025-10-26T20:30:00+0000",
+            "duration": 30,
+            "name": "The Entertainment Mix",
+            "description": "Series 2: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002ld1d",
+              "event_locator": "dvb://233a..918c;335",
+              "main_title": "The Entertainment Mix",
+              "secondary_title": "Series 2: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/pfb16560cfd75f13f8b57f73fdbfb85b1",
+              "start_time": "2025-10-26T20:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-23T19:01:27+0000",
+                "end_of_availability": "2025-11-25T21:00:10+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ld1d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef1c1e134ded54debca81149b2c2b9246",
+              "uuid": "53d5161b16ca9bbf6bc27ae1fec6fa8f"
+            }
+          },
+          {
+            "startTime": "2025-10-26T21:00:00+0000",
+            "duration": 60,
+            "name": "Highland Cops",
+            "description": "Series 3: 3. Missing in the Snow",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lhjx",
+              "event_locator": "dvb://233a..918c;2ee",
+              "main_title": "Highland Cops",
+              "secondary_title": "Series 3: 3. Missing in the Snow",
+              "image_url": "https://img.freeviewplay.tv/pd6bae6734a3bc4809f7a56fcaded134c",
+              "start_time": "2025-10-26T21:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-26T22:00:25+0000",
+                "end_of_availability": "2026-11-16T21:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lhjx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eb23df8674b118b4f25c83494b63f6186",
+              "uuid": "27378996fe01dc1cc2adc7a8eef9e6bf"
+            }
+          },
+          {
+            "startTime": "2025-10-26T22:00:00+0000",
+            "duration": 30,
+            "name": "Still Game",
+            "description": "Series 4: 6. Who's the Daddy",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/b0078xyw",
+              "event_locator": "dvb://233a..918c;2ef",
+              "main_title": "Still Game",
+              "secondary_title": "Series 4: 6. Who's the Daddy",
+              "image_url": "https://img.freeviewplay.tv/pf8b483cc5f5c51d40ada86b8504916f6",
+              "start_time": "2025-10-26T22:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2021-12-20T12:00:00+0000",
+                "end_of_availability": "2027-12-31T05:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0078xyw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e7b8cd70cc3d7ebed3288bc5df58a5dbf",
+              "uuid": "436371755e74ea5cce7d19598e86983e"
+            }
+          },
+          {
+            "startTime": "2025-10-26T22:30:00+0000",
+            "duration": 30,
+            "name": "Breaking the News",
+            "description": "Series 15 - TV: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l9z4",
+              "event_locator": "dvb://233a..918c;2f0",
+              "main_title": "Breaking the News",
+              "secondary_title": "Series 15 - TV: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p38af025f3fa3e870968748ae307404d0",
+              "start_time": "2025-10-26T22:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-24T22:45:05+0000",
+                "end_of_availability": "2026-10-24T22:45:05+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l9z4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e899a35d0d3eccb8333994f1c4b0d8d18",
+              "uuid": "8483ad568d48327b385ae34e948cb71f"
+            }
+          },
+          {
+            "startTime": "2025-10-26T23:00:00+0000",
+            "duration": 30,
+            "name": "Scot Squad",
+            "description": "Series 6: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m000r1y1",
+              "event_locator": "dvb://233a..918c;2f1",
+              "main_title": "Scot Squad",
+              "secondary_title": "Series 6: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p1315e883c3be4029f01cacf7e69f4392",
+              "start_time": "2025-10-26T23:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-02-04T06:00:00+0000",
+                "end_of_availability": "2027-02-01T19:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000r1y1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e1b6e6e3994e739bfaf27af34d6970368",
+              "uuid": "8f710b01dae7aac38a99a50eb8aa91c0"
+            }
+          },
+          {
+            "startTime": "2025-10-26T23:30:00+0000",
+            "duration": 30,
+            "name": "The Sunday Show",
+            "description": "Series 5: 26/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbm",
+              "event_locator": "dvb://233a..918c;2f2",
+              "main_title": "The Sunday Show",
+              "secondary_title": "Series 5: 26/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pde2cefbe614e295a3b52164809207c6d",
+              "start_time": "2025-10-26T23:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-26T10:30:19+0000",
+                "end_of_availability": "2025-11-25T10:30:19+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkbm&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ecd9f9953aacf1b38ff4afe1a8a0bcecd",
+              "uuid": "7d1b000c0fd145e0817eabdcbc56987a"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,512 @@
+name: Fetch Freeview EPG
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "UNIX timestamp (leave blank or 'auto' for UK midnight today)"
+        required: false
+        type: string
+        default: "auto"
+      url:
+        description: "EPG XML feed URL"
+        required: false
+        type: string
+        default: "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
+      mirror_images:
+        description: "Mirror images (true/false)"
+        required: false
+        default: "true"
+        
+  schedule:
+    - cron: "2 0 * * *" 
+    - cron: "4 0 * * *" 
+
+concurrency:
+  group: freely_guide
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Compute START (UTC midnight of UK day unless provided)
+        id: when
+        shell: bash
+        run: |
+          if [[ -z "${{ github.event.inputs.start }}" || "${{ github.event.inputs.start }}" == "auto" ]]; then
+            UKDATE=$(TZ=Europe/London date +%Y-%m-%d)          # e.g. 2025-10-04
+            START=$(date -u -d "$UKDATE 00:00:00" +%s)         # 00:00:00 UTC of that calendar date
+          else
+            START="${{ github.event.inputs.start }}"
+          fi
+          echo "start=$START" >> "$GITHUB_OUTPUT"
+          FEED_URL="${{ github.event.inputs.url }}"
+          if [[ -z "$FEED_URL" ]]; then
+            FEED_URL="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
+          fi
+          echo "url=$FEED_URL" >> "$GITHUB_OUTPUT"
+
+      - name: Show resolved START
+        run: |
+          echo "start=${{ steps.when.outputs.start }}"
+          TZ=Europe/London date -d @${{ steps.when.outputs.start }} "+UK  %Y-%m-%d %H:%M (%Z)"
+          date -u -d @${{ steps.when.outputs.start }} "+UTC %Y-%m-%d %H:%M"
+
+      - name: Fetch & split
+        run: |
+          python scripts/freely_fetch_split.py \
+            --url "${{ steps.when.outputs.url }}" \
+            --start "${{ steps.when.outputs.start }}" \
+            --out docs
+
+      - name: Sanity check (non-empty guide)
+        id: sanity
+        run: |
+          python - <<'PY'
+          import json, pathlib, os
+          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
+          n = len(idx.get('channels', []))
+          print(f"channels={n}")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"has_channels={'true' if n>0 else 'false'}\n")
+          PY
+
+
+      - name: Mirror programme images (DEBUG + legacy CDN fallback) & rewrite JSON
+        if: ${{ github.event.inputs.mirror_images == 'true' }}
+        env:
+          IMG_TIMEOUT_CONNECT: "6"
+          IMG_TIMEOUT_READ: "12"
+          IMG_HOURS_AHEAD: "36"        # only mirror shows within next N hours
+          IMG_MAX_PER_CHANNEL: "20"    # cap per channel per run
+          DEBUG_MAX_ATTEMPTS_PRINT: "120"
+        run: |
+          python - <<'PY'
+          import json, pathlib, hashlib, requests, os, sys, datetime
+          from urllib.parse import urlparse
+
+          base      = pathlib.Path('docs')
+          chan_dir  = base/'channels'
+          img_prog  = base/'img'/'programmes'
+          img_chan  = base/'img'/'channels'
+          stats_dir = base/'stats'
+          img_prog.mkdir(parents=True, exist_ok=True)
+          img_chan.mkdir(parents=True, exist_ok=True)
+          stats_dir.mkdir(parents=True, exist_ok=True)
+
+          # --- tiny logger that also writes to a file we publish on Pages
+          logs = []
+          def log(*a):
+              s = " ".join(str(x) for x in a)
+              print(s)
+              logs.append(s)
+
+          # placeholders
+          def svg(path, text, w, h):
+              path.write_text(
+                  f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
+                  f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
+                  f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
+                  f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
+                  f'</svg>', 'utf-8'
+              )
+          if not (img_prog/'placeholder.svg').exists(): svg(img_prog/'placeholder.svg', 'No image', 540, 360)
+          if not (img_chan/'placeholder.svg').exists(): svg(img_chan/'placeholder.svg', 'No logo', 256, 256)
+
+          # session
+          session = requests.Session()
+          session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
+            "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+            "Accept-Language": "en-GB,en;q=0.9",
+            "Referer": "https://www.freeviewplay.co.uk/tv-guide",
+            "Origin": "https://www.freeviewplay.co.uk",
+          })
+          TCON  = float(os.getenv('IMG_TIMEOUT_CONNECT','6'))
+          TREAD = float(os.getenv('IMG_TIMEOUT_READ','12'))
+          VERBOSE_CAP = int(os.getenv('DEBUG_MAX_ATTEMPTS_PRINT','120'))
+
+          def guess_ext(url, content_type=None):
+              if content_type:
+                  ct = content_type.lower()
+                  if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
+                  if 'png'  in ct: return '.png'
+                  if 'webp' in ct: return '.webp'
+                  if 'svg'  in ct: return '.svg'
+              p = urlparse(url).path.lower()
+              for e in ('.jpg','.jpeg','.png','.webp','.svg'):
+                  if p.endswith(e): return e
+              return '.jpg'
+
+          def cache_lookup(dest_dir, url_hash):
+              for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
+                  f = dest_dir/(url_hash+ext)
+                  if f.exists(): return f
+              return None
+
+          def try_fetch(url, variant, verbose=False):
+              try:
+                  if variant == 0:
+                      r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
+                  elif variant == 1:
+                      headers = {"Referer":"https://www.freely.co.uk/tv-guide", "Origin":"https://www.freely.co.uk"}
+                      r = session.get(url, headers=headers, timeout=(TCON, TREAD), allow_redirects=True)
+                  else:
+                      headers = {"Accept":"*/*"}
+                      r = session.get(url, headers=headers, timeout=(TCON, TREAD), allow_redirects=True)
+                  ct = r.headers.get('content-type','')
+                  ln = r.headers.get('content-length','?')
+                  if verbose: log(f"    GET[{variant}] {r.status_code} ct='{ct}' len={ln}")
+                  return r
+              except Exception as e:
+                  if verbose: log(f"    GET[{variant}] EXC {e}")
+                  return None
+
+          def download_programme(url, verbose=False):
+              """Return relative path 'img/programmes/xxx.ext' or None."""
+              if not isinstance(url, str) or not url.startswith('http'):
+                  return None
+              h = hashlib.sha1(url.encode()).hexdigest()
+              hit = cache_lookup(img_prog, h)
+              if hit:
+                  if verbose: log(f"    cache hit -> {hit.name}")
+                  return 'img/programmes/'+hit.name
+
+              # Build candidate list:
+              cands = [url]
+              pr = urlparse(url)
+              # If it's the freeviewplay host, also try the freetime-platform rendering CDN
+              if pr.netloc.endswith('img.freeviewplay.tv') or pr.netloc.endswith('img.freeviewplay.net'):
+                  path = pr.path  # e.g. /p07841bfa...
+                  cands.append(f"https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/540x360-0{path}")
+                  cands.append(f"https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/720x405-0{path}")
+
+              if verbose:
+                  for i, c in enumerate(cands):
+                      log(f"   cand[{i}]: {c}")
+
+              for cand in cands:
+                  for variant in (0, 1, 2):
+                      r = try_fetch(cand, variant, verbose=verbose)
+                      if not r: 
+                          continue
+                      if r.status_code == 406:
+                          continue
+                      if r.status_code >= 400:
+                          continue
+                      ct = r.headers.get('content-type','').lower()
+                      if 'image' not in ct and not urlparse(cand).path.lower().endswith(('.jpg','.jpeg','.png','.webp','.svg')):
+                          continue
+                      if len(r.content) < 1024 and 'svg' not in ct:
+                          continue
+                      ext = guess_ext(cand, ct)
+                      f = img_prog/(h+ext)
+                      f.write_bytes(r.content)
+                      return 'img/programmes/'+f.name
+
+              return None
+
+          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
+          MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','20'))
+          now   = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+          ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
+
+          referenced = {'img/programmes/placeholder.svg', 'img/channels/placeholder.svg'}
+          chan_files = sorted(chan_dir.glob('*.json'))
+          total_saved = total_attempts = 0
+
+          log(f"Mirror: channels={len(chan_files)} hours_ahead={HOURS_AHEAD} max_per_channel={MAX_PER_CH}")
+
+          for p in chan_files:
+              data = json.loads(p.read_text('utf-8'))
+              ch = data.get('channel') or {}
+              cid = ch.get('id'); cname = ch.get('name','')
+
+              # normalise logo to a local placeholder (we don't mirror logos yet)
+              if not isinstance(ch.get('logo'), str) or not ch['logo'].startswith('img/channels/'):
+                  ch['logo'] = 'img/channels/placeholder.svg'
+              referenced.add(ch['logo'])
+
+              # count how many events have a usable URL in _raw
+              with_url = sum(
+                  1 for ev in data.get('events', [])
+                  if isinstance(ev.get('_raw'), dict) and (ev['_raw'].get('image_url') or ev['_raw'].get('fallback_image_url'))
+              )
+
+              printed_header = False
+              saved = attempts = 0
+
+              for ev in data.get('events', []):
+                  # window/cap filters
+                  st = ev.get('startTime')
+                  try:
+                      st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
+                  except Exception:
+                      st_dt = None
+                  if st_dt and st_dt > ahead:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
+                      continue
+                  if MAX_PER_CH and saved >= MAX_PER_CH:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
+                      continue
+
+                  raw = ev.get('_raw') or {}
+                  url = raw.get('image_url') or raw.get('fallback_image_url') or ev.get('image')
+
+                  verbose = (total_attempts < VERBOSE_CAP)
+                  if verbose and not printed_header:
+                      log(f"\nChannel {cid} — {cname} | events={len(data.get('events',[]))} with_url={with_url}")
+                      printed_header = True
+                  if verbose:
+                      log(f"- {st}  {ev.get('name','')}")
+
+                  rel = download_programme(url, verbose=verbose)
+                  attempts += 1
+                  total_attempts += 1
+
+                  if rel:
+                      ev['image'] = rel
+                      referenced.add(rel)
+                      saved += 1
+                      total_saved += 1
+                      if verbose: log(f"    -> saved {rel}")
+                  else:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
+                      if verbose:
+                          if not url:
+                              log("    -> no URL in _raw (image_url/fallback_image_url missing)")
+                          else:
+                              log("    -> all candidates failed (406 or non-image)")
+
+              if printed_header:
+                  log(f"Summary {cid}: tried={attempts} saved={saved} with_url={with_url}")
+
+              p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+
+          # prune unreferenced programme images (keep placeholder)
+          for f in img_prog.glob('*'):
+              rel = 'img/programmes/'+f.name
+              if f.is_file() and rel not in referenced and f.name != 'placeholder.svg':
+                  try: f.unlink()
+                  except: pass
+
+          log(f"\nTOTAL attempts={total_attempts} saved={total_saved}")
+          (stats_dir/'last_mirror_log.txt').write_text("\n".join(logs), 'utf-8')
+          PY
+
+
+      - name: Migrate legacy images to subfolders & fix JSON refs
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          python - <<'PY'
+          import pathlib, json, shutil
+
+          root = pathlib.Path('docs')
+          img = root/'img'
+          prog = img/'programmes'
+          chan = img/'channels'
+          prog.mkdir(parents=True, exist_ok=True)
+          chan.mkdir(parents=True, exist_ok=True)
+
+          moved = 0
+          for f in img.glob('*'):
+            if f.is_file() and f.suffix.lower() in ('.jpg','.jpeg','.png','.webp','.svg'):
+              if f.name not in ('placeholder.svg','index.html'):
+                dest = prog/f.name
+                if not dest.exists():
+                  shutil.move(str(f), str(dest))
+                  moved += 1
+
+          fixed = 0
+          ch_dir = root/'channels'
+          for p in ch_dir.glob('*.json'):
+            data = json.loads(p.read_text('utf-8'))
+            for ev in data.get('events', []):
+              imgp = ev.get('image') or ''
+              if isinstance(imgp, str) and imgp.startswith('img/') and not imgp.startswith('img/programmes/') and not imgp.startswith('img/channels/'):
+                ev['image'] = 'img/programmes/' + imgp.split('/',1)[1]
+                fixed += 1
+            ch = data.get('channel') or {}
+            logo = ch.get('logo')
+            if isinstance(logo, str) and logo.startswith('img/') and not logo.startswith('img/channels/'):
+              src = root/logo
+              dest = chan/src.name
+              if src.exists() and not dest.exists():
+                shutil.move(str(src), str(dest))
+              ch['logo'] = 'img/channels/' + src.name
+              fixed += 1
+            p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+
+          print(f"migrated_files={moved} fixed_json_refs={fixed}")
+          PY
+
+      - name: Add index pages for image folders (and disable Jekyll)
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          python - <<'PY'
+          import pathlib, html
+
+          root = pathlib.Path('docs')
+          (root/'.nojekyll').write_text('', encoding='utf-8')
+
+          def write_index(dirpath: pathlib.Path, title: str):
+            dirpath.mkdir(parents=True, exist_ok=True)
+            files = sorted(p.name for p in dirpath.glob('*') if p.is_file())
+            thumbs = ''.join(
+              f"<a href='{html.escape(n)}'><img src='{html.escape(n)}' alt='{html.escape(n)}'></a>"
+              for n in files
+            )
+            html_doc = f"""<!doctype html>
+            <meta charset="utf-8"><title>{html.escape(title)}</title>
+            <style>
+              body{{font-family:system-ui,Arial,sans-serif;padding:16px}}
+              .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}}
+              img{{max-width:100%;height:auto;border-radius:8px}}
+              a{{text-decoration:none}}
+            </style>
+            <h1>{html.escape(title)}</h1>
+            <div class="grid">{thumbs}</div>
+            """
+            (dirpath/'index.html').write_text(html_doc, encoding='utf-8')
+
+          write_index(root/'img'/'programmes', 'Programme images')
+          write_index(root/'img'/'channels',   'Channel logos')
+          PY
+
+      - name: Build stats page
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          python - <<'PY'
+          import json, pathlib, datetime
+
+          base = pathlib.Path('docs')
+          (base/'.nojekyll').write_text('', encoding='utf-8')
+
+          chan_dir = base/'channels'
+          img_prog = base/'img'/'programmes'
+          img_chan = base/'img'/'channels'
+          stats_dir = base/'stats'
+          stats_dir.mkdir(parents=True, exist_ok=True)
+
+          idx_path = base/'index.json'
+          if idx_path.exists():
+              idx = json.loads(idx_path.read_text('utf-8'))
+              channels = idx.get('channels', [])
+              channel_count = len(channels)
+              start = idx.get('start')
+          else:
+              channels = sorted(p.name for p in chan_dir.glob('*.json'))
+              channel_count = len(channels)
+              start = None
+
+          def count_images(p):
+              if not p.exists(): return 0
+              return sum(1 for f in p.glob('*') if f.is_file() and f.name != 'placeholder.svg')
+
+          prog_images = count_images(img_prog)
+          chan_images = count_images(img_chan)
+
+          stats = {
+            "channels": channel_count,
+            "programme_images": prog_images,
+            "channel_logos": chan_images,
+            "start": start,
+            "generated_utc": datetime.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
+          }
+          (stats_dir/'stats.json').write_text(json.dumps(stats, indent=2), 'utf-8')
+
+          html = f"""<!doctype html>
+          <meta charset="utf-8">
+          <title>Freely TV Guide — Stats</title>
+          <style>
+            :root {{ --bg:#0b1220; --fg:#e6eaf2; --muted:#9aa4b2; --card:#111a2e; }}
+            body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,Arial,sans-serif;padding:32px}}
+            h1{{margin:0 0 18px 0;font-size:28px}}
+            .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0 8px}}
+            .card{{background:var(--card);padding:18px 22px;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.4)}}
+            .k{{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}}
+            .v{{font-size:28px;font-weight:700}}
+            a{{color:#7cc7ff;text-decoration:none}}
+            .links a{{margin-right:14px}}
+            .small{{color:var(--muted);font-size:13px}}
+          </style>
+          <h1>Freely TV Guide — Stats</h1>
+          <div class="grid">
+            <div class="card"><div class="k">Channels</div><div class="v">{channel_count}</div></div>
+            <div class="card"><div class="k">Programme images</div><div class="v">{prog_images}</div></div>
+            <div class="card"><div class="k">Channel logos</div><div class="v">{chan_images}</div></div>
+          </div>
+          <p class="small">Start timestamp: {start if start is not None else 'n/a'}<br>
+          Generated (UTC): {stats['generated_utc']}</p>
+          <p class="links">
+            <a href="../index.json">index.json</a>
+            <a href="../img/programmes/">programme images</a>
+            <a href="../img/channels/">channel logos</a>
+            <a href="stats.json">stats.json</a>
+          </p>
+          """
+          (stats_dir/'index.html').write_text(html, 'utf-8')
+          PY
+
+      - name: Update README channel list
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
+          base = 'https://elyobelyob.github.io/freely_tv_guide/'
+          rows = ['| ID | Name | JSON |','|---:|---|---|']
+          for c in sorted(idx.get('channels', []), key=lambda x: (x.get('name',''), x.get('id',''))):
+              rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
+          table = '\n'.join(rows)
+
+          p = pathlib.Path('README.md')
+          txt = p.read_text('utf-8')
+          start, end = '<!-- CHANNELS_START -->', '<!-- CHANNELS_END -->'
+          pat = re.compile(rf"{start}[\s\S]*?{end}", re.MULTILINE)
+          if start in txt and end in txt:
+            txt = pat.sub(f"{start}\n{table}\n{end}", txt)
+          else:
+            txt += f"\n\n## Channel list\n{start}\n{table}\n{end}\n"
+          p.write_text(txt, 'utf-8')
+          PY
+
+      - name: Prune old raw payloads (keep 4)
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          ls -1t docs/raw/guide_*.json 2>/dev/null | tail -n +5 | xargs -r rm -f
+          ls -1t docs/raw/*_ERROR.txt  2>/dev/null | tail -n +3 | xargs -r rm -f
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update EPG: start=${{ steps.when.outputs.start }}"
+            git push
+          fi

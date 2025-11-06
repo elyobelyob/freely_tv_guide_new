@@ -1,0 +1,196 @@
+{
+  "channel": {
+    "id": "4416",
+    "name": "BBC Red Button"
+  },
+  "events": [
+    {
+      "startTime": "2025-10-26T03:00:00+0000",
+      "duration": 180,
+      "name": "This is Red Button",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/a64c06af-90fe-4f28-9222-95a616f49d74",
+        "event_locator": "dvb://233a..1140;1478",
+        "main_title": "This is Red Button",
+        "start_time": "2025-10-26T03:00:00+0000",
+        "duration": "PT3H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+        "uuid": "6a8a98b833182423a7eb02758cbd5ba8"
+      }
+    },
+    {
+      "startTime": "2025-10-26T06:00:00+0000",
+      "duration": 180,
+      "name": "This is Red Button",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/b0baa41f-42df-45e5-9358-42c673d1926f",
+        "event_locator": "dvb://233a..1140;1486",
+        "main_title": "This is Red Button",
+        "start_time": "2025-10-26T06:00:00+0000",
+        "duration": "PT3H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+        "uuid": "0b11990f608fe9203762bd5a5733d431"
+      }
+    },
+    {
+      "startTime": "2025-10-26T09:00:00+0000",
+      "duration": 360,
+      "name": "This is Red Button",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/893bdee4-968b-4512-b53a-5978b66972fd",
+        "event_locator": "dvb://233a..1140;1487",
+        "main_title": "This is Red Button",
+        "start_time": "2025-10-26T09:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+        "uuid": "0bc7929c4e36a849a233a4ec416578d8"
+      }
+    },
+    {
+      "startTime": "2025-10-26T15:00:00+0000",
+      "duration": 360,
+      "name": "This is Red Button",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/3fb1d431-7160-4d26-8b28-3f8df0c94df4",
+        "event_locator": "dvb://233a..1140;1488",
+        "main_title": "This is Red Button",
+        "start_time": "2025-10-26T15:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+        "uuid": "d6ca507fb418cec4c5fc334a7b1880cb"
+      }
+    },
+    {
+      "startTime": "2025-10-26T21:00:00+0000",
+      "duration": 360,
+      "name": "This is Red Button",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/b77c8aaa-19a4-4cbe-a5a3-3f1386ab8120",
+        "event_locator": "dvb://233a..1140;1489",
+        "main_title": "This is Red Button",
+        "start_time": "2025-10-26T21:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+        "uuid": "b1188f2d6b4c9eedb49b81c96e16aa4f"
+      }
+    }
+  ],
+  "compat": {
+    "freesat_card": [
+      {
+        "event": [
+          {
+            "startTime": "2025-10-26T03:00:00+0000",
+            "duration": 180,
+            "name": "This is Red Button",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/a64c06af-90fe-4f28-9222-95a616f49d74",
+              "event_locator": "dvb://233a..1140;1478",
+              "main_title": "This is Red Button",
+              "start_time": "2025-10-26T03:00:00+0000",
+              "duration": "PT3H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+              "uuid": "6a8a98b833182423a7eb02758cbd5ba8"
+            }
+          },
+          {
+            "startTime": "2025-10-26T06:00:00+0000",
+            "duration": 180,
+            "name": "This is Red Button",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/b0baa41f-42df-45e5-9358-42c673d1926f",
+              "event_locator": "dvb://233a..1140;1486",
+              "main_title": "This is Red Button",
+              "start_time": "2025-10-26T06:00:00+0000",
+              "duration": "PT3H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+              "uuid": "0b11990f608fe9203762bd5a5733d431"
+            }
+          },
+          {
+            "startTime": "2025-10-26T09:00:00+0000",
+            "duration": 360,
+            "name": "This is Red Button",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/893bdee4-968b-4512-b53a-5978b66972fd",
+              "event_locator": "dvb://233a..1140;1487",
+              "main_title": "This is Red Button",
+              "start_time": "2025-10-26T09:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+              "uuid": "0bc7929c4e36a849a233a4ec416578d8"
+            }
+          },
+          {
+            "startTime": "2025-10-26T15:00:00+0000",
+            "duration": 360,
+            "name": "This is Red Button",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/3fb1d431-7160-4d26-8b28-3f8df0c94df4",
+              "event_locator": "dvb://233a..1140;1488",
+              "main_title": "This is Red Button",
+              "start_time": "2025-10-26T15:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+              "uuid": "d6ca507fb418cec4c5fc334a7b1880cb"
+            }
+          },
+          {
+            "startTime": "2025-10-26T21:00:00+0000",
+            "duration": 360,
+            "name": "This is Red Button",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/b77c8aaa-19a4-4cbe-a5a3-3f1386ab8120",
+              "event_locator": "dvb://233a..1140;1489",
+              "main_title": "This is Red Button",
+              "start_time": "2025-10-26T21:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "fallback_image_url": "http://img.freeviewplay.net/f631c7fdcb7b6a0caab129326af528820",
+              "uuid": "b1188f2d6b4c9eedb49b81c96e16aa4f"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

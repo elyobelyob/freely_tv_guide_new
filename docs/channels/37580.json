@@ -1,0 +1,232 @@
+{
+  "channel": {
+    "id": "37580",
+    "name": "BBC Surrey"
+  },
+  "events": [
+    {
+      "startTime": "2025-10-26T00:00:00+0000",
+      "duration": 360,
+      "name": "Weekend overnights with BBC...",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/ae1e9b03-05d9-4733-8a6e-f6ece7e25620",
+        "event_locator": "dvb://233a..92cc;5a75",
+        "main_title": "Weekend overnights with BBC...",
+        "start_time": "2025-10-26T00:00:00+0000",
+        "duration": "PT6H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e3b072703cc18a0771fa66af540724f86",
+        "uuid": "55cc6818580d53a276a83c37787ba1ed"
+      }
+    },
+    {
+      "startTime": "2025-10-26T06:00:00+0000",
+      "duration": 240,
+      "name": "Allison Ferns",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/1ce1616c-8854-4d02-9e90-ba91a11b6e11",
+        "event_locator": "dvb://233a..92cc;5a77",
+        "main_title": "Allison Ferns",
+        "start_time": "2025-10-26T06:00:00+0000",
+        "duration": "PT4H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e35928e13acd2efd846473d7ba9e3c304",
+        "uuid": "2a34a491b66d05c3646c4780a61d74a2"
+      }
+    },
+    {
+      "startTime": "2025-10-26T10:00:00+0000",
+      "duration": 240,
+      "name": "Pat Marsh",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/fc3a8e96-c845-4d55-af5f-863e9024d0e6",
+        "event_locator": "dvb://233a..92cc;5a78",
+        "main_title": "Pat Marsh",
+        "start_time": "2025-10-26T10:00:00+0000",
+        "duration": "PT4H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/effd4bf33ec21bf6cbeb98b9384fd5d50",
+        "uuid": "2a26e66d30787799ae638f006bd01695"
+      }
+    },
+    {
+      "startTime": "2025-10-26T14:00:00+0000",
+      "duration": 240,
+      "name": "The Make a Difference Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/d3a250b1-4832-47f9-a56f-f6190a4f49ea",
+        "event_locator": "dvb://233a..92cc;5a79",
+        "main_title": "The Make a Difference Show",
+        "start_time": "2025-10-26T14:00:00+0000",
+        "duration": "PT4H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e6536ff95f0c199c551d19de8c4174ef4",
+        "uuid": "d0f01c5c66f06be7316e1cffab28da43"
+      }
+    },
+    {
+      "startTime": "2025-10-26T18:00:00+0000",
+      "duration": 240,
+      "name": "Dotun Adebayo",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/10460bed-488f-451f-ac8e-d1dd36a1c9cc",
+        "event_locator": "dvb://233a..92cc;5a7a",
+        "main_title": "Dotun Adebayo",
+        "start_time": "2025-10-26T18:00:00+0000",
+        "duration": "PT4H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb5197c043b86f2965cf2093d7edb2748",
+        "uuid": "1123c3682ad5d1052e8bd63de848b21d"
+      }
+    },
+    {
+      "startTime": "2025-10-26T22:00:00+0000",
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/e4131b37-f16d-416e-93e8-9a4ff86c7176",
+        "event_locator": "dvb://233a..92cc;5a7b",
+        "main_title": "The Late Show",
+        "start_time": "2025-10-26T22:00:00+0000",
+        "duration": "PT3H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e063e5f2ee29aa60fcf440cd74abd4ed0",
+        "uuid": "2d3bde511f96e7f84dc6d1c3d24fc9c2"
+      }
+    }
+  ],
+  "compat": {
+    "freesat_card": [
+      {
+        "event": [
+          {
+            "startTime": "2025-10-26T00:00:00+0000",
+            "duration": 360,
+            "name": "Weekend overnights with BBC...",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/ae1e9b03-05d9-4733-8a6e-f6ece7e25620",
+              "event_locator": "dvb://233a..92cc;5a75",
+              "main_title": "Weekend overnights with BBC...",
+              "start_time": "2025-10-26T00:00:00+0000",
+              "duration": "PT6H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e3b072703cc18a0771fa66af540724f86",
+              "uuid": "55cc6818580d53a276a83c37787ba1ed"
+            }
+          },
+          {
+            "startTime": "2025-10-26T06:00:00+0000",
+            "duration": 240,
+            "name": "Allison Ferns",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/1ce1616c-8854-4d02-9e90-ba91a11b6e11",
+              "event_locator": "dvb://233a..92cc;5a77",
+              "main_title": "Allison Ferns",
+              "start_time": "2025-10-26T06:00:00+0000",
+              "duration": "PT4H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e35928e13acd2efd846473d7ba9e3c304",
+              "uuid": "2a34a491b66d05c3646c4780a61d74a2"
+            }
+          },
+          {
+            "startTime": "2025-10-26T10:00:00+0000",
+            "duration": 240,
+            "name": "Pat Marsh",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/fc3a8e96-c845-4d55-af5f-863e9024d0e6",
+              "event_locator": "dvb://233a..92cc;5a78",
+              "main_title": "Pat Marsh",
+              "start_time": "2025-10-26T10:00:00+0000",
+              "duration": "PT4H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/effd4bf33ec21bf6cbeb98b9384fd5d50",
+              "uuid": "2a26e66d30787799ae638f006bd01695"
+            }
+          },
+          {
+            "startTime": "2025-10-26T14:00:00+0000",
+            "duration": 240,
+            "name": "The Make a Difference Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/d3a250b1-4832-47f9-a56f-f6190a4f49ea",
+              "event_locator": "dvb://233a..92cc;5a79",
+              "main_title": "The Make a Difference Show",
+              "start_time": "2025-10-26T14:00:00+0000",
+              "duration": "PT4H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e6536ff95f0c199c551d19de8c4174ef4",
+              "uuid": "d0f01c5c66f06be7316e1cffab28da43"
+            }
+          },
+          {
+            "startTime": "2025-10-26T18:00:00+0000",
+            "duration": 240,
+            "name": "Dotun Adebayo",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/10460bed-488f-451f-ac8e-d1dd36a1c9cc",
+              "event_locator": "dvb://233a..92cc;5a7a",
+              "main_title": "Dotun Adebayo",
+              "start_time": "2025-10-26T18:00:00+0000",
+              "duration": "PT4H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb5197c043b86f2965cf2093d7edb2748",
+              "uuid": "1123c3682ad5d1052e8bd63de848b21d"
+            }
+          },
+          {
+            "startTime": "2025-10-26T22:00:00+0000",
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/e4131b37-f16d-416e-93e8-9a4ff86c7176",
+              "event_locator": "dvb://233a..92cc;5a7b",
+              "main_title": "The Late Show",
+              "start_time": "2025-10-26T22:00:00+0000",
+              "duration": "PT3H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e063e5f2ee29aa60fcf440cd74abd4ed0",
+              "uuid": "2d3bde511f96e7f84dc6d1c3d24fc9c2"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
