@@ -21,7 +21,7 @@ Replace:
 # Replace <CHANNEL_ID> with the JSON you want (e.g. 37124)
 # Replace <SENSOR_NAME> if you want a different entity id
 - platform: rest
-  resource: "https://elyobelyob.github.io/freely_tv_guide_new/channels/<CHANNEL_ID>.json"
+  resource: "https://raw.githubusercontent.com/elyobelyob/freely_tv_guide_new/main/docs/channels/<CHANNEL_ID>.json"
   scan_interval: 28800
   name: <SENSOR_NAME>
   value_template: >-
