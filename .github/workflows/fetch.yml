@@ -476,10 +476,16 @@ jobs:
           python - <<'PY'
           import json, pathlib, re
           idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
-          base = 'https://elyobelyob.github.io/freely_tv_guide/'
-          rows = ['| ID | Name | JSON |','|---:|---|---|']
+          json_base = 'https://elyobelyob.github.io/freely_tv_guide_new/'
+          logo_base = 'https://raw.githubusercontent.com/elyobelyob/freely_tv_guide_new/main/'
+          rows = ['| ID | Name | Logo | JSON |','|---:|---|:---:|---|']
           for c in sorted(idx.get('channels', []), key=lambda x: (x.get('name',''), x.get('id',''))):
-              rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
+              logo = c.get('logo')
+              if logo:
+                  logo_md = f'<img src="{logo_base}{logo}" alt="{c.get("name", "")} logo" width="40">'
+              else:
+                  logo_md = '—'
+              rows.append(f"| {c['id']} | {c['name']} | {logo_md} | [{c['path']}]({json_base}{c['path']}) |")
           table = '\n'.join(rows)
 
           p = pathlib.Path('README.md')
