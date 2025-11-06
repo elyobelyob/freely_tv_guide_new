@@ -1,7 +1,8 @@
 {
   "channel": {
     "id": "37420",
-    "name": "BBC Radio 4"
+    "name": "BBC Radio 4",
+    "logo": "img/channels/placeholder.svg"
   },
   "events": [
     {
@@ -10,7 +11,7 @@
       "name": "World Service",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/2056b2173aaa6f3ad7bab580203e86dd03fb6d81.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/4b850596-908f-4eea-b6cf-7380c809fc8a",
         "event_locator": "dvb://233a..922c;3688",
@@ -28,7 +29,7 @@
       "name": "News Summary",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/fab14ac528eb5aaebf9559bbd7f9f168236bc22a.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/3d7d5b12-1e7f-4e20-8bd2-35e8c7e3873d",
         "event_locator": "dvb://233a..922c;3689",
@@ -46,7 +47,7 @@
       "name": "Shipping Forecast",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/4dfd47c8da452f75d029513c0bb91ce5f6f4a1d0.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/e3af9ca6-156b-4543-8249-852dfa7c60b2",
         "event_locator": "dvb://233a..922c;368a",
@@ -64,7 +65,7 @@
       "name": "Bells on Sunday",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/d878db0f641c0bf88743d70b3da25c0c61a0658c.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/e5645063-ea35-401e-b266-d621ca640418",
         "event_locator": "dvb://233a..922c;368b",
@@ -82,7 +83,7 @@
       "name": "In Touch",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/798aebaa6d5f6ca7248b9b66623aea30979a70f0.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9b01efff-11e9-42fb-ae9c-f530243b8684",
         "event_locator": "dvb://233a..922c;368c",
@@ -100,7 +101,7 @@
       "name": "News Summary",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/fab14ac528eb5aaebf9559bbd7f9f168236bc22a.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/4259eb6c-6f13-4667-8c0b-766fbc265068",
         "event_locator": "dvb://233a..922c;35b8",
@@ -118,7 +119,7 @@
       "name": "Heart and Soul",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/1119cd06654ab0894181819fd2b74f8ed37f7985.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/d80a61d1-89a3-49a4-ace5-4d552530e735",
         "event_locator": "dvb://233a..922c;35b9",
@@ -136,7 +137,7 @@
       "name": "On Your Farm",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/5798dac0ed66f33ffe575d46952757ef47e6f55f.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/e0ff45c0-4927-4d15-8498-8326e12142eb",
         "event_locator": "dvb://233a..922c;35ba",
@@ -154,7 +155,7 @@
       "name": "Weather Forecast",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/c7b18dbe8baad7e50e16304eafc40e9a71f634f6.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/2107355d-8f89-476c-a383-a0a1c2092726",
         "event_locator": "dvb://233a..922c;35bb",
@@ -172,7 +173,7 @@
       "name": "News and Sunday Papers",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/a30b217e468ad0d1e83ce1f6472a0dc772b421b9.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/30b54f13-d60e-4f43-9133-24e57d7dd289",
         "event_locator": "dvb://233a..922c;35bc",
@@ -190,7 +191,7 @@
       "name": "Sunday",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/f7317d0a983fd3386eda066df6dda1bb4c279f6d.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/181a7990-293b-42e4-9ca1-e1114ef50622",
         "event_locator": "dvb://233a..922c;35bd",
@@ -208,7 +209,7 @@
       "name": "The Radio 4 Appeal",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/0c7e9c913dad2635fe6212bb8dd496af0e4baaff.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/3b633734-c0bf-4cd3-9f75-3d08fbc5088a",
         "event_locator": "dvb://233a..922c;35be",
@@ -226,7 +227,7 @@
       "name": "Weather Forecast",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/c7b18dbe8baad7e50e16304eafc40e9a71f634f6.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/055dceff-60ae-465a-ac87-67eb76fd745f",
         "event_locator": "dvb://233a..922c;35bf",
@@ -244,7 +245,7 @@
       "name": "News and Sunday Papers",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/a30b217e468ad0d1e83ce1f6472a0dc772b421b9.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/e224febe-b328-409d-b742-120a20632b98",
         "event_locator": "dvb://233a..922c;35c0",
@@ -262,7 +263,7 @@
       "name": "Sunday Worship",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/18df7e7678760f82092235a7791c519fbc5e53e6.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/cff3af69-c8ac-4f78-a66d-d3154591f017",
         "event_locator": "dvb://233a..922c;35c1",
@@ -280,7 +281,7 @@
       "name": "Witness History",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/46e00feeadc4837847369ceb109f1b19f3c976c3.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9ad54fb9-96f6-424f-819d-1c9304a58a58",
         "event_locator": "dvb://233a..922c;35c2",
@@ -298,7 +299,7 @@
       "name": "Tweet of the Day",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/63fd5584ca559494768785f2e1b20c5b90523abd.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/42c0189d-0dda-4bfd-a1e5-e904618da80c",
         "event_locator": "dvb://233a..922c;35c3",
@@ -316,7 +317,7 @@
       "name": "Broadcasting House",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/5a799aba112df992237acabc34f1edca5aa1b503.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/2bbe5479-45d9-4f66-add2-b66da194a9e5",
         "event_locator": "dvb://233a..922c;35c4",
@@ -334,7 +335,7 @@
       "name": "Desert Island Discs",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/5850eff397e642c4e0cd453635e3495210fc8ad4.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/f1b1f0ad-35dc-436f-8dbb-7ce438160d53",
         "event_locator": "dvb://233a..922c;35c5",
@@ -352,7 +353,7 @@
       "name": "The Archers Omnibus",
       "description": "",
       "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
+      "image": "img/programmes/0e15ffcf4f03d05ca1becf660f73fcf072e93a97.png",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/bbc2d0ff-8cb4-4ef9-9cd0-0f4fe1bf904e",
         "event_locator": "dvb://233a..922c;35c6",
