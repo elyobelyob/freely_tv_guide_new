@@ -53,7 +53,7 @@ Replace:
     - event
 ```
 
-### Lovelace (compact list using a Markdown card)
+### Lovelace (featured programme with expandable schedule)
 ```yaml
 type: vertical-stack
 cards:
@@ -64,19 +64,39 @@ cards:
         content: |-
           {% set evts = state_attr('sensor.<sensor_name>','event') or [] %}
           {% set nowts = now() %}
-          {% set ns = namespace(count=0) %}
-          {%- for e in evts | sort(attribute='startTime') -%}
-            {%- set st = as_local(as_datetime(e.startTime)) -%}
-            {%- set en = st + timedelta(minutes=(e.duration | int(0))) -%}
-            {%- if en > nowts -%}
-              {%- if ns.count > 0 -%}<br>{%- endif -%}
-              {{ st.strftime("%H:%M") }} : {{ e.name }}
-              {%- set ns.count = ns.count + 1 -%}
-            {%- endif -%}
-          {%- endfor -%}
-          {%- if ns.count == 0 -%}
+          {% set sorted = evts | sort(attribute='startTime') %}
+          {% if not sorted %}
             No upcoming programmes
-          {%- endif -%}
+          {% else %}
+            {% set featured = sorted[0] %}
+            {% set f_start = as_local(as_datetime(featured.startTime)) %}
+            {% set f_end = f_start + timedelta(minutes=featured.duration | int(0)) %}
+            **{{ f_start.strftime("%H:%M") }} – {{ featured.name }}**
+
+            {% if featured.description %}
+            {{ featured.description }}
+            {% endif %}
+
+            {% if featured.synopsis and featured.synopsis != featured.description %}
+            _{{ featured.synopsis }}_
+            {% endif %}
+
+            {% if featured.image %}
+            ![{{ featured.name }}]({{ featured.image }})
+            {% endif %}
+
+            {% set remaining = sorted[1:] %}
+            {% if remaining %}
+            <details>
+              <summary>Upcoming schedule (click to expand)</summary>
+              {% for e in remaining %}
+                {% set st = as_local(as_datetime(e.startTime)) %}
+                {% set en = st + timedelta(minutes=e.duration | int(0)) %}
+                - {{ st.strftime("%H:%M") }} – {{ e.name }}
+              {% endfor %}
+            </details>
+            {% endif %}
+          {% endif %}
 ```
 
 ## Channel list
