@@ -20,7 +20,6 @@ on:
         
   schedule:
     - cron: "2 0 * * *" 
-    - cron: "4 0 * * *" 
 
 concurrency:
   group: freely_guide
