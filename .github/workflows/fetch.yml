@@ -482,7 +482,8 @@ jobs:
           for c in sorted(idx.get('channels', []), key=lambda x: (x.get('name',''), x.get('id',''))):
               logo = c.get('logo')
               if logo:
-                  logo_md = f'<img src="{logo_base}{logo}" alt="{c.get("name", "")} logo" width="40">'
+                  name = c.get('name', '')
+                  logo_md = f'<img src="{logo_base}{logo}" alt="{name} logo" width="40">'
               else:
                   logo_md = '—'
               rows.append(f"| {c['id']} | {c['name']} | {logo_md} | [{c['path']}]({json_base}{c['path']}) |")
