@@ -1,28 +1,29 @@
 # Freeview EPG Splitter
 
-
 Fetch the Freeview XMLTV feed and publish **per-channel JSON** files you can point Home Assistant REST sensors at (with a compatibility block mimicking the old Freesat/Freeview card shape).
 
 ## Preview
 
 ![Home Assistant EPG card](https://github.com/elyobelyob/freely_tv_guide/blob/1cfc53f9a20dbb4fdef2301da48d4b39d1229a4f/docs/img/readme/Screenshot%202025-10-03%20at%2016.27.32.png)
 
-## Home Assistant examples
-Replace:
+## Home Assistant Integration
 
-<CHANNEL_ID> with e.g. 37124
+### Quick Start
+Replace the following placeholders in the examples below:
+- `<CHANNEL_ID>` with the channel ID from the [Channel list](#channel-list) (e.g., `BBCNews.uk`)
+- `<SENSOR_NAME>` with your desired sensor name (e.g., `EPG_BBCNews`)
+- `<sensor_name>` with the entity ID (lowercased by Home Assistant, e.g., `sensor.epg_bbcnews`)
 
-<SENSOR_NAME> with e.g. EPG_BBCOne
+### REST Sensor Configuration
 
-<sensor_name> in the Lovelace card with the entity id (lowercased by HA, e.g. sensor.epg_bbcone).
+Add this to your `sensors.yaml` or under `sensor:` in `configuration.yaml`:
 
-### REST sensor (drop in `sensors.yaml` or under `sensor:` in `configuration.yaml`)
 ```yaml
-# Replace <CHANNEL_ID> with the JSON you want (e.g. 37124)
-# Replace <SENSOR_NAME> if you want a different entity id
+# Replace <CHANNEL_ID> with the channel ID (e.g., BBCNews.uk)
+# Replace <SENSOR_NAME> with your desired sensor name (e.g., EPG_BBCNews)
 - platform: rest
   resource: "https://raw.githubusercontent.com/elyobelyob/freely_tv_guide_new/main/docs/channels/<CHANNEL_ID>.json"
-  scan_interval: 28800
+  scan_interval: 28800  # 8 hours
   name: <SENSOR_NAME>
   value_template: >-
     {%- macro to_minutes(d) -%}
@@ -54,7 +55,8 @@ Replace:
 ```
 
 ### Lovelace (compact today's schedule view)
-This card shows unique programme names for the rest of today (up to 6am the next day), removing duplicates for long-running or repeated shows:
+
+Shows unique programme names for the rest of today (until 6am next day), removing duplicates for long-running or repeated shows:
 
 ```yaml
 type: vertical-stack
@@ -98,9 +100,12 @@ cards:
           {% endif %}
 ```
 
-**Note:** Replace `sensor.epg_bbc_news` with your actual sensor entity ID (e.g., `sensor.epg_bbcone`). Adjust the `limit` variable to show more or fewer programmes.
+**Note:** Replace `sensor.epg_bbc_news` with your actual sensor entity ID (e.g., `sensor.epg_bbcnews`). Adjust the `limit` variable (default: 20) to show more or fewer programmes.
 
 ### Lovelace (featured programme with expandable schedule)
+
+Displays the currently airing or next programme with full details (description, synopsis, image) and an expandable list of upcoming programmes:
+
 ```yaml
 type: vertical-stack
 cards:
