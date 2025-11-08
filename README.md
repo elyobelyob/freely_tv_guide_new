@@ -99,6 +99,46 @@ cards:
           {% endif %}
 ```
 
+### Lovelace (compact today's schedule view)
+This card shows unique programme names for the rest of today (up to 6am the next day), removing duplicates for long-running or repeated shows:
+
+```yaml
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - type: custom:hui-element
+        card_type: markdown
+        content: >-
+          {% set evts = state_attr('sensor.epg_bbc_news', 'event') or [] %}
+          {% set nowts = now() %}
+          {% set cutoff = now().replace(hour=6, minute=0, second=0, microsecond=0) + timedelta(days=1) %}
+          {% set ns = namespace(prev_name='', count=0, out='') %}
+
+          {% for e in evts | sort(attribute='startTime') %}
+            {% set st = as_local(as_datetime(e.startTime)) %}
+            {% set en = st + timedelta(minutes=(e.duration | int(0))) %}
+            {% if en > nowts and st < cutoff %}
+              {% if ns.prev_name != e.name %}
+                {% if ns.prev_name != '' %}
+                  {% set ns.out = ns.out + '<br>' %}
+                {% endif %}
+                {% set ns.out = ns.out + st.strftime("%H:%M") ~ ' : ' ~ e.name %}
+                {% set ns.prev_name = e.name %}
+                {% set ns.count = ns.count + 1 %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+          {% if ns.count == 0 %}
+            No programmes scheduled for the rest of today.
+          {% else %}
+            {{ ns.out | safe }}
+          {% endif %}
+```
+
+**Note:** Replace `sensor.epg_bbc_news` with your actual sensor entity ID (e.g., `sensor.epg_bbcone`).
+
 ## Channel list
 <!-- CHANNELS_START -->
 | ID | Name | Logo | JSON |
