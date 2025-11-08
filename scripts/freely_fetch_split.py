@@ -401,7 +401,7 @@ def write_outputs(payload: Any, out_dir: Path, start: int, raw_xml: Optional[str
         out_obj = {
             "channel": channel_obj,                              # keep logo field
             "events": events,
-            "compat": {"freesat_card": [{"event": events}]},     # legacy card compat
+            "compat": {"freesat_card": [{"channel": channel_obj, "event": events}]},     # legacy card compat
         }
 
         # Write per-channel JSON

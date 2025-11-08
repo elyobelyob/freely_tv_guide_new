@@ -51,6 +51,7 @@ Add this to your `sensors.yaml` or under `sensor:` in `configuration.yaml`:
     {% endfor %}
   json_attributes_path: "$.compat.freesat_card.0"
   json_attributes:
+    - channel
     - event
 ```
 
@@ -61,12 +62,17 @@ Shows unique programme names for the rest of today (until 6am next day), removin
 ```yaml
 type: vertical-stack
 cards:
+  - type: picture
+    image: >-
+      https://raw.githubusercontent.com/elyobelyob/freely_tv_guide_new/main/{{ state_attr('sensor.epg_bbcnews', 'channel').logo if state_attr('sensor.epg_bbcnews', 'channel') else 'img/channels/placeholder.svg' }}
+    tap_action:
+      action: none
   - type: entities
     entities:
       - type: custom:hui-element
         card_type: markdown
         content: >-
-          {% set evts = state_attr('sensor.epg_bbc_news', 'event') or [] %}
+          {% set evts = state_attr('sensor.epg_bbcnews', 'event') or [] %}
           {% set nowts = now() %}
           {% set cutoff = now().replace(hour=6, minute=0, second=0, microsecond=0) + timedelta(days=1) %}
           {% set ns = namespace(prev_name='', count=0, shown=0, out='') %}
@@ -109,6 +115,11 @@ Displays the currently airing or next programme with full details (description, 
 ```yaml
 type: vertical-stack
 cards:
+  - type: picture
+    image: >-
+      https://raw.githubusercontent.com/elyobelyob/freely_tv_guide_new/main/{{ state_attr('sensor.<sensor_name>', 'channel').logo if state_attr('sensor.<sensor_name>', 'channel') else 'img/channels/placeholder.svg' }}
+    tap_action:
+      action: none
   - type: entities
     entities:
       - type: custom:hui-element
@@ -150,6 +161,8 @@ cards:
             {% endif %}
           {% endif %}
 ```
+
+**Note:** Both card examples include channel logos at the top. Make sure to replace `<sensor_name>` with your actual sensor entity ID. The channel logos are automatically downloaded and updated daily by the workflow.
 
 ## Channel list
 <!-- CHANNELS_START -->
