@@ -235,15 +235,56 @@ jobs:
 
           log(f"Mirror: channels={len(chan_files)} hours_ahead={HOURS_AHEAD} max_per_channel={MAX_PER_CH}")
 
+          # First pass: mirror channel logos
+          channel_logos_mirrored = 0
           for p in chan_files:
               data = json.loads(p.read_text('utf-8'))
               ch = data.get('channel') or {}
               cid = ch.get('id'); cname = ch.get('name','')
-
-              # normalise logo to a local placeholder (we don't mirror logos yet)
-              if not isinstance(ch.get('logo'), str) or not ch['logo'].startswith('img/channels/'):
+              
+              logo_url = None
+              if isinstance(ch.get('logo'), str):
+                  logo = ch['logo'].strip()
+                  if logo.startswith(('http://', 'https://')):
+                      logo_url = logo
+                  elif logo.startswith('img/channels/'):
+                      # already local
+                      referenced.add(logo)
+                      continue
+              
+              if logo_url:
+                  # Try to download and save the logo
+                  try:
+                      h = hashlib.md5(logo_url.encode('utf-8')).hexdigest()[:16]
+                      ext = guess_ext(logo_url)
+                      local_name = f"{cid}{ext}" if ext else f"{cid}.png"
+                      local_path = img_chan / local_name
+                      local_rel = f"img/channels/{local_name}"
+                      
+                      if not local_path.exists():
+                          resp = session.get(logo_url, timeout=(TCON, TREAD), allow_redirects=True)
+                          if resp.status_code == 200 and len(resp.content) > 0:
+                              local_path.write_bytes(resp.content)
+                              log(f"  ✓ Logo: {cname} → {local_name}")
+                              channel_logos_mirrored += 1
+                      
+                      ch['logo'] = local_rel
+                      referenced.add(local_rel)
+                  except Exception as e:
+                      log(f"  ✗ Logo failed for {cname}: {e}")
+                      ch['logo'] = 'img/channels/placeholder.svg'
+                      referenced.add(ch['logo'])
+              else:
                   ch['logo'] = 'img/channels/placeholder.svg'
-              referenced.add(ch['logo'])
+                  referenced.add(ch['logo'])
+
+          log(f"Channel logos mirrored: {channel_logos_mirrored}")
+
+          # Second pass: mirror programme images
+          for p in chan_files:
+              data = json.loads(p.read_text('utf-8'))
+              ch = data.get('channel') or {}
+              cid = ch.get('id'); cname = ch.get('name','')
 
               # count how many events have a usable URL in _raw
               with_url = sum(
@@ -311,7 +352,7 @@ jobs:
                   try: f.unlink()
                   except: pass
 
-          log(f"\nTOTAL attempts={total_attempts} saved={total_saved}")
+          log(f"\nTOTAL: programme_attempts={total_attempts} programme_saved={total_saved} channel_logos={channel_logos_mirrored}")
           (stats_dir/'last_mirror_log.txt').write_text("\n".join(logs), 'utf-8')
           PY
 
