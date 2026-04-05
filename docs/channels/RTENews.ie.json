@@ -6,678 +6,6 @@
   },
   "events": [
     {
-      "startTime": 1775164200,
-      "duration": 50,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775164200,
-        "endTime": 1775167200,
-        "duration": 50,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/242ae453-98d9-4c6a-aafe-dfcc72ceeb05/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260402221000 +0100",
-          "stop": "20260402230000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/242ae453-98d9-4c6a-aafe-dfcc72ceeb05/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775167200,
-      "duration": 35,
-      "name": "Prime Time",
-      "description": "An in-depth analysis of current issues and topical reports.",
-      "synopsis": "An in-depth analysis of current issues and topical reports.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775167200,
-        "endTime": 1775169300,
-        "duration": 35,
-        "name": "Prime Time",
-        "description": "An in-depth analysis of current issues and topical reports.",
-        "synopsis": "An in-depth analysis of current issues and topical reports.",
-        "image": "https://images.metadata.sky.com/pd-image/e2c97e27-ef96-410d-9f99-c5f82ee09b8d/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260402230000 +0100",
-          "stop": "20260402233500 +0100",
-          "title": "Prime Time",
-          "desc": "An in-depth analysis of current issues and topical reports.",
-          "icon": "https://images.metadata.sky.com/pd-image/e2c97e27-ef96-410d-9f99-c5f82ee09b8d/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775169300,
-      "duration": 25,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775169300,
-        "endTime": 1775170800,
-        "duration": 25,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/68919506-4e77-49ef-a72b-68e16fdcd71b/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260402233500 +0100",
-          "stop": "20260403000000 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/68919506-4e77-49ef-a72b-68e16fdcd71b/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775170800,
-      "duration": 420,
-      "name": "EuroNews",
-      "description": "The latest International and European news.",
-      "synopsis": "The latest International and European news.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775170800,
-        "endTime": 1775196000,
-        "duration": 420,
-        "name": "EuroNews",
-        "description": "The latest International and European news.",
-        "synopsis": "The latest International and European news.",
-        "image": "https://images.metadata.sky.com/pd-image/f73ad438-e5cc-4f7d-b6f6-eb0facaa0631/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403000000 +0100",
-          "stop": "20260403070000 +0100",
-          "title": "EuroNews",
-          "desc": "The latest International and European news.",
-          "icon": "https://images.metadata.sky.com/pd-image/f73ad438-e5cc-4f7d-b6f6-eb0facaa0631/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775196000,
-      "duration": 120,
-      "name": "Morning Ireland",
-      "description": "Morning news programme.",
-      "synopsis": "Morning news programme.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775196000,
-        "endTime": 1775203200,
-        "duration": 120,
-        "name": "Morning Ireland",
-        "description": "Morning news programme.",
-        "synopsis": "Morning news programme.",
-        "image": "https://images.metadata.sky.com/pd-image/3bbd6699-9fb4-430d-a099-8cbbdc7eb4ed/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403070000 +0100",
-          "stop": "20260403090000 +0100",
-          "title": "Morning Ireland",
-          "desc": "Morning news programme.",
-          "icon": "https://images.metadata.sky.com/pd-image/3bbd6699-9fb4-430d-a099-8cbbdc7eb4ed/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775203200,
-      "duration": 90,
-      "name": "Today with David McCullagh",
-      "description": "The Today show live from RTÉ Radio 1.",
-      "synopsis": "The Today show live from RTÉ Radio 1.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775203200,
-        "endTime": 1775208600,
-        "duration": 90,
-        "name": "Today with David McCullagh",
-        "description": "The Today show live from RTÉ Radio 1.",
-        "synopsis": "The Today show live from RTÉ Radio 1.",
-        "image": "https://images.metadata.sky.com/pd-image/6ec5c351-ded0-4a2f-b009-10f606f3b332/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403090000 +0100",
-          "stop": "20260403103000 +0100",
-          "title": "Today with David McCullagh",
-          "desc": "The Today show live from RTÉ Radio 1.",
-          "icon": "https://images.metadata.sky.com/pd-image/6ec5c351-ded0-4a2f-b009-10f606f3b332/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775208600,
-      "duration": 30,
-      "name": "Mass",
-      "description": "Mass",
-      "synopsis": "Mass",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775208600,
-        "endTime": 1775210400,
-        "duration": 30,
-        "name": "Mass",
-        "description": "Mass",
-        "synopsis": "Mass",
-        "image": "https://images.metadata.sky.com/pd-image/6ca3a642-3bbc-46e0-845b-5672086e983f/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403103000 +0100",
-          "stop": "20260403110000 +0100",
-          "title": "Mass",
-          "desc": "Mass",
-          "icon": "https://images.metadata.sky.com/pd-image/6ca3a642-3bbc-46e0-845b-5672086e983f/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775210400,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775210400,
-        "endTime": 1775214000,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/c31b89c9-9fbc-4cc3-8845-8a56cab4eab4/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403110000 +0100",
-          "stop": "20260403120000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/c31b89c9-9fbc-4cc3-8845-8a56cab4eab4/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775214000,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775214000,
-        "endTime": 1775217600,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/efe3833d-b637-41b1-8673-108a0ba4b1e3/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403120000 +0100",
-          "stop": "20260403130000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/efe3833d-b637-41b1-8673-108a0ba4b1e3/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775217600,
-      "duration": 10,
-      "name": "RTE News: One O'clock",
-      "description": "(And Weather)",
-      "synopsis": "(And Weather)",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775217600,
-        "endTime": 1775218200,
-        "duration": 10,
-        "name": "RTE News: One O'clock",
-        "description": "(And Weather)",
-        "synopsis": "(And Weather)",
-        "image": "https://images.metadata.sky.com/pd-image/2e506414-b3a0-44ad-8b48-f60def4a7968/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403130000 +0100",
-          "stop": "20260403131000 +0100",
-          "title": "RTE News: One O'clock",
-          "desc": "(And Weather)",
-          "icon": "https://images.metadata.sky.com/pd-image/2e506414-b3a0-44ad-8b48-f60def4a7968/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775218200,
-      "duration": 50,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775218200,
-        "endTime": 1775221200,
-        "duration": 50,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/521bf533-a061-490f-a854-c2e727918fd7/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403131000 +0100",
-          "stop": "20260403140000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/521bf533-a061-490f-a854-c2e727918fd7/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775221200,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775221200,
-        "endTime": 1775224800,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/a977735c-9b3a-45f1-ba6a-3036bc1568b4/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403140000 +0100",
-          "stop": "20260403150000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/a977735c-9b3a-45f1-ba6a-3036bc1568b4/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775224800,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775224800,
-        "endTime": 1775228400,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/adcc439d-d6e7-467b-acc3-0c478d79bfd9/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403150000 +0100",
-          "stop": "20260403160000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/adcc439d-d6e7-467b-acc3-0c478d79bfd9/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775228400,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775228400,
-        "endTime": 1775232000,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/a3adc328-a664-450d-8e4e-2d524450bc38/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403160000 +0100",
-          "stop": "20260403170000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/a3adc328-a664-450d-8e4e-2d524450bc38/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775232000,
-      "duration": 10,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775232000,
-        "endTime": 1775232600,
-        "duration": 10,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/90336132-8b5e-441a-b370-20bcd2c8ff60/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403170000 +0100",
-          "stop": "20260403171000 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/90336132-8b5e-441a-b370-20bcd2c8ff60/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775232600,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775232600,
-        "endTime": 1775234400,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/3fd51672-7a14-4115-8465-f1cb1d61103f/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403171000 +0100",
-          "stop": "20260403174000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/3fd51672-7a14-4115-8465-f1cb1d61103f/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775234400,
-      "duration": 21,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775234400,
-        "endTime": 1775235660,
-        "duration": 21,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/b631f5ee-23e4-4afb-ba56-61b722eb8936/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403174000 +0100",
-          "stop": "20260403180100 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/b631f5ee-23e4-4afb-ba56-61b722eb8936/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775235660,
-      "duration": 29,
-      "name": "RTÉ News: Six One",
-      "description": "(And Weather)",
-      "synopsis": "(And Weather)",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775235660,
-        "endTime": 1775237400,
-        "duration": 29,
-        "name": "RTÉ News: Six One",
-        "description": "(And Weather)",
-        "synopsis": "(And Weather)",
-        "image": "https://images.metadata.sky.com/pd-image/94a169a4-76c8-43e9-a1bd-64d5966c2ad9/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403180100 +0100",
-          "stop": "20260403183000 +0100",
-          "title": "RTÉ News: Six One",
-          "desc": "(And Weather)",
-          "icon": "https://images.metadata.sky.com/pd-image/94a169a4-76c8-43e9-a1bd-64d5966c2ad9/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775237400,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775237400,
-        "endTime": 1775239200,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/a7913af0-2684-4a6b-a2a3-8feefc047e3e/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403183000 +0100",
-          "stop": "20260403190000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/a7913af0-2684-4a6b-a2a3-8feefc047e3e/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775239200,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775239200,
-        "endTime": 1775242800,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/c7b33718-18f0-4fe4-85c2-edeb1902aea0/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403190000 +0100",
-          "stop": "20260403200000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/c7b33718-18f0-4fe4-85c2-edeb1902aea0/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775242800,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775242800,
-        "endTime": 1775244600,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/73098f65-93e4-4f0d-a662-5762b32e999a/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403200000 +0100",
-          "stop": "20260403203000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/73098f65-93e4-4f0d-a662-5762b32e999a/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775244600,
-      "duration": 30,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775244600,
-        "endTime": 1775246400,
-        "duration": 30,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/83fb5b3e-74c2-48b9-a971-836e481cf343/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403203000 +0100",
-          "stop": "20260403210000 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/83fb5b3e-74c2-48b9-a971-836e481cf343/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775246400,
-      "duration": 30,
-      "name": "RTÉ News: Nine O'Clock",
-      "description": "(And Weather)",
-      "synopsis": "(And Weather)",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775246400,
-        "endTime": 1775248200,
-        "duration": 30,
-        "name": "RTÉ News: Nine O'Clock",
-        "description": "(And Weather)",
-        "synopsis": "(And Weather)",
-        "image": "https://images.metadata.sky.com/pd-image/dc5aeed5-f21b-47aa-8c6f-04bef694b968/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403210000 +0100",
-          "stop": "20260403213000 +0100",
-          "title": "RTÉ News: Nine O'Clock",
-          "desc": "(And Weather)",
-          "icon": "https://images.metadata.sky.com/pd-image/dc5aeed5-f21b-47aa-8c6f-04bef694b968/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1775248200,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "The latest news from RTÉ. Followed by Weather.",
-      "synopsis": "The latest news from RTÉ. Followed by Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1775248200,
-        "endTime": 1775250000,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "The latest news from RTÉ. Followed by Weather.",
-        "synopsis": "The latest news from RTÉ. Followed by Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/70595afe-52e4-4283-9e2f-9db25307a83e/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260403213000 +0100",
-          "stop": "20260403220000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "The latest news from RTÉ. Followed by Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/70595afe-52e4-4283-9e2f-9db25307a83e/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
       "startTime": 1775250000,
       "duration": 60,
       "name": "Latest News and Weather",
@@ -4400,6 +3728,650 @@
           "categories": []
         }
       }
+    },
+    {
+      "startTime": 1775775600,
+      "duration": 420,
+      "name": "EuroNews",
+      "description": "The latest International and European news.",
+      "synopsis": "The latest International and European news.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775775600,
+        "endTime": 1775800800,
+        "duration": 420,
+        "name": "EuroNews",
+        "description": "The latest International and European news.",
+        "synopsis": "The latest International and European news.",
+        "image": "https://images.metadata.sky.com/pd-image/6d1adc9a-e3de-4594-adb3-1d18f7ba06f4/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410000000 +0100",
+          "stop": "20260410070000 +0100",
+          "title": "EuroNews",
+          "desc": "The latest International and European news.",
+          "icon": "https://images.metadata.sky.com/pd-image/6d1adc9a-e3de-4594-adb3-1d18f7ba06f4/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775800800,
+      "duration": 120,
+      "name": "Morning Ireland",
+      "description": "Morning news programme.",
+      "synopsis": "Morning news programme.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775800800,
+        "endTime": 1775808000,
+        "duration": 120,
+        "name": "Morning Ireland",
+        "description": "Morning news programme.",
+        "synopsis": "Morning news programme.",
+        "image": "https://images.metadata.sky.com/pd-image/21cbf99a-e94a-43f4-8107-6b99d5fccbfb/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410070000 +0100",
+          "stop": "20260410090000 +0100",
+          "title": "Morning Ireland",
+          "desc": "Morning news programme.",
+          "icon": "https://images.metadata.sky.com/pd-image/21cbf99a-e94a-43f4-8107-6b99d5fccbfb/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775808000,
+      "duration": 90,
+      "name": "Today with David McCullagh",
+      "description": "The Today show live from RTÉ Radio 1.",
+      "synopsis": "The Today show live from RTÉ Radio 1.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775808000,
+        "endTime": 1775813400,
+        "duration": 90,
+        "name": "Today with David McCullagh",
+        "description": "The Today show live from RTÉ Radio 1.",
+        "synopsis": "The Today show live from RTÉ Radio 1.",
+        "image": "https://images.metadata.sky.com/pd-image/a5dbddf8-0cd8-4e8a-8b79-f33bae6c64d0/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410090000 +0100",
+          "stop": "20260410103000 +0100",
+          "title": "Today with David McCullagh",
+          "desc": "The Today show live from RTÉ Radio 1.",
+          "icon": "https://images.metadata.sky.com/pd-image/a5dbddf8-0cd8-4e8a-8b79-f33bae6c64d0/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775813400,
+      "duration": 30,
+      "name": "Mass",
+      "description": "Mass",
+      "synopsis": "Mass",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775813400,
+        "endTime": 1775815200,
+        "duration": 30,
+        "name": "Mass",
+        "description": "Mass",
+        "synopsis": "Mass",
+        "image": "https://images.metadata.sky.com/pd-image/17e97073-c30a-4385-a978-ebe818938426/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410103000 +0100",
+          "stop": "20260410110000 +0100",
+          "title": "Mass",
+          "desc": "Mass",
+          "icon": "https://images.metadata.sky.com/pd-image/17e97073-c30a-4385-a978-ebe818938426/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775815200,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775815200,
+        "endTime": 1775818800,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/0fdd98c7-09b6-4ff4-9423-5332d9dcc5eb/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410110000 +0100",
+          "stop": "20260410120000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/0fdd98c7-09b6-4ff4-9423-5332d9dcc5eb/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775818800,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775818800,
+        "endTime": 1775822400,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/641d11d3-915f-4710-899f-45537212cf41/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410120000 +0100",
+          "stop": "20260410130000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/641d11d3-915f-4710-899f-45537212cf41/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775822400,
+      "duration": 30,
+      "name": "RTE News: One O'clock",
+      "description": "(And Weather)",
+      "synopsis": "(And Weather)",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775822400,
+        "endTime": 1775824200,
+        "duration": 30,
+        "name": "RTE News: One O'clock",
+        "description": "(And Weather)",
+        "synopsis": "(And Weather)",
+        "image": "https://images.metadata.sky.com/pd-image/f94ae693-4922-4122-af04-6c9433674ba3/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410130000 +0100",
+          "stop": "20260410133000 +0100",
+          "title": "RTE News: One O'clock",
+          "desc": "(And Weather)",
+          "icon": "https://images.metadata.sky.com/pd-image/f94ae693-4922-4122-af04-6c9433674ba3/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775824200,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775824200,
+        "endTime": 1775826000,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/77aad955-6678-44e8-a583-9b0271995c30/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410133000 +0100",
+          "stop": "20260410140000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/77aad955-6678-44e8-a583-9b0271995c30/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775826000,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775826000,
+        "endTime": 1775829600,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/5fae9059-91b0-49f6-9d03-b9c3309c456e/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410140000 +0100",
+          "stop": "20260410150000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/5fae9059-91b0-49f6-9d03-b9c3309c456e/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775829600,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775829600,
+        "endTime": 1775833200,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/1895b1f0-e51c-4a27-b12c-13b86a978f55/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410150000 +0100",
+          "stop": "20260410160000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/1895b1f0-e51c-4a27-b12c-13b86a978f55/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775833200,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775833200,
+        "endTime": 1775836800,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/2927d12d-dc48-4a09-bdd5-c51fc88b8395/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410160000 +0100",
+          "stop": "20260410170000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/2927d12d-dc48-4a09-bdd5-c51fc88b8395/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775836800,
+      "duration": 10,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775836800,
+        "endTime": 1775837400,
+        "duration": 10,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/686df5ab-9b7d-410a-a219-d4de760b7f68/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410170000 +0100",
+          "stop": "20260410171000 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/686df5ab-9b7d-410a-a219-d4de760b7f68/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775837400,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775837400,
+        "endTime": 1775839200,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/25a5499a-6add-475b-817a-df136a58db12/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410171000 +0100",
+          "stop": "20260410174000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/25a5499a-6add-475b-817a-df136a58db12/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775839200,
+      "duration": 21,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775839200,
+        "endTime": 1775840460,
+        "duration": 21,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/0a53e972-4e56-4b9a-8940-6e38f441586a/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410174000 +0100",
+          "stop": "20260410180100 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/0a53e972-4e56-4b9a-8940-6e38f441586a/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775840460,
+      "duration": 59,
+      "name": "RTÉ News: Six One",
+      "description": "(And Weather)",
+      "synopsis": "(And Weather)",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775840460,
+        "endTime": 1775844000,
+        "duration": 59,
+        "name": "RTÉ News: Six One",
+        "description": "(And Weather)",
+        "synopsis": "(And Weather)",
+        "image": "https://images.metadata.sky.com/pd-image/90c13ca9-138c-4011-97a3-12762515189a/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410180100 +0100",
+          "stop": "20260410190000 +0100",
+          "title": "RTÉ News: Six One",
+          "desc": "(And Weather)",
+          "icon": "https://images.metadata.sky.com/pd-image/90c13ca9-138c-4011-97a3-12762515189a/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775844000,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775844000,
+        "endTime": 1775847600,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/8500a07a-73d1-4a1d-ac40-64077c4adcd4/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410190000 +0100",
+          "stop": "20260410200000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/8500a07a-73d1-4a1d-ac40-64077c4adcd4/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775847600,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775847600,
+        "endTime": 1775849400,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/0b0ecea5-3b3c-492a-9837-e8254def108a/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410200000 +0100",
+          "stop": "20260410203000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/0b0ecea5-3b3c-492a-9837-e8254def108a/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775849400,
+      "duration": 30,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775849400,
+        "endTime": 1775851200,
+        "duration": 30,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/afaa90a1-943d-44ea-980b-53b2a5d05c5a/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410203000 +0100",
+          "stop": "20260410210000 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/afaa90a1-943d-44ea-980b-53b2a5d05c5a/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775851200,
+      "duration": 30,
+      "name": "RTÉ News: Nine O'Clock",
+      "description": "(And Weather)",
+      "synopsis": "(And Weather)",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775851200,
+        "endTime": 1775853000,
+        "duration": 30,
+        "name": "RTÉ News: Nine O'Clock",
+        "description": "(And Weather)",
+        "synopsis": "(And Weather)",
+        "image": "https://images.metadata.sky.com/pd-image/6ac3fb54-aa3e-4a9e-a017-f61bf604207f/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410210000 +0100",
+          "stop": "20260410213000 +0100",
+          "title": "RTÉ News: Nine O'Clock",
+          "desc": "(And Weather)",
+          "icon": "https://images.metadata.sky.com/pd-image/6ac3fb54-aa3e-4a9e-a017-f61bf604207f/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775853000,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775853000,
+        "endTime": 1775854800,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/f9912e78-5c54-492c-afc9-161bbcc58b36/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410213000 +0100",
+          "stop": "20260410220000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/f9912e78-5c54-492c-afc9-161bbcc58b36/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775854800,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "The latest news from RTÉ. Followed by Weather.",
+      "synopsis": "The latest news from RTÉ. Followed by Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775854800,
+        "endTime": 1775858400,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "The latest news from RTÉ. Followed by Weather.",
+        "synopsis": "The latest news from RTÉ. Followed by Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/130616e1-286b-4771-9553-642ab5e86943/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410220000 +0100",
+          "stop": "20260410230000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "The latest news from RTÉ. Followed by Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/130616e1-286b-4771-9553-642ab5e86943/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775858400,
+      "duration": 25,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775858400,
+        "endTime": 1775859900,
+        "duration": 25,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/45733e26-a9a6-47b2-af26-f57ec4617b86/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410230000 +0100",
+          "stop": "20260410232500 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/45733e26-a9a6-47b2-af26-f57ec4617b86/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1775859900,
+      "duration": 395,
+      "name": "EuroNews",
+      "description": "The latest International and European news.",
+      "synopsis": "The latest International and European news.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1775859900,
+        "endTime": 1775883600,
+        "duration": 395,
+        "name": "EuroNews",
+        "description": "The latest International and European news.",
+        "synopsis": "The latest International and European news.",
+        "image": "https://images.metadata.sky.com/pd-image/f0f12943-2286-4eb9-a07c-1eba2ca87969/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260410232500 +0100",
+          "stop": "20260411060000 +0100",
+          "title": "EuroNews",
+          "desc": "The latest International and European news.",
+          "icon": "https://images.metadata.sky.com/pd-image/f0f12943-2286-4eb9-a07c-1eba2ca87969/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
     }
   ],
   "compat": {
@@ -4411,678 +4383,6 @@
           "logo": "img/channels/placeholder.svg"
         },
         "event": [
-          {
-            "startTime": 1775164200,
-            "duration": 50,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775164200,
-              "endTime": 1775167200,
-              "duration": 50,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/242ae453-98d9-4c6a-aafe-dfcc72ceeb05/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260402221000 +0100",
-                "stop": "20260402230000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/242ae453-98d9-4c6a-aafe-dfcc72ceeb05/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775167200,
-            "duration": 35,
-            "name": "Prime Time",
-            "description": "An in-depth analysis of current issues and topical reports.",
-            "synopsis": "An in-depth analysis of current issues and topical reports.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775167200,
-              "endTime": 1775169300,
-              "duration": 35,
-              "name": "Prime Time",
-              "description": "An in-depth analysis of current issues and topical reports.",
-              "synopsis": "An in-depth analysis of current issues and topical reports.",
-              "image": "https://images.metadata.sky.com/pd-image/e2c97e27-ef96-410d-9f99-c5f82ee09b8d/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260402230000 +0100",
-                "stop": "20260402233500 +0100",
-                "title": "Prime Time",
-                "desc": "An in-depth analysis of current issues and topical reports.",
-                "icon": "https://images.metadata.sky.com/pd-image/e2c97e27-ef96-410d-9f99-c5f82ee09b8d/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775169300,
-            "duration": 25,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775169300,
-              "endTime": 1775170800,
-              "duration": 25,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/68919506-4e77-49ef-a72b-68e16fdcd71b/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260402233500 +0100",
-                "stop": "20260403000000 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/68919506-4e77-49ef-a72b-68e16fdcd71b/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775170800,
-            "duration": 420,
-            "name": "EuroNews",
-            "description": "The latest International and European news.",
-            "synopsis": "The latest International and European news.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775170800,
-              "endTime": 1775196000,
-              "duration": 420,
-              "name": "EuroNews",
-              "description": "The latest International and European news.",
-              "synopsis": "The latest International and European news.",
-              "image": "https://images.metadata.sky.com/pd-image/f73ad438-e5cc-4f7d-b6f6-eb0facaa0631/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403000000 +0100",
-                "stop": "20260403070000 +0100",
-                "title": "EuroNews",
-                "desc": "The latest International and European news.",
-                "icon": "https://images.metadata.sky.com/pd-image/f73ad438-e5cc-4f7d-b6f6-eb0facaa0631/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775196000,
-            "duration": 120,
-            "name": "Morning Ireland",
-            "description": "Morning news programme.",
-            "synopsis": "Morning news programme.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775196000,
-              "endTime": 1775203200,
-              "duration": 120,
-              "name": "Morning Ireland",
-              "description": "Morning news programme.",
-              "synopsis": "Morning news programme.",
-              "image": "https://images.metadata.sky.com/pd-image/3bbd6699-9fb4-430d-a099-8cbbdc7eb4ed/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403070000 +0100",
-                "stop": "20260403090000 +0100",
-                "title": "Morning Ireland",
-                "desc": "Morning news programme.",
-                "icon": "https://images.metadata.sky.com/pd-image/3bbd6699-9fb4-430d-a099-8cbbdc7eb4ed/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775203200,
-            "duration": 90,
-            "name": "Today with David McCullagh",
-            "description": "The Today show live from RTÉ Radio 1.",
-            "synopsis": "The Today show live from RTÉ Radio 1.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775203200,
-              "endTime": 1775208600,
-              "duration": 90,
-              "name": "Today with David McCullagh",
-              "description": "The Today show live from RTÉ Radio 1.",
-              "synopsis": "The Today show live from RTÉ Radio 1.",
-              "image": "https://images.metadata.sky.com/pd-image/6ec5c351-ded0-4a2f-b009-10f606f3b332/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403090000 +0100",
-                "stop": "20260403103000 +0100",
-                "title": "Today with David McCullagh",
-                "desc": "The Today show live from RTÉ Radio 1.",
-                "icon": "https://images.metadata.sky.com/pd-image/6ec5c351-ded0-4a2f-b009-10f606f3b332/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775208600,
-            "duration": 30,
-            "name": "Mass",
-            "description": "Mass",
-            "synopsis": "Mass",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775208600,
-              "endTime": 1775210400,
-              "duration": 30,
-              "name": "Mass",
-              "description": "Mass",
-              "synopsis": "Mass",
-              "image": "https://images.metadata.sky.com/pd-image/6ca3a642-3bbc-46e0-845b-5672086e983f/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403103000 +0100",
-                "stop": "20260403110000 +0100",
-                "title": "Mass",
-                "desc": "Mass",
-                "icon": "https://images.metadata.sky.com/pd-image/6ca3a642-3bbc-46e0-845b-5672086e983f/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775210400,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775210400,
-              "endTime": 1775214000,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/c31b89c9-9fbc-4cc3-8845-8a56cab4eab4/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403110000 +0100",
-                "stop": "20260403120000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/c31b89c9-9fbc-4cc3-8845-8a56cab4eab4/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775214000,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775214000,
-              "endTime": 1775217600,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/efe3833d-b637-41b1-8673-108a0ba4b1e3/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403120000 +0100",
-                "stop": "20260403130000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/efe3833d-b637-41b1-8673-108a0ba4b1e3/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775217600,
-            "duration": 10,
-            "name": "RTE News: One O'clock",
-            "description": "(And Weather)",
-            "synopsis": "(And Weather)",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775217600,
-              "endTime": 1775218200,
-              "duration": 10,
-              "name": "RTE News: One O'clock",
-              "description": "(And Weather)",
-              "synopsis": "(And Weather)",
-              "image": "https://images.metadata.sky.com/pd-image/2e506414-b3a0-44ad-8b48-f60def4a7968/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403130000 +0100",
-                "stop": "20260403131000 +0100",
-                "title": "RTE News: One O'clock",
-                "desc": "(And Weather)",
-                "icon": "https://images.metadata.sky.com/pd-image/2e506414-b3a0-44ad-8b48-f60def4a7968/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775218200,
-            "duration": 50,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775218200,
-              "endTime": 1775221200,
-              "duration": 50,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/521bf533-a061-490f-a854-c2e727918fd7/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403131000 +0100",
-                "stop": "20260403140000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/521bf533-a061-490f-a854-c2e727918fd7/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775221200,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775221200,
-              "endTime": 1775224800,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/a977735c-9b3a-45f1-ba6a-3036bc1568b4/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403140000 +0100",
-                "stop": "20260403150000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/a977735c-9b3a-45f1-ba6a-3036bc1568b4/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775224800,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775224800,
-              "endTime": 1775228400,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/adcc439d-d6e7-467b-acc3-0c478d79bfd9/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403150000 +0100",
-                "stop": "20260403160000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/adcc439d-d6e7-467b-acc3-0c478d79bfd9/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775228400,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775228400,
-              "endTime": 1775232000,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/a3adc328-a664-450d-8e4e-2d524450bc38/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403160000 +0100",
-                "stop": "20260403170000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/a3adc328-a664-450d-8e4e-2d524450bc38/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775232000,
-            "duration": 10,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775232000,
-              "endTime": 1775232600,
-              "duration": 10,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/90336132-8b5e-441a-b370-20bcd2c8ff60/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403170000 +0100",
-                "stop": "20260403171000 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/90336132-8b5e-441a-b370-20bcd2c8ff60/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775232600,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775232600,
-              "endTime": 1775234400,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/3fd51672-7a14-4115-8465-f1cb1d61103f/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403171000 +0100",
-                "stop": "20260403174000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/3fd51672-7a14-4115-8465-f1cb1d61103f/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775234400,
-            "duration": 21,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775234400,
-              "endTime": 1775235660,
-              "duration": 21,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/b631f5ee-23e4-4afb-ba56-61b722eb8936/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403174000 +0100",
-                "stop": "20260403180100 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/b631f5ee-23e4-4afb-ba56-61b722eb8936/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775235660,
-            "duration": 29,
-            "name": "RTÉ News: Six One",
-            "description": "(And Weather)",
-            "synopsis": "(And Weather)",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775235660,
-              "endTime": 1775237400,
-              "duration": 29,
-              "name": "RTÉ News: Six One",
-              "description": "(And Weather)",
-              "synopsis": "(And Weather)",
-              "image": "https://images.metadata.sky.com/pd-image/94a169a4-76c8-43e9-a1bd-64d5966c2ad9/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403180100 +0100",
-                "stop": "20260403183000 +0100",
-                "title": "RTÉ News: Six One",
-                "desc": "(And Weather)",
-                "icon": "https://images.metadata.sky.com/pd-image/94a169a4-76c8-43e9-a1bd-64d5966c2ad9/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775237400,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775237400,
-              "endTime": 1775239200,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/a7913af0-2684-4a6b-a2a3-8feefc047e3e/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403183000 +0100",
-                "stop": "20260403190000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/a7913af0-2684-4a6b-a2a3-8feefc047e3e/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775239200,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775239200,
-              "endTime": 1775242800,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/c7b33718-18f0-4fe4-85c2-edeb1902aea0/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403190000 +0100",
-                "stop": "20260403200000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/c7b33718-18f0-4fe4-85c2-edeb1902aea0/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775242800,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775242800,
-              "endTime": 1775244600,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/73098f65-93e4-4f0d-a662-5762b32e999a/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403200000 +0100",
-                "stop": "20260403203000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/73098f65-93e4-4f0d-a662-5762b32e999a/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775244600,
-            "duration": 30,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775244600,
-              "endTime": 1775246400,
-              "duration": 30,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/83fb5b3e-74c2-48b9-a971-836e481cf343/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403203000 +0100",
-                "stop": "20260403210000 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/83fb5b3e-74c2-48b9-a971-836e481cf343/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775246400,
-            "duration": 30,
-            "name": "RTÉ News: Nine O'Clock",
-            "description": "(And Weather)",
-            "synopsis": "(And Weather)",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775246400,
-              "endTime": 1775248200,
-              "duration": 30,
-              "name": "RTÉ News: Nine O'Clock",
-              "description": "(And Weather)",
-              "synopsis": "(And Weather)",
-              "image": "https://images.metadata.sky.com/pd-image/dc5aeed5-f21b-47aa-8c6f-04bef694b968/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403210000 +0100",
-                "stop": "20260403213000 +0100",
-                "title": "RTÉ News: Nine O'Clock",
-                "desc": "(And Weather)",
-                "icon": "https://images.metadata.sky.com/pd-image/dc5aeed5-f21b-47aa-8c6f-04bef694b968/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1775248200,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "The latest news from RTÉ. Followed by Weather.",
-            "synopsis": "The latest news from RTÉ. Followed by Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1775248200,
-              "endTime": 1775250000,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "The latest news from RTÉ. Followed by Weather.",
-              "synopsis": "The latest news from RTÉ. Followed by Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/70595afe-52e4-4283-9e2f-9db25307a83e/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260403213000 +0100",
-                "stop": "20260403220000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "The latest news from RTÉ. Followed by Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/70595afe-52e4-4283-9e2f-9db25307a83e/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
           {
             "startTime": 1775250000,
             "duration": 60,
@@ -8801,6 +8101,650 @@
                 "title": "Nuacht RTÉ",
                 "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
                 "icon": "https://images.metadata.sky.com/pd-image/e2d355cf-78e8-4a22-b34f-d7454f8d2e90/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775775600,
+            "duration": 420,
+            "name": "EuroNews",
+            "description": "The latest International and European news.",
+            "synopsis": "The latest International and European news.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775775600,
+              "endTime": 1775800800,
+              "duration": 420,
+              "name": "EuroNews",
+              "description": "The latest International and European news.",
+              "synopsis": "The latest International and European news.",
+              "image": "https://images.metadata.sky.com/pd-image/6d1adc9a-e3de-4594-adb3-1d18f7ba06f4/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410000000 +0100",
+                "stop": "20260410070000 +0100",
+                "title": "EuroNews",
+                "desc": "The latest International and European news.",
+                "icon": "https://images.metadata.sky.com/pd-image/6d1adc9a-e3de-4594-adb3-1d18f7ba06f4/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775800800,
+            "duration": 120,
+            "name": "Morning Ireland",
+            "description": "Morning news programme.",
+            "synopsis": "Morning news programme.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775800800,
+              "endTime": 1775808000,
+              "duration": 120,
+              "name": "Morning Ireland",
+              "description": "Morning news programme.",
+              "synopsis": "Morning news programme.",
+              "image": "https://images.metadata.sky.com/pd-image/21cbf99a-e94a-43f4-8107-6b99d5fccbfb/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410070000 +0100",
+                "stop": "20260410090000 +0100",
+                "title": "Morning Ireland",
+                "desc": "Morning news programme.",
+                "icon": "https://images.metadata.sky.com/pd-image/21cbf99a-e94a-43f4-8107-6b99d5fccbfb/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775808000,
+            "duration": 90,
+            "name": "Today with David McCullagh",
+            "description": "The Today show live from RTÉ Radio 1.",
+            "synopsis": "The Today show live from RTÉ Radio 1.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775808000,
+              "endTime": 1775813400,
+              "duration": 90,
+              "name": "Today with David McCullagh",
+              "description": "The Today show live from RTÉ Radio 1.",
+              "synopsis": "The Today show live from RTÉ Radio 1.",
+              "image": "https://images.metadata.sky.com/pd-image/a5dbddf8-0cd8-4e8a-8b79-f33bae6c64d0/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410090000 +0100",
+                "stop": "20260410103000 +0100",
+                "title": "Today with David McCullagh",
+                "desc": "The Today show live from RTÉ Radio 1.",
+                "icon": "https://images.metadata.sky.com/pd-image/a5dbddf8-0cd8-4e8a-8b79-f33bae6c64d0/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775813400,
+            "duration": 30,
+            "name": "Mass",
+            "description": "Mass",
+            "synopsis": "Mass",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775813400,
+              "endTime": 1775815200,
+              "duration": 30,
+              "name": "Mass",
+              "description": "Mass",
+              "synopsis": "Mass",
+              "image": "https://images.metadata.sky.com/pd-image/17e97073-c30a-4385-a978-ebe818938426/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410103000 +0100",
+                "stop": "20260410110000 +0100",
+                "title": "Mass",
+                "desc": "Mass",
+                "icon": "https://images.metadata.sky.com/pd-image/17e97073-c30a-4385-a978-ebe818938426/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775815200,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775815200,
+              "endTime": 1775818800,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/0fdd98c7-09b6-4ff4-9423-5332d9dcc5eb/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410110000 +0100",
+                "stop": "20260410120000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/0fdd98c7-09b6-4ff4-9423-5332d9dcc5eb/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775818800,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775818800,
+              "endTime": 1775822400,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/641d11d3-915f-4710-899f-45537212cf41/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410120000 +0100",
+                "stop": "20260410130000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/641d11d3-915f-4710-899f-45537212cf41/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775822400,
+            "duration": 30,
+            "name": "RTE News: One O'clock",
+            "description": "(And Weather)",
+            "synopsis": "(And Weather)",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775822400,
+              "endTime": 1775824200,
+              "duration": 30,
+              "name": "RTE News: One O'clock",
+              "description": "(And Weather)",
+              "synopsis": "(And Weather)",
+              "image": "https://images.metadata.sky.com/pd-image/f94ae693-4922-4122-af04-6c9433674ba3/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410130000 +0100",
+                "stop": "20260410133000 +0100",
+                "title": "RTE News: One O'clock",
+                "desc": "(And Weather)",
+                "icon": "https://images.metadata.sky.com/pd-image/f94ae693-4922-4122-af04-6c9433674ba3/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775824200,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775824200,
+              "endTime": 1775826000,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/77aad955-6678-44e8-a583-9b0271995c30/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410133000 +0100",
+                "stop": "20260410140000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/77aad955-6678-44e8-a583-9b0271995c30/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775826000,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775826000,
+              "endTime": 1775829600,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/5fae9059-91b0-49f6-9d03-b9c3309c456e/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410140000 +0100",
+                "stop": "20260410150000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/5fae9059-91b0-49f6-9d03-b9c3309c456e/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775829600,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775829600,
+              "endTime": 1775833200,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/1895b1f0-e51c-4a27-b12c-13b86a978f55/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410150000 +0100",
+                "stop": "20260410160000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/1895b1f0-e51c-4a27-b12c-13b86a978f55/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775833200,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775833200,
+              "endTime": 1775836800,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/2927d12d-dc48-4a09-bdd5-c51fc88b8395/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410160000 +0100",
+                "stop": "20260410170000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/2927d12d-dc48-4a09-bdd5-c51fc88b8395/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775836800,
+            "duration": 10,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775836800,
+              "endTime": 1775837400,
+              "duration": 10,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/686df5ab-9b7d-410a-a219-d4de760b7f68/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410170000 +0100",
+                "stop": "20260410171000 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/686df5ab-9b7d-410a-a219-d4de760b7f68/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775837400,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775837400,
+              "endTime": 1775839200,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/25a5499a-6add-475b-817a-df136a58db12/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410171000 +0100",
+                "stop": "20260410174000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/25a5499a-6add-475b-817a-df136a58db12/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775839200,
+            "duration": 21,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775839200,
+              "endTime": 1775840460,
+              "duration": 21,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/0a53e972-4e56-4b9a-8940-6e38f441586a/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410174000 +0100",
+                "stop": "20260410180100 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/0a53e972-4e56-4b9a-8940-6e38f441586a/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775840460,
+            "duration": 59,
+            "name": "RTÉ News: Six One",
+            "description": "(And Weather)",
+            "synopsis": "(And Weather)",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775840460,
+              "endTime": 1775844000,
+              "duration": 59,
+              "name": "RTÉ News: Six One",
+              "description": "(And Weather)",
+              "synopsis": "(And Weather)",
+              "image": "https://images.metadata.sky.com/pd-image/90c13ca9-138c-4011-97a3-12762515189a/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410180100 +0100",
+                "stop": "20260410190000 +0100",
+                "title": "RTÉ News: Six One",
+                "desc": "(And Weather)",
+                "icon": "https://images.metadata.sky.com/pd-image/90c13ca9-138c-4011-97a3-12762515189a/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775844000,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775844000,
+              "endTime": 1775847600,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/8500a07a-73d1-4a1d-ac40-64077c4adcd4/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410190000 +0100",
+                "stop": "20260410200000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/8500a07a-73d1-4a1d-ac40-64077c4adcd4/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775847600,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775847600,
+              "endTime": 1775849400,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/0b0ecea5-3b3c-492a-9837-e8254def108a/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410200000 +0100",
+                "stop": "20260410203000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/0b0ecea5-3b3c-492a-9837-e8254def108a/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775849400,
+            "duration": 30,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775849400,
+              "endTime": 1775851200,
+              "duration": 30,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/afaa90a1-943d-44ea-980b-53b2a5d05c5a/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410203000 +0100",
+                "stop": "20260410210000 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/afaa90a1-943d-44ea-980b-53b2a5d05c5a/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775851200,
+            "duration": 30,
+            "name": "RTÉ News: Nine O'Clock",
+            "description": "(And Weather)",
+            "synopsis": "(And Weather)",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775851200,
+              "endTime": 1775853000,
+              "duration": 30,
+              "name": "RTÉ News: Nine O'Clock",
+              "description": "(And Weather)",
+              "synopsis": "(And Weather)",
+              "image": "https://images.metadata.sky.com/pd-image/6ac3fb54-aa3e-4a9e-a017-f61bf604207f/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410210000 +0100",
+                "stop": "20260410213000 +0100",
+                "title": "RTÉ News: Nine O'Clock",
+                "desc": "(And Weather)",
+                "icon": "https://images.metadata.sky.com/pd-image/6ac3fb54-aa3e-4a9e-a017-f61bf604207f/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775853000,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775853000,
+              "endTime": 1775854800,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/f9912e78-5c54-492c-afc9-161bbcc58b36/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410213000 +0100",
+                "stop": "20260410220000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/f9912e78-5c54-492c-afc9-161bbcc58b36/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775854800,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "The latest news from RTÉ. Followed by Weather.",
+            "synopsis": "The latest news from RTÉ. Followed by Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775854800,
+              "endTime": 1775858400,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "The latest news from RTÉ. Followed by Weather.",
+              "synopsis": "The latest news from RTÉ. Followed by Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/130616e1-286b-4771-9553-642ab5e86943/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410220000 +0100",
+                "stop": "20260410230000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "The latest news from RTÉ. Followed by Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/130616e1-286b-4771-9553-642ab5e86943/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775858400,
+            "duration": 25,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775858400,
+              "endTime": 1775859900,
+              "duration": 25,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/45733e26-a9a6-47b2-af26-f57ec4617b86/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410230000 +0100",
+                "stop": "20260410232500 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/45733e26-a9a6-47b2-af26-f57ec4617b86/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1775859900,
+            "duration": 395,
+            "name": "EuroNews",
+            "description": "The latest International and European news.",
+            "synopsis": "The latest International and European news.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1775859900,
+              "endTime": 1775883600,
+              "duration": 395,
+              "name": "EuroNews",
+              "description": "The latest International and European news.",
+              "synopsis": "The latest International and European news.",
+              "image": "https://images.metadata.sky.com/pd-image/f0f12943-2286-4eb9-a07c-1eba2ca87969/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260410232500 +0100",
+                "stop": "20260411060000 +0100",
+                "title": "EuroNews",
+                "desc": "The latest International and European news.",
+                "icon": "https://images.metadata.sky.com/pd-image/f0f12943-2286-4eb9-a07c-1eba2ca87969/cover",
                 "episode_xmltv_ns": null,
                 "episode_onscreen": null,
                 "categories": []
