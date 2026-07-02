@@ -1309,15 +1309,15 @@
     },
     {
       "startTime": 1782928800,
-      "duration": 60,
+      "duration": 55,
       "name": "Kent: The Garden of England",
       "description": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
       "synopsis": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "startTime": 1782928800,
-        "endTime": 1782932400,
-        "duration": 60,
+        "endTime": 1782932100,
+        "duration": 55,
         "name": "Kent: The Garden of England",
         "description": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
         "synopsis": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
@@ -1327,12 +1327,40 @@
         "_source": {
           "channel": "5Plus1.uk",
           "start": "20260701190000 +0100",
-          "stop": "20260701200000 +0100",
+          "stop": "20260701195500 +0100",
           "title": "Kent: The Garden of England",
           "desc": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
           "icon": "https://images.metadata.sky.com/pd-image/b2bc9dcc-4172-31be-89e7-2290a2b34186/cover",
           "episode_xmltv_ns": "0.2.0",
           "episode_onscreen": "S1E3",
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1782932100,
+      "duration": 5,
+      "name": "DEC Venezuela Earthquake Appeal",
+      "description": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+      "synopsis": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1782932100,
+        "endTime": 1782932400,
+        "duration": 5,
+        "name": "DEC Venezuela Earthquake Appeal",
+        "description": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+        "synopsis": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+        "image": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+        "_source": {
+          "channel": "5Plus1.uk",
+          "start": "20260701195500 +0100",
+          "stop": "20260701200000 +0100",
+          "title": "DEC Venezuela Earthquake Appeal",
+          "desc": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+          "icon": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
           "categories": []
         }
       }
@@ -1691,34 +1719,6 @@
           "icon": "https://images.metadata.sky.com/pd-image/9de5cb69-40c0-4856-a46c-4c8018db3f72/cover",
           "episode_xmltv_ns": "0.32.0",
           "episode_onscreen": "S1E33",
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1782970020,
-      "duration": 8,
-      "name": "This is Channel 5 +1",
-      "description": "This is Channel 5 +1",
-      "synopsis": "This is Channel 5 +1",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1782970020,
-        "endTime": 1782970500,
-        "duration": 8,
-        "name": "This is Channel 5 +1",
-        "description": "This is Channel 5 +1",
-        "synopsis": "This is Channel 5 +1",
-        "image": "https://images.metadata.sky.com/pd-image/1cefbeb7-568c-4023-8a74-129909d435aa/cover",
-        "_source": {
-          "channel": "5Plus1.uk",
-          "start": "20260702062700 +0100",
-          "stop": "20260702063500 +0100",
-          "title": "This is Channel 5 +1",
-          "desc": "This is Channel 5 +1",
-          "icon": "https://images.metadata.sky.com/pd-image/1cefbeb7-568c-4023-8a74-129909d435aa/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
           "categories": []
         }
       }
@@ -3029,6 +3029,34 @@
           "icon": "https://images.metadata.sky.com/pd-image/38d63bf4-3c14-4be5-90c7-bf614fac28dc/cover",
           "episode_xmltv_ns": "0.13.0",
           "episode_onscreen": "S1E14",
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1783053300,
+      "duration": 25,
+      "name": "This is Channel 5 +1",
+      "description": "This is Channel 5 +1",
+      "synopsis": "This is Channel 5 +1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1783053300,
+        "endTime": 1783054800,
+        "duration": 25,
+        "name": "This is Channel 5 +1",
+        "description": "This is Channel 5 +1",
+        "synopsis": "This is Channel 5 +1",
+        "image": "https://images.metadata.sky.com/pd-image/2eee12e1-ceec-4e2d-b52c-dc7d9b5a494c/cover",
+        "_source": {
+          "channel": "5Plus1.uk",
+          "start": "20260703053500 +0100",
+          "stop": "20260703060000 +0100",
+          "title": "This is Channel 5 +1",
+          "desc": "This is Channel 5 +1",
+          "icon": "https://images.metadata.sky.com/pd-image/2eee12e1-ceec-4e2d-b52c-dc7d9b5a494c/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
           "categories": []
         }
       }
@@ -10801,15 +10829,15 @@
           },
           {
             "startTime": 1782928800,
-            "duration": 60,
+            "duration": 55,
             "name": "Kent: The Garden of England",
             "description": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
             "synopsis": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "startTime": 1782928800,
-              "endTime": 1782932400,
-              "duration": 60,
+              "endTime": 1782932100,
+              "duration": 55,
               "name": "Kent: The Garden of England",
               "description": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
               "synopsis": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
@@ -10819,12 +10847,40 @@
               "_source": {
                 "channel": "5Plus1.uk",
                 "start": "20260701190000 +0100",
-                "stop": "20260701200000 +0100",
+                "stop": "20260701195500 +0100",
                 "title": "Kent: The Garden of England",
                 "desc": "In this edition we join harvests for hops and oysters, travel down the beautiful River Stour, watch the annual Weald of Kent ploughing match, and explore the Samphire Hoe nature reserve. (Ep2)",
                 "icon": "https://images.metadata.sky.com/pd-image/b2bc9dcc-4172-31be-89e7-2290a2b34186/cover",
                 "episode_xmltv_ns": "0.2.0",
                 "episode_onscreen": "S1E3",
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1782932100,
+            "duration": 5,
+            "name": "DEC Venezuela Earthquake Appeal",
+            "description": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+            "synopsis": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1782932100,
+              "endTime": 1782932400,
+              "duration": 5,
+              "name": "DEC Venezuela Earthquake Appeal",
+              "description": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+              "synopsis": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+              "image": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+              "_source": {
+                "channel": "5Plus1.uk",
+                "start": "20260701195500 +0100",
+                "stop": "20260701200000 +0100",
+                "title": "DEC Venezuela Earthquake Appeal",
+                "desc": "An appeal on behalf of the Disasters Emergency Committee following the devastating Venezuela earthquakes.",
+                "icon": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
                 "categories": []
               }
             }
@@ -11183,34 +11239,6 @@
                 "icon": "https://images.metadata.sky.com/pd-image/9de5cb69-40c0-4856-a46c-4c8018db3f72/cover",
                 "episode_xmltv_ns": "0.32.0",
                 "episode_onscreen": "S1E33",
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1782970020,
-            "duration": 8,
-            "name": "This is Channel 5 +1",
-            "description": "This is Channel 5 +1",
-            "synopsis": "This is Channel 5 +1",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1782970020,
-              "endTime": 1782970500,
-              "duration": 8,
-              "name": "This is Channel 5 +1",
-              "description": "This is Channel 5 +1",
-              "synopsis": "This is Channel 5 +1",
-              "image": "https://images.metadata.sky.com/pd-image/1cefbeb7-568c-4023-8a74-129909d435aa/cover",
-              "_source": {
-                "channel": "5Plus1.uk",
-                "start": "20260702062700 +0100",
-                "stop": "20260702063500 +0100",
-                "title": "This is Channel 5 +1",
-                "desc": "This is Channel 5 +1",
-                "icon": "https://images.metadata.sky.com/pd-image/1cefbeb7-568c-4023-8a74-129909d435aa/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
                 "categories": []
               }
             }
@@ -12521,6 +12549,34 @@
                 "icon": "https://images.metadata.sky.com/pd-image/38d63bf4-3c14-4be5-90c7-bf614fac28dc/cover",
                 "episode_xmltv_ns": "0.13.0",
                 "episode_onscreen": "S1E14",
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1783053300,
+            "duration": 25,
+            "name": "This is Channel 5 +1",
+            "description": "This is Channel 5 +1",
+            "synopsis": "This is Channel 5 +1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1783053300,
+              "endTime": 1783054800,
+              "duration": 25,
+              "name": "This is Channel 5 +1",
+              "description": "This is Channel 5 +1",
+              "synopsis": "This is Channel 5 +1",
+              "image": "https://images.metadata.sky.com/pd-image/2eee12e1-ceec-4e2d-b52c-dc7d9b5a494c/cover",
+              "_source": {
+                "channel": "5Plus1.uk",
+                "start": "20260703053500 +0100",
+                "stop": "20260703060000 +0100",
+                "title": "This is Channel 5 +1",
+                "desc": "This is Channel 5 +1",
+                "icon": "https://images.metadata.sky.com/pd-image/2eee12e1-ceec-4e2d-b52c-dc7d9b5a494c/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
                 "categories": []
               }
             }

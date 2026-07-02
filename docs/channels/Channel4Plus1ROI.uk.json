@@ -929,15 +929,15 @@
     },
     {
       "startTime": 1782932400,
-      "duration": 60,
+      "duration": 55,
       "name": "Channel 4 News",
       "description": "Channel 4's flagship news programme. Including the weather.",
       "synopsis": "Channel 4's flagship news programme. Including the weather.",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "startTime": 1782932400,
-        "endTime": 1782936000,
-        "duration": 60,
+        "endTime": 1782935700,
+        "duration": 55,
         "name": "Channel 4 News",
         "description": "Channel 4's flagship news programme. Including the weather.",
         "synopsis": "Channel 4's flagship news programme. Including the weather.",
@@ -945,10 +945,38 @@
         "_source": {
           "channel": "Channel4Plus1ROI.uk",
           "start": "20260701200000 +0100",
-          "stop": "20260701210000 +0100",
+          "stop": "20260701205500 +0100",
           "title": "Channel 4 News",
           "desc": "Channel 4's flagship news programme. Including the weather.",
           "icon": "https://images.metadata.sky.com/pd-image/48a73156-e0af-43f8-b335-9c2c2f741d2d/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1782935700,
+      "duration": 5,
+      "name": "DEC Venezuela Earthquake Appeal",
+      "description": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+      "synopsis": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1782935700,
+        "endTime": 1782936000,
+        "duration": 5,
+        "name": "DEC Venezuela Earthquake Appeal",
+        "description": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+        "synopsis": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+        "image": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+        "_source": {
+          "channel": "Channel4Plus1ROI.uk",
+          "start": "20260701205500 +0100",
+          "stop": "20260701210000 +0100",
+          "title": "DEC Venezuela Earthquake Appeal",
+          "desc": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+          "icon": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
           "episode_xmltv_ns": null,
           "episode_onscreen": null,
           "categories": []
@@ -7415,15 +7443,15 @@
           },
           {
             "startTime": 1782932400,
-            "duration": 60,
+            "duration": 55,
             "name": "Channel 4 News",
             "description": "Channel 4's flagship news programme. Including the weather.",
             "synopsis": "Channel 4's flagship news programme. Including the weather.",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "startTime": 1782932400,
-              "endTime": 1782936000,
-              "duration": 60,
+              "endTime": 1782935700,
+              "duration": 55,
               "name": "Channel 4 News",
               "description": "Channel 4's flagship news programme. Including the weather.",
               "synopsis": "Channel 4's flagship news programme. Including the weather.",
@@ -7431,10 +7459,38 @@
               "_source": {
                 "channel": "Channel4Plus1ROI.uk",
                 "start": "20260701200000 +0100",
-                "stop": "20260701210000 +0100",
+                "stop": "20260701205500 +0100",
                 "title": "Channel 4 News",
                 "desc": "Channel 4's flagship news programme. Including the weather.",
                 "icon": "https://images.metadata.sky.com/pd-image/48a73156-e0af-43f8-b335-9c2c2f741d2d/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1782935700,
+            "duration": 5,
+            "name": "DEC Venezuela Earthquake Appeal",
+            "description": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+            "synopsis": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1782935700,
+              "endTime": 1782936000,
+              "duration": 5,
+              "name": "DEC Venezuela Earthquake Appeal",
+              "description": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+              "synopsis": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+              "image": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
+              "_source": {
+                "channel": "Channel4Plus1ROI.uk",
+                "start": "20260701205500 +0100",
+                "stop": "20260701210000 +0100",
+                "title": "DEC Venezuela Earthquake Appeal",
+                "desc": "An appeal on behalf of the Disasters Emergency Committee to help those affected by the earthquakes in Venezuela.",
+                "icon": "https://images.metadata.sky.com/pd-image/997fb089-f7d4-41cd-94e2-d25d8e8d7726/cover",
                 "episode_xmltv_ns": null,
                 "episode_onscreen": null,
                 "categories": []
