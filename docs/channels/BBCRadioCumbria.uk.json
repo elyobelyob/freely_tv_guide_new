@@ -4,7 +4,1296 @@
     "name": "BBC Radio Cumbria",
     "logo": "img/channels/placeholder.svg"
   },
-  "events": [],
+  "events": [
+    {
+      "startTime": 1785542400,
+      "duration": 300,
+      "name": "As Radio 5 Live",
+      "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785542400,
+        "endTime": 1785560400,
+        "duration": 300,
+        "name": "As Radio 5 Live",
+        "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801010000 +0100",
+          "stop": "20260801060000 +0100",
+          "title": "As Radio 5 Live",
+          "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785560400,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785560400,
+        "endTime": 1785574800,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801060000 +0100",
+          "stop": "20260801100000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785574800,
+      "duration": 240,
+      "name": "Hayley Kay",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785574800,
+        "endTime": 1785589200,
+        "duration": 240,
+        "name": "Hayley Kay",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801100000 +0100",
+          "stop": "20260801140000 +0100",
+          "title": "Hayley Kay",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785589200,
+      "duration": 240,
+      "name": "Total Sport with Claire Carter",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785589200,
+        "endTime": 1785603600,
+        "duration": 240,
+        "name": "Total Sport with Claire Carter",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801140000 +0100",
+          "stop": "20260801180000 +0100",
+          "title": "Total Sport with Claire Carter",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785603600,
+      "duration": 120,
+      "name": "Upload",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785603600,
+        "endTime": 1785610800,
+        "duration": 120,
+        "name": "Upload",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801180000 +0100",
+          "stop": "20260801200000 +0100",
+          "title": "Upload",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785610800,
+      "duration": 120,
+      "name": "BBC Introducing",
+      "description": "Unsigned, undiscovered and under the radar music",
+      "synopsis": "Unsigned, undiscovered and under the radar music",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785610800,
+        "endTime": 1785618000,
+        "duration": 120,
+        "name": "BBC Introducing",
+        "description": "Unsigned, undiscovered and under the radar music",
+        "synopsis": "Unsigned, undiscovered and under the radar music",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801200000 +0100",
+          "stop": "20260801220000 +0100",
+          "title": "BBC Introducing",
+          "desc": "Unsigned, undiscovered and under the radar music",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785618000,
+      "duration": 180,
+      "name": "Jo Good",
+      "description": "Music and chat",
+      "synopsis": "Music and chat",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785618000,
+        "endTime": 1785628800,
+        "duration": 180,
+        "name": "Jo Good",
+        "description": "Music and chat",
+        "synopsis": "Music and chat",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260801220000 +0100",
+          "stop": "20260802010000 +0100",
+          "title": "Jo Good",
+          "desc": "Music and chat",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785646800,
+      "duration": 240,
+      "name": "Joe Wilson",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785646800,
+        "endTime": 1785661200,
+        "duration": 240,
+        "name": "Joe Wilson",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260802060000 +0100",
+          "stop": "20260802100000 +0100",
+          "title": "Joe Wilson",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785661200,
+      "duration": 240,
+      "name": "Fiona Sadler",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785661200,
+        "endTime": 1785675600,
+        "duration": 240,
+        "name": "Fiona Sadler",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260802100000 +0100",
+          "stop": "20260802140000 +0100",
+          "title": "Fiona Sadler",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785675600,
+      "duration": 240,
+      "name": "The Make a Difference Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785675600,
+        "endTime": 1785690000,
+        "duration": 240,
+        "name": "The Make a Difference Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260802140000 +0100",
+          "stop": "20260802180000 +0100",
+          "title": "The Make a Difference Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785690000,
+      "duration": 240,
+      "name": "Dotun Adebayo",
+      "description": "Community reports from around the country",
+      "synopsis": "Community reports from around the country",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785690000,
+        "endTime": 1785704400,
+        "duration": 240,
+        "name": "Dotun Adebayo",
+        "description": "Community reports from around the country",
+        "synopsis": "Community reports from around the country",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260802180000 +0100",
+          "stop": "20260802220000 +0100",
+          "title": "Dotun Adebayo",
+          "desc": "Community reports from around the country",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785704400,
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785704400,
+        "endTime": 1785715200,
+        "duration": 180,
+        "name": "The Late Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260802220000 +0100",
+          "stop": "20260803010000 +0100",
+          "title": "The Late Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785715200,
+      "duration": 300,
+      "name": "As Radio 5 Live",
+      "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785715200,
+        "endTime": 1785733200,
+        "duration": 300,
+        "name": "As Radio 5 Live",
+        "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803010000 +0100",
+          "stop": "20260803060000 +0100",
+          "title": "As Radio 5 Live",
+          "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785733200,
+      "duration": 240,
+      "name": "Mike Zeller",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785733200,
+        "endTime": 1785747600,
+        "duration": 240,
+        "name": "Mike Zeller",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803060000 +0100",
+          "stop": "20260803100000 +0100",
+          "title": "Mike Zeller",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785747600,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785747600,
+        "endTime": 1785762000,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803100000 +0100",
+          "stop": "20260803140000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785762000,
+      "duration": 240,
+      "name": "Fiona Sadler",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785762000,
+        "endTime": 1785776400,
+        "duration": 240,
+        "name": "Fiona Sadler",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803140000 +0100",
+          "stop": "20260803180000 +0100",
+          "title": "Fiona Sadler",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785776400,
+      "duration": 60,
+      "name": "Total Sport",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785776400,
+        "endTime": 1785780000,
+        "duration": 60,
+        "name": "Total Sport",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803180000 +0100",
+          "stop": "20260803190000 +0100",
+          "title": "Total Sport",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785780000,
+      "duration": 180,
+      "name": "JoJo Hatfield",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785780000,
+        "endTime": 1785790800,
+        "duration": 180,
+        "name": "JoJo Hatfield",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803190000 +0100",
+          "stop": "20260803220000 +0100",
+          "title": "JoJo Hatfield",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785790800,
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785790800,
+        "endTime": 1785801600,
+        "duration": 180,
+        "name": "The Late Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260803220000 +0100",
+          "stop": "20260804010000 +0100",
+          "title": "The Late Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785819600,
+      "duration": 240,
+      "name": "Mike Zeller",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785819600,
+        "endTime": 1785834000,
+        "duration": 240,
+        "name": "Mike Zeller",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804060000 +0100",
+          "stop": "20260804100000 +0100",
+          "title": "Mike Zeller",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785834000,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785834000,
+        "endTime": 1785848400,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804100000 +0100",
+          "stop": "20260804140000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785848400,
+      "duration": 240,
+      "name": "Fiona Sadler",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785848400,
+        "endTime": 1785862800,
+        "duration": 240,
+        "name": "Fiona Sadler",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804140000 +0100",
+          "stop": "20260804180000 +0100",
+          "title": "Fiona Sadler",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785862800,
+      "duration": 60,
+      "name": "Total Sport",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785862800,
+        "endTime": 1785866400,
+        "duration": 60,
+        "name": "Total Sport",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804180000 +0100",
+          "stop": "20260804190000 +0100",
+          "title": "Total Sport",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785866400,
+      "duration": 180,
+      "name": "Joel Mitchell",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785866400,
+        "endTime": 1785877200,
+        "duration": 180,
+        "name": "Joel Mitchell",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804190000 +0100",
+          "stop": "20260804220000 +0100",
+          "title": "Joel Mitchell",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785877200,
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785877200,
+        "endTime": 1785888000,
+        "duration": 180,
+        "name": "The Late Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260804220000 +0100",
+          "stop": "20260805010000 +0100",
+          "title": "The Late Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785888000,
+      "duration": 300,
+      "name": "As Radio 5 Live",
+      "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785888000,
+        "endTime": 1785906000,
+        "duration": 300,
+        "name": "As Radio 5 Live",
+        "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805010000 +0100",
+          "stop": "20260805060000 +0100",
+          "title": "As Radio 5 Live",
+          "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785906000,
+      "duration": 240,
+      "name": "Mike Zeller",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785906000,
+        "endTime": 1785920400,
+        "duration": 240,
+        "name": "Mike Zeller",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805060000 +0100",
+          "stop": "20260805100000 +0100",
+          "title": "Mike Zeller",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785920400,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785920400,
+        "endTime": 1785934800,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805100000 +0100",
+          "stop": "20260805140000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785949200,
+      "duration": 60,
+      "name": "Total Sport",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785949200,
+        "endTime": 1785952800,
+        "duration": 60,
+        "name": "Total Sport",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805180000 +0100",
+          "stop": "20260805190000 +0100",
+          "title": "Total Sport",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785952800,
+      "duration": 180,
+      "name": "Joel Mitchell",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785952800,
+        "endTime": 1785963600,
+        "duration": 180,
+        "name": "Joel Mitchell",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805190000 +0100",
+          "stop": "20260805220000 +0100",
+          "title": "Joel Mitchell",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785963600,
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785963600,
+        "endTime": 1785974400,
+        "duration": 180,
+        "name": "The Late Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260805220000 +0100",
+          "stop": "20260806010000 +0100",
+          "title": "The Late Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785974400,
+      "duration": 300,
+      "name": "As Radio 5 Live",
+      "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785974400,
+        "endTime": 1785992400,
+        "duration": 300,
+        "name": "As Radio 5 Live",
+        "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806010000 +0100",
+          "stop": "20260806060000 +0100",
+          "title": "As Radio 5 Live",
+          "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1785992400,
+      "duration": 240,
+      "name": "Mike Zeller",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1785992400,
+        "endTime": 1786006800,
+        "duration": 240,
+        "name": "Mike Zeller",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806060000 +0100",
+          "stop": "20260806100000 +0100",
+          "title": "Mike Zeller",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786006800,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786006800,
+        "endTime": 1786021200,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806100000 +0100",
+          "stop": "20260806140000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786021200,
+      "duration": 240,
+      "name": "Fiona Sadler",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786021200,
+        "endTime": 1786035600,
+        "duration": 240,
+        "name": "Fiona Sadler",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806140000 +0100",
+          "stop": "20260806180000 +0100",
+          "title": "Fiona Sadler",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786035600,
+      "duration": 60,
+      "name": "Total Sport",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786035600,
+        "endTime": 1786039200,
+        "duration": 60,
+        "name": "Total Sport",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806180000 +0100",
+          "stop": "20260806190000 +0100",
+          "title": "Total Sport",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786039200,
+      "duration": 60,
+      "name": "Joel Mitchell",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786039200,
+        "endTime": 1786042800,
+        "duration": 60,
+        "name": "Joel Mitchell",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806190000 +0100",
+          "stop": "20260806200000 +0100",
+          "title": "Joel Mitchell",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786042800,
+      "duration": 120,
+      "name": "BBC Introducing",
+      "description": "Unsigned, undiscovered and under the radar music",
+      "synopsis": "Unsigned, undiscovered and under the radar music",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786042800,
+        "endTime": 1786050000,
+        "duration": 120,
+        "name": "BBC Introducing",
+        "description": "Unsigned, undiscovered and under the radar music",
+        "synopsis": "Unsigned, undiscovered and under the radar music",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806200000 +0100",
+          "stop": "20260806220000 +0100",
+          "title": "BBC Introducing",
+          "desc": "Unsigned, undiscovered and under the radar music",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786050000,
+      "duration": 180,
+      "name": "The Late Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786050000,
+        "endTime": 1786060800,
+        "duration": 180,
+        "name": "The Late Show",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260806220000 +0100",
+          "stop": "20260807010000 +0100",
+          "title": "The Late Show",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786060800,
+      "duration": 300,
+      "name": "As Radio 5 Live",
+      "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786060800,
+        "endTime": 1786078800,
+        "duration": 300,
+        "name": "As Radio 5 Live",
+        "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807010000 +0100",
+          "stop": "20260807060000 +0100",
+          "title": "As Radio 5 Live",
+          "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786078800,
+      "duration": 240,
+      "name": "Mike Zeller",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786078800,
+        "endTime": 1786093200,
+        "duration": 240,
+        "name": "Mike Zeller",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807060000 +0100",
+          "stop": "20260807100000 +0100",
+          "title": "Mike Zeller",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786093200,
+      "duration": 240,
+      "name": "Ian Brannan",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786093200,
+        "endTime": 1786107600,
+        "duration": 240,
+        "name": "Ian Brannan",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807100000 +0100",
+          "stop": "20260807140000 +0100",
+          "title": "Ian Brannan",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786107600,
+      "duration": 240,
+      "name": "Fiona Sadler",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786107600,
+        "endTime": 1786122000,
+        "duration": 240,
+        "name": "Fiona Sadler",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807140000 +0100",
+          "stop": "20260807180000 +0100",
+          "title": "Fiona Sadler",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786122000,
+      "duration": 60,
+      "name": "Total Sport",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786122000,
+        "endTime": 1786125600,
+        "duration": 60,
+        "name": "Total Sport",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807180000 +0100",
+          "stop": "20260807190000 +0100",
+          "title": "Total Sport",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786125600,
+      "duration": 180,
+      "name": "Rachel Teate",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786125600,
+        "endTime": 1786136400,
+        "duration": 180,
+        "name": "Rachel Teate",
+        "description": "",
+        "synopsis": "",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807190000 +0100",
+          "stop": "20260807220000 +0100",
+          "title": "Rachel Teate",
+          "desc": "",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786136400,
+      "duration": 180,
+      "name": "Jo Good",
+      "description": "Music and chat",
+      "synopsis": "Music and chat",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786136400,
+        "endTime": 1786147200,
+        "duration": 180,
+        "name": "Jo Good",
+        "description": "Music and chat",
+        "synopsis": "Music and chat",
+        "image": null,
+        "_source": {
+          "channel": "BBCRadioCumbria.uk",
+          "start": "20260807220000 +0100",
+          "stop": "20260808010000 +0100",
+          "title": "Jo Good",
+          "desc": "Music and chat",
+          "icon": null,
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    }
+  ],
   "compat": {
     "freesat_card": [
       {
@@ -13,7 +1302,1296 @@
           "name": "BBC Radio Cumbria",
           "logo": "img/channels/placeholder.svg"
         },
-        "event": []
+        "event": [
+          {
+            "startTime": 1785542400,
+            "duration": 300,
+            "name": "As Radio 5 Live",
+            "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785542400,
+              "endTime": 1785560400,
+              "duration": 300,
+              "name": "As Radio 5 Live",
+              "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801010000 +0100",
+                "stop": "20260801060000 +0100",
+                "title": "As Radio 5 Live",
+                "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785560400,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785560400,
+              "endTime": 1785574800,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801060000 +0100",
+                "stop": "20260801100000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785574800,
+            "duration": 240,
+            "name": "Hayley Kay",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785574800,
+              "endTime": 1785589200,
+              "duration": 240,
+              "name": "Hayley Kay",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801100000 +0100",
+                "stop": "20260801140000 +0100",
+                "title": "Hayley Kay",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785589200,
+            "duration": 240,
+            "name": "Total Sport with Claire Carter",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785589200,
+              "endTime": 1785603600,
+              "duration": 240,
+              "name": "Total Sport with Claire Carter",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801140000 +0100",
+                "stop": "20260801180000 +0100",
+                "title": "Total Sport with Claire Carter",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785603600,
+            "duration": 120,
+            "name": "Upload",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785603600,
+              "endTime": 1785610800,
+              "duration": 120,
+              "name": "Upload",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801180000 +0100",
+                "stop": "20260801200000 +0100",
+                "title": "Upload",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785610800,
+            "duration": 120,
+            "name": "BBC Introducing",
+            "description": "Unsigned, undiscovered and under the radar music",
+            "synopsis": "Unsigned, undiscovered and under the radar music",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785610800,
+              "endTime": 1785618000,
+              "duration": 120,
+              "name": "BBC Introducing",
+              "description": "Unsigned, undiscovered and under the radar music",
+              "synopsis": "Unsigned, undiscovered and under the radar music",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801200000 +0100",
+                "stop": "20260801220000 +0100",
+                "title": "BBC Introducing",
+                "desc": "Unsigned, undiscovered and under the radar music",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785618000,
+            "duration": 180,
+            "name": "Jo Good",
+            "description": "Music and chat",
+            "synopsis": "Music and chat",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785618000,
+              "endTime": 1785628800,
+              "duration": 180,
+              "name": "Jo Good",
+              "description": "Music and chat",
+              "synopsis": "Music and chat",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260801220000 +0100",
+                "stop": "20260802010000 +0100",
+                "title": "Jo Good",
+                "desc": "Music and chat",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785646800,
+            "duration": 240,
+            "name": "Joe Wilson",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785646800,
+              "endTime": 1785661200,
+              "duration": 240,
+              "name": "Joe Wilson",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260802060000 +0100",
+                "stop": "20260802100000 +0100",
+                "title": "Joe Wilson",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785661200,
+            "duration": 240,
+            "name": "Fiona Sadler",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785661200,
+              "endTime": 1785675600,
+              "duration": 240,
+              "name": "Fiona Sadler",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260802100000 +0100",
+                "stop": "20260802140000 +0100",
+                "title": "Fiona Sadler",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785675600,
+            "duration": 240,
+            "name": "The Make a Difference Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785675600,
+              "endTime": 1785690000,
+              "duration": 240,
+              "name": "The Make a Difference Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260802140000 +0100",
+                "stop": "20260802180000 +0100",
+                "title": "The Make a Difference Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785690000,
+            "duration": 240,
+            "name": "Dotun Adebayo",
+            "description": "Community reports from around the country",
+            "synopsis": "Community reports from around the country",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785690000,
+              "endTime": 1785704400,
+              "duration": 240,
+              "name": "Dotun Adebayo",
+              "description": "Community reports from around the country",
+              "synopsis": "Community reports from around the country",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260802180000 +0100",
+                "stop": "20260802220000 +0100",
+                "title": "Dotun Adebayo",
+                "desc": "Community reports from around the country",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785704400,
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785704400,
+              "endTime": 1785715200,
+              "duration": 180,
+              "name": "The Late Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260802220000 +0100",
+                "stop": "20260803010000 +0100",
+                "title": "The Late Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785715200,
+            "duration": 300,
+            "name": "As Radio 5 Live",
+            "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785715200,
+              "endTime": 1785733200,
+              "duration": 300,
+              "name": "As Radio 5 Live",
+              "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803010000 +0100",
+                "stop": "20260803060000 +0100",
+                "title": "As Radio 5 Live",
+                "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785733200,
+            "duration": 240,
+            "name": "Mike Zeller",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785733200,
+              "endTime": 1785747600,
+              "duration": 240,
+              "name": "Mike Zeller",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803060000 +0100",
+                "stop": "20260803100000 +0100",
+                "title": "Mike Zeller",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785747600,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785747600,
+              "endTime": 1785762000,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803100000 +0100",
+                "stop": "20260803140000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785762000,
+            "duration": 240,
+            "name": "Fiona Sadler",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785762000,
+              "endTime": 1785776400,
+              "duration": 240,
+              "name": "Fiona Sadler",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803140000 +0100",
+                "stop": "20260803180000 +0100",
+                "title": "Fiona Sadler",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785776400,
+            "duration": 60,
+            "name": "Total Sport",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785776400,
+              "endTime": 1785780000,
+              "duration": 60,
+              "name": "Total Sport",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803180000 +0100",
+                "stop": "20260803190000 +0100",
+                "title": "Total Sport",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785780000,
+            "duration": 180,
+            "name": "JoJo Hatfield",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785780000,
+              "endTime": 1785790800,
+              "duration": 180,
+              "name": "JoJo Hatfield",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803190000 +0100",
+                "stop": "20260803220000 +0100",
+                "title": "JoJo Hatfield",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785790800,
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785790800,
+              "endTime": 1785801600,
+              "duration": 180,
+              "name": "The Late Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260803220000 +0100",
+                "stop": "20260804010000 +0100",
+                "title": "The Late Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785819600,
+            "duration": 240,
+            "name": "Mike Zeller",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785819600,
+              "endTime": 1785834000,
+              "duration": 240,
+              "name": "Mike Zeller",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804060000 +0100",
+                "stop": "20260804100000 +0100",
+                "title": "Mike Zeller",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785834000,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785834000,
+              "endTime": 1785848400,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804100000 +0100",
+                "stop": "20260804140000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785848400,
+            "duration": 240,
+            "name": "Fiona Sadler",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785848400,
+              "endTime": 1785862800,
+              "duration": 240,
+              "name": "Fiona Sadler",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804140000 +0100",
+                "stop": "20260804180000 +0100",
+                "title": "Fiona Sadler",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785862800,
+            "duration": 60,
+            "name": "Total Sport",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785862800,
+              "endTime": 1785866400,
+              "duration": 60,
+              "name": "Total Sport",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804180000 +0100",
+                "stop": "20260804190000 +0100",
+                "title": "Total Sport",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785866400,
+            "duration": 180,
+            "name": "Joel Mitchell",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785866400,
+              "endTime": 1785877200,
+              "duration": 180,
+              "name": "Joel Mitchell",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804190000 +0100",
+                "stop": "20260804220000 +0100",
+                "title": "Joel Mitchell",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785877200,
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785877200,
+              "endTime": 1785888000,
+              "duration": 180,
+              "name": "The Late Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260804220000 +0100",
+                "stop": "20260805010000 +0100",
+                "title": "The Late Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785888000,
+            "duration": 300,
+            "name": "As Radio 5 Live",
+            "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785888000,
+              "endTime": 1785906000,
+              "duration": 300,
+              "name": "As Radio 5 Live",
+              "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805010000 +0100",
+                "stop": "20260805060000 +0100",
+                "title": "As Radio 5 Live",
+                "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785906000,
+            "duration": 240,
+            "name": "Mike Zeller",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785906000,
+              "endTime": 1785920400,
+              "duration": 240,
+              "name": "Mike Zeller",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805060000 +0100",
+                "stop": "20260805100000 +0100",
+                "title": "Mike Zeller",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785920400,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785920400,
+              "endTime": 1785934800,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805100000 +0100",
+                "stop": "20260805140000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785949200,
+            "duration": 60,
+            "name": "Total Sport",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785949200,
+              "endTime": 1785952800,
+              "duration": 60,
+              "name": "Total Sport",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805180000 +0100",
+                "stop": "20260805190000 +0100",
+                "title": "Total Sport",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785952800,
+            "duration": 180,
+            "name": "Joel Mitchell",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785952800,
+              "endTime": 1785963600,
+              "duration": 180,
+              "name": "Joel Mitchell",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805190000 +0100",
+                "stop": "20260805220000 +0100",
+                "title": "Joel Mitchell",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785963600,
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785963600,
+              "endTime": 1785974400,
+              "duration": 180,
+              "name": "The Late Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260805220000 +0100",
+                "stop": "20260806010000 +0100",
+                "title": "The Late Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785974400,
+            "duration": 300,
+            "name": "As Radio 5 Live",
+            "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785974400,
+              "endTime": 1785992400,
+              "duration": 300,
+              "name": "As Radio 5 Live",
+              "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806010000 +0100",
+                "stop": "20260806060000 +0100",
+                "title": "As Radio 5 Live",
+                "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1785992400,
+            "duration": 240,
+            "name": "Mike Zeller",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1785992400,
+              "endTime": 1786006800,
+              "duration": 240,
+              "name": "Mike Zeller",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806060000 +0100",
+                "stop": "20260806100000 +0100",
+                "title": "Mike Zeller",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786006800,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786006800,
+              "endTime": 1786021200,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806100000 +0100",
+                "stop": "20260806140000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786021200,
+            "duration": 240,
+            "name": "Fiona Sadler",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786021200,
+              "endTime": 1786035600,
+              "duration": 240,
+              "name": "Fiona Sadler",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806140000 +0100",
+                "stop": "20260806180000 +0100",
+                "title": "Fiona Sadler",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786035600,
+            "duration": 60,
+            "name": "Total Sport",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786035600,
+              "endTime": 1786039200,
+              "duration": 60,
+              "name": "Total Sport",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806180000 +0100",
+                "stop": "20260806190000 +0100",
+                "title": "Total Sport",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786039200,
+            "duration": 60,
+            "name": "Joel Mitchell",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786039200,
+              "endTime": 1786042800,
+              "duration": 60,
+              "name": "Joel Mitchell",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806190000 +0100",
+                "stop": "20260806200000 +0100",
+                "title": "Joel Mitchell",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786042800,
+            "duration": 120,
+            "name": "BBC Introducing",
+            "description": "Unsigned, undiscovered and under the radar music",
+            "synopsis": "Unsigned, undiscovered and under the radar music",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786042800,
+              "endTime": 1786050000,
+              "duration": 120,
+              "name": "BBC Introducing",
+              "description": "Unsigned, undiscovered and under the radar music",
+              "synopsis": "Unsigned, undiscovered and under the radar music",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806200000 +0100",
+                "stop": "20260806220000 +0100",
+                "title": "BBC Introducing",
+                "desc": "Unsigned, undiscovered and under the radar music",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786050000,
+            "duration": 180,
+            "name": "The Late Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786050000,
+              "endTime": 1786060800,
+              "duration": 180,
+              "name": "The Late Show",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260806220000 +0100",
+                "stop": "20260807010000 +0100",
+                "title": "The Late Show",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786060800,
+            "duration": 300,
+            "name": "As Radio 5 Live",
+            "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786060800,
+              "endTime": 1786078800,
+              "duration": 300,
+              "name": "As Radio 5 Live",
+              "description": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "synopsis": "A simulcast with the BBC's news and sport network Radio 5 Live",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807010000 +0100",
+                "stop": "20260807060000 +0100",
+                "title": "As Radio 5 Live",
+                "desc": "A simulcast with the BBC's news and sport network Radio 5 Live",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786078800,
+            "duration": 240,
+            "name": "Mike Zeller",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786078800,
+              "endTime": 1786093200,
+              "duration": 240,
+              "name": "Mike Zeller",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807060000 +0100",
+                "stop": "20260807100000 +0100",
+                "title": "Mike Zeller",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786093200,
+            "duration": 240,
+            "name": "Ian Brannan",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786093200,
+              "endTime": 1786107600,
+              "duration": 240,
+              "name": "Ian Brannan",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807100000 +0100",
+                "stop": "20260807140000 +0100",
+                "title": "Ian Brannan",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786107600,
+            "duration": 240,
+            "name": "Fiona Sadler",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786107600,
+              "endTime": 1786122000,
+              "duration": 240,
+              "name": "Fiona Sadler",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807140000 +0100",
+                "stop": "20260807180000 +0100",
+                "title": "Fiona Sadler",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786122000,
+            "duration": 60,
+            "name": "Total Sport",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786122000,
+              "endTime": 1786125600,
+              "duration": 60,
+              "name": "Total Sport",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807180000 +0100",
+                "stop": "20260807190000 +0100",
+                "title": "Total Sport",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786125600,
+            "duration": 180,
+            "name": "Rachel Teate",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786125600,
+              "endTime": 1786136400,
+              "duration": 180,
+              "name": "Rachel Teate",
+              "description": "",
+              "synopsis": "",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807190000 +0100",
+                "stop": "20260807220000 +0100",
+                "title": "Rachel Teate",
+                "desc": "",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786136400,
+            "duration": 180,
+            "name": "Jo Good",
+            "description": "Music and chat",
+            "synopsis": "Music and chat",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786136400,
+              "endTime": 1786147200,
+              "duration": 180,
+              "name": "Jo Good",
+              "description": "Music and chat",
+              "synopsis": "Music and chat",
+              "image": null,
+              "_source": {
+                "channel": "BBCRadioCumbria.uk",
+                "start": "20260807220000 +0100",
+                "stop": "20260808010000 +0100",
+                "title": "Jo Good",
+                "desc": "Music and chat",
+                "icon": null,
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          }
+        ]
       }
     ]
   }
