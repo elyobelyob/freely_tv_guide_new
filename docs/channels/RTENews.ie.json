@@ -6,678 +6,6 @@
   },
   "events": [
     {
-      "startTime": 1785618000,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785618000,
-        "endTime": 1785621600,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/ea3e3dec-da51-40f8-9acc-79f977992770/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260801220000 +0100",
-          "stop": "20260801230000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/ea3e3dec-da51-40f8-9acc-79f977992770/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785621600,
-      "duration": 15,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785621600,
-        "endTime": 1785622500,
-        "duration": 15,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/9b94bd2f-adc2-4e03-8831-766af81d0f5a/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260801230000 +0100",
-          "stop": "20260801231500 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/9b94bd2f-adc2-4e03-8831-766af81d0f5a/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785622500,
-      "duration": 405,
-      "name": "EuroNews",
-      "description": "The latest International and European news.",
-      "synopsis": "The latest International and European news.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785622500,
-        "endTime": 1785646800,
-        "duration": 405,
-        "name": "EuroNews",
-        "description": "The latest International and European news.",
-        "synopsis": "The latest International and European news.",
-        "image": "https://images.metadata.sky.com/pd-image/cf745324-8802-475f-be37-d2aee41f619b/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260801231500 +0100",
-          "stop": "20260802060000 +0100",
-          "title": "EuroNews",
-          "desc": "The latest International and European news.",
-          "icon": "https://images.metadata.sky.com/pd-image/cf745324-8802-475f-be37-d2aee41f619b/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785646800,
-      "duration": 120,
-      "name": "EuroNews",
-      "description": "European and international headlines live via satellite.",
-      "synopsis": "European and international headlines live via satellite.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785646800,
-        "endTime": 1785654000,
-        "duration": 120,
-        "name": "EuroNews",
-        "description": "European and international headlines live via satellite.",
-        "synopsis": "European and international headlines live via satellite.",
-        "image": "https://images.metadata.sky.com/pd-image/e6ce280e-99e1-46b9-ab1b-5d17a8b30c0d/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802060000 +0100",
-          "stop": "20260802080000 +0100",
-          "title": "EuroNews",
-          "desc": "European and international headlines live via satellite.",
-          "icon": "https://images.metadata.sky.com/pd-image/e6ce280e-99e1-46b9-ab1b-5d17a8b30c0d/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785654000,
-      "duration": 60,
-      "name": "Current Affairs Round Up",
-      "description": "News and Current Affairs highlights from the past week.",
-      "synopsis": "News and Current Affairs highlights from the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785654000,
-        "endTime": 1785657600,
-        "duration": 60,
-        "name": "Current Affairs Round Up",
-        "description": "News and Current Affairs highlights from the past week.",
-        "synopsis": "News and Current Affairs highlights from the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/fbef1d14-0a9d-4c1d-bf80-3a18f09029bd/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802080000 +0100",
-          "stop": "20260802090000 +0100",
-          "title": "Current Affairs Round Up",
-          "desc": "News and Current Affairs highlights from the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/fbef1d14-0a9d-4c1d-bf80-3a18f09029bd/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785657600,
-      "duration": 60,
-      "name": "Current Affairs Round Up",
-      "description": "News and Current Affairs highlights from the past week.",
-      "synopsis": "News and Current Affairs highlights from the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785657600,
-        "endTime": 1785661200,
-        "duration": 60,
-        "name": "Current Affairs Round Up",
-        "description": "News and Current Affairs highlights from the past week.",
-        "synopsis": "News and Current Affairs highlights from the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/40a9f36a-a4c2-4810-b695-3456d1a1a191/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802090000 +0100",
-          "stop": "20260802100000 +0100",
-          "title": "Current Affairs Round Up",
-          "desc": "News and Current Affairs highlights from the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/40a9f36a-a4c2-4810-b695-3456d1a1a191/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785661200,
-      "duration": 60,
-      "name": "Current Affairs Round Up",
-      "description": "News and Current Affairs highlights from the past week.",
-      "synopsis": "News and Current Affairs highlights from the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785661200,
-        "endTime": 1785664800,
-        "duration": 60,
-        "name": "Current Affairs Round Up",
-        "description": "News and Current Affairs highlights from the past week.",
-        "synopsis": "News and Current Affairs highlights from the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/ac082b67-7475-4319-aea4-00a844cfdafd/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802100000 +0100",
-          "stop": "20260802110000 +0100",
-          "title": "Current Affairs Round Up",
-          "desc": "News and Current Affairs highlights from the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/ac082b67-7475-4319-aea4-00a844cfdafd/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785664800,
-      "duration": 60,
-      "name": "Current Affairs Round Up",
-      "description": "News and Current Affairs highlights from the past week.",
-      "synopsis": "News and Current Affairs highlights from the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785664800,
-        "endTime": 1785668400,
-        "duration": 60,
-        "name": "Current Affairs Round Up",
-        "description": "News and Current Affairs highlights from the past week.",
-        "synopsis": "News and Current Affairs highlights from the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/37f5a4c7-88a1-4bb7-bf53-45ac525df142/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802110000 +0100",
-          "stop": "20260802120000 +0100",
-          "title": "Current Affairs Round Up",
-          "desc": "News and Current Affairs highlights from the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/37f5a4c7-88a1-4bb7-bf53-45ac525df142/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785668400,
-      "duration": 60,
-      "name": "Current Affairs Round Up",
-      "description": "News and Current Affairs highlights from the past week.",
-      "synopsis": "News and Current Affairs highlights from the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785668400,
-        "endTime": 1785672000,
-        "duration": 60,
-        "name": "Current Affairs Round Up",
-        "description": "News and Current Affairs highlights from the past week.",
-        "synopsis": "News and Current Affairs highlights from the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/d46ba0d5-a14f-42b9-835a-ab3a026412f4/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802120000 +0100",
-          "stop": "20260802130000 +0100",
-          "title": "Current Affairs Round Up",
-          "desc": "News and Current Affairs highlights from the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/d46ba0d5-a14f-42b9-835a-ab3a026412f4/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785672000,
-      "duration": 60,
-      "name": "This Week",
-      "description": "Catch up on the events making the news in the past week.",
-      "synopsis": "Catch up on the events making the news in the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785672000,
-        "endTime": 1785675600,
-        "duration": 60,
-        "name": "This Week",
-        "description": "Catch up on the events making the news in the past week.",
-        "synopsis": "Catch up on the events making the news in the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/e235a2a8-7729-4acf-95f8-2b9f3a35c513/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802130000 +0100",
-          "stop": "20260802140000 +0100",
-          "title": "This Week",
-          "desc": "Catch up on the events making the news in the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/e235a2a8-7729-4acf-95f8-2b9f3a35c513/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785675600,
-      "duration": 15,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785675600,
-        "endTime": 1785676500,
-        "duration": 15,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/6f680c71-ea5c-485d-be4b-3a97b49a3784/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802140000 +0100",
-          "stop": "20260802141500 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/6f680c71-ea5c-485d-be4b-3a97b49a3784/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785676500,
-      "duration": 45,
-      "name": "Sunday Service",
-      "description": "Morning worship and song",
-      "synopsis": "Morning worship and song",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785676500,
-        "endTime": 1785679200,
-        "duration": 45,
-        "name": "Sunday Service",
-        "description": "Morning worship and song",
-        "synopsis": "Morning worship and song",
-        "image": "https://images.metadata.sky.com/pd-image/335ac15b-0947-4c33-ae1d-4fceb7fe4c7d/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802141500 +0100",
-          "stop": "20260802150000 +0100",
-          "title": "Sunday Service",
-          "desc": "Morning worship and song",
-          "icon": "https://images.metadata.sky.com/pd-image/335ac15b-0947-4c33-ae1d-4fceb7fe4c7d/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785679200,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785679200,
-        "endTime": 1785682800,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/05175ac7-9836-448e-9117-c7e45fe07070/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802150000 +0100",
-          "stop": "20260802160000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/05175ac7-9836-448e-9117-c7e45fe07070/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785682800,
-      "duration": 60,
-      "name": "This Week",
-      "description": "Catch up on the events making the news in the past week.",
-      "synopsis": "Catch up on the events making the news in the past week.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785682800,
-        "endTime": 1785686400,
-        "duration": 60,
-        "name": "This Week",
-        "description": "Catch up on the events making the news in the past week.",
-        "synopsis": "Catch up on the events making the news in the past week.",
-        "image": "https://images.metadata.sky.com/pd-image/e26adb70-98af-4bac-8a25-5244145a411c/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802160000 +0100",
-          "stop": "20260802170000 +0100",
-          "title": "This Week",
-          "desc": "Catch up on the events making the news in the past week.",
-          "icon": "https://images.metadata.sky.com/pd-image/e26adb70-98af-4bac-8a25-5244145a411c/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785686400,
-      "duration": 40,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785686400,
-        "endTime": 1785688800,
-        "duration": 40,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/57db3aac-369f-4900-b658-cee6c866c59d/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802170000 +0100",
-          "stop": "20260802174000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/57db3aac-369f-4900-b658-cee6c866c59d/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785688800,
-      "duration": 15,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785688800,
-        "endTime": 1785689700,
-        "duration": 15,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/6076da41-d2de-48ce-bcc3-104bf23559dc/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802174000 +0100",
-          "stop": "20260802175500 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/6076da41-d2de-48ce-bcc3-104bf23559dc/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785689700,
-      "duration": 6,
-      "name": "ISL Weekly Weather",
-      "description": "The latest national weather forecast with Irish Sign Language (ISL).",
-      "synopsis": "The latest national weather forecast with Irish Sign Language (ISL).",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785689700,
-        "endTime": 1785690060,
-        "duration": 6,
-        "name": "ISL Weekly Weather",
-        "description": "The latest national weather forecast with Irish Sign Language (ISL).",
-        "synopsis": "The latest national weather forecast with Irish Sign Language (ISL).",
-        "image": "https://images.metadata.sky.com/pd-image/95cbb45d-61b9-444a-b76f-1898e5ccd240/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802175500 +0100",
-          "stop": "20260802180100 +0100",
-          "title": "ISL Weekly Weather",
-          "desc": "The latest national weather forecast with Irish Sign Language (ISL).",
-          "icon": "https://images.metadata.sky.com/pd-image/95cbb45d-61b9-444a-b76f-1898e5ccd240/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785690060,
-      "duration": 29,
-      "name": "RTÉ News: Six One",
-      "description": "(And Weather)",
-      "synopsis": "(And Weather)",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785690060,
-        "endTime": 1785691800,
-        "duration": 29,
-        "name": "RTÉ News: Six One",
-        "description": "(And Weather)",
-        "synopsis": "(And Weather)",
-        "image": "https://images.metadata.sky.com/pd-image/27960b1e-6290-41d1-ba5c-8e6d5969c012/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802180100 +0100",
-          "stop": "20260802183000 +0100",
-          "title": "RTÉ News: Six One",
-          "desc": "(And Weather)",
-          "icon": "https://images.metadata.sky.com/pd-image/27960b1e-6290-41d1-ba5c-8e6d5969c012/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785691800,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785691800,
-        "endTime": 1785693600,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/9399fd76-b6fd-4b86-bd47-993beb8ee11e/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802183000 +0100",
-          "stop": "20260802190000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/9399fd76-b6fd-4b86-bd47-993beb8ee11e/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785693600,
-      "duration": 60,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785693600,
-        "endTime": 1785697200,
-        "duration": 60,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/f1e8aa12-174f-4759-91de-669970216424/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802190000 +0100",
-          "stop": "20260802200000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/f1e8aa12-174f-4759-91de-669970216424/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785697200,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785697200,
-        "endTime": 1785699000,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/d2ed3b17-d2a7-4caa-ace8-8fce46b2647a/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802200000 +0100",
-          "stop": "20260802203000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/d2ed3b17-d2a7-4caa-ace8-8fce46b2647a/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785699000,
-      "duration": 30,
-      "name": "Nuacht RTÉ",
-      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785699000,
-        "endTime": 1785700800,
-        "duration": 30,
-        "name": "Nuacht RTÉ",
-        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-        "image": "https://images.metadata.sky.com/pd-image/47cdb276-6cfe-45f0-bbbb-9733b9dbae64/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802203000 +0100",
-          "stop": "20260802210000 +0100",
-          "title": "Nuacht RTÉ",
-          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-          "icon": "https://images.metadata.sky.com/pd-image/47cdb276-6cfe-45f0-bbbb-9733b9dbae64/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785700800,
-      "duration": 30,
-      "name": "RTÉ News: Nine O'Clock",
-      "description": "(And Weather)",
-      "synopsis": "(And Weather)",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785700800,
-        "endTime": 1785702600,
-        "duration": 30,
-        "name": "RTÉ News: Nine O'Clock",
-        "description": "(And Weather)",
-        "synopsis": "(And Weather)",
-        "image": "https://images.metadata.sky.com/pd-image/8b0457ac-6820-4ddb-bd89-c465d21227be/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802210000 +0100",
-          "stop": "20260802213000 +0100",
-          "title": "RTÉ News: Nine O'Clock",
-          "desc": "(And Weather)",
-          "icon": "https://images.metadata.sky.com/pd-image/8b0457ac-6820-4ddb-bd89-c465d21227be/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
-      "startTime": 1785702600,
-      "duration": 30,
-      "name": "Latest News and Weather",
-      "description": "Latest News and Weather.",
-      "synopsis": "Latest News and Weather.",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "startTime": 1785702600,
-        "endTime": 1785704400,
-        "duration": 30,
-        "name": "Latest News and Weather",
-        "description": "Latest News and Weather.",
-        "synopsis": "Latest News and Weather.",
-        "image": "https://images.metadata.sky.com/pd-image/abf2c36b-a616-4240-a58a-ce4dd0a5ef67/cover",
-        "_source": {
-          "channel": "RTENews.ie",
-          "start": "20260802213000 +0100",
-          "stop": "20260802220000 +0100",
-          "title": "Latest News and Weather",
-          "desc": "Latest News and Weather.",
-          "icon": "https://images.metadata.sky.com/pd-image/abf2c36b-a616-4240-a58a-ce4dd0a5ef67/cover",
-          "episode_xmltv_ns": null,
-          "episode_onscreen": null,
-          "categories": []
-        }
-      }
-    },
-    {
       "startTime": 1785704400,
       "duration": 60,
       "name": "Latest News and Weather",
@@ -4568,6 +3896,594 @@
           "categories": []
         }
       }
+    },
+    {
+      "startTime": 1786258800,
+      "duration": 60,
+      "name": "Current Affairs Round Up",
+      "description": "News and Current Affairs highlights from the past week.",
+      "synopsis": "News and Current Affairs highlights from the past week.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786258800,
+        "endTime": 1786262400,
+        "duration": 60,
+        "name": "Current Affairs Round Up",
+        "description": "News and Current Affairs highlights from the past week.",
+        "synopsis": "News and Current Affairs highlights from the past week.",
+        "image": "https://images.metadata.sky.com/pd-image/113681eb-d858-4eb5-8384-99f09e347cd6/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809080000 +0100",
+          "stop": "20260809090000 +0100",
+          "title": "Current Affairs Round Up",
+          "desc": "News and Current Affairs highlights from the past week.",
+          "icon": "https://images.metadata.sky.com/pd-image/113681eb-d858-4eb5-8384-99f09e347cd6/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786262400,
+      "duration": 60,
+      "name": "Current Affairs Round Up",
+      "description": "News and Current Affairs highlights from the past week.",
+      "synopsis": "News and Current Affairs highlights from the past week.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786262400,
+        "endTime": 1786266000,
+        "duration": 60,
+        "name": "Current Affairs Round Up",
+        "description": "News and Current Affairs highlights from the past week.",
+        "synopsis": "News and Current Affairs highlights from the past week.",
+        "image": "https://images.metadata.sky.com/pd-image/ab00018c-ae1a-416e-a269-cee88a6832b2/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809090000 +0100",
+          "stop": "20260809100000 +0100",
+          "title": "Current Affairs Round Up",
+          "desc": "News and Current Affairs highlights from the past week.",
+          "icon": "https://images.metadata.sky.com/pd-image/ab00018c-ae1a-416e-a269-cee88a6832b2/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786266000,
+      "duration": 60,
+      "name": "Current Affairs Round Up",
+      "description": "News and Current Affairs highlights from the past week.",
+      "synopsis": "News and Current Affairs highlights from the past week.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786266000,
+        "endTime": 1786269600,
+        "duration": 60,
+        "name": "Current Affairs Round Up",
+        "description": "News and Current Affairs highlights from the past week.",
+        "synopsis": "News and Current Affairs highlights from the past week.",
+        "image": "https://images.metadata.sky.com/pd-image/ece80e5b-fc1f-488e-8b09-2d4ea9c12b8c/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809100000 +0100",
+          "stop": "20260809110000 +0100",
+          "title": "Current Affairs Round Up",
+          "desc": "News and Current Affairs highlights from the past week.",
+          "icon": "https://images.metadata.sky.com/pd-image/ece80e5b-fc1f-488e-8b09-2d4ea9c12b8c/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786269600,
+      "duration": 60,
+      "name": "Current Affairs Round Up",
+      "description": "News and Current Affairs highlights from the past week.",
+      "synopsis": "News and Current Affairs highlights from the past week.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786269600,
+        "endTime": 1786273200,
+        "duration": 60,
+        "name": "Current Affairs Round Up",
+        "description": "News and Current Affairs highlights from the past week.",
+        "synopsis": "News and Current Affairs highlights from the past week.",
+        "image": "https://images.metadata.sky.com/pd-image/daf27b45-ab42-43f7-ab47-b689dbabb805/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809110000 +0100",
+          "stop": "20260809120000 +0100",
+          "title": "Current Affairs Round Up",
+          "desc": "News and Current Affairs highlights from the past week.",
+          "icon": "https://images.metadata.sky.com/pd-image/daf27b45-ab42-43f7-ab47-b689dbabb805/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786273200,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786273200,
+        "endTime": 1786276800,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/0c71594c-a3c5-4776-acab-2cde171c5daa/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809120000 +0100",
+          "stop": "20260809130000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/0c71594c-a3c5-4776-acab-2cde171c5daa/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786276800,
+      "duration": 60,
+      "name": "This Week",
+      "description": "Catch up on the events making the news in the past week.",
+      "synopsis": "Catch up on the events making the news in the past week.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786276800,
+        "endTime": 1786280400,
+        "duration": 60,
+        "name": "This Week",
+        "description": "Catch up on the events making the news in the past week.",
+        "synopsis": "Catch up on the events making the news in the past week.",
+        "image": "https://images.metadata.sky.com/pd-image/f127fc9f-8244-4486-a9d5-add0c0b770ca/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809130000 +0100",
+          "stop": "20260809140000 +0100",
+          "title": "This Week",
+          "desc": "Catch up on the events making the news in the past week.",
+          "icon": "https://images.metadata.sky.com/pd-image/f127fc9f-8244-4486-a9d5-add0c0b770ca/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786280400,
+      "duration": 15,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786280400,
+        "endTime": 1786281300,
+        "duration": 15,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/88633bf0-fcfd-40ea-a74f-e0dd4162d89e/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809140000 +0100",
+          "stop": "20260809141500 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/88633bf0-fcfd-40ea-a74f-e0dd4162d89e/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786281300,
+      "duration": 45,
+      "name": "Sunday Mass",
+      "description": "Sunday Mass",
+      "synopsis": "Sunday Mass",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786281300,
+        "endTime": 1786284000,
+        "duration": 45,
+        "name": "Sunday Mass",
+        "description": "Sunday Mass",
+        "synopsis": "Sunday Mass",
+        "image": "https://images.metadata.sky.com/pd-image/2730c359-d697-410a-ad3c-a6aa1079b690/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809141500 +0100",
+          "stop": "20260809150000 +0100",
+          "title": "Sunday Mass",
+          "desc": "Sunday Mass",
+          "icon": "https://images.metadata.sky.com/pd-image/2730c359-d697-410a-ad3c-a6aa1079b690/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786284000,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786284000,
+        "endTime": 1786287600,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/31f36368-0493-4aa7-8c58-8c203a947c4e/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809150000 +0100",
+          "stop": "20260809160000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/31f36368-0493-4aa7-8c58-8c203a947c4e/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786287600,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786287600,
+        "endTime": 1786291200,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/42af15a6-9be1-49bf-894d-970b9135b59a/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809160000 +0100",
+          "stop": "20260809170000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/42af15a6-9be1-49bf-894d-970b9135b59a/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786291200,
+      "duration": 61,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786291200,
+        "endTime": 1786294860,
+        "duration": 61,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/3dea1e23-73b5-4815-9454-49cc49f361cb/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809170000 +0100",
+          "stop": "20260809180100 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/3dea1e23-73b5-4815-9454-49cc49f361cb/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786294860,
+      "duration": 29,
+      "name": "RTÉ News: Six One",
+      "description": "(And Weather)",
+      "synopsis": "(And Weather)",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786294860,
+        "endTime": 1786296600,
+        "duration": 29,
+        "name": "RTÉ News: Six One",
+        "description": "(And Weather)",
+        "synopsis": "(And Weather)",
+        "image": "https://images.metadata.sky.com/pd-image/39b8c764-0dda-4a73-938e-6ff7a3bf045b/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809180100 +0100",
+          "stop": "20260809183000 +0100",
+          "title": "RTÉ News: Six One",
+          "desc": "(And Weather)",
+          "icon": "https://images.metadata.sky.com/pd-image/39b8c764-0dda-4a73-938e-6ff7a3bf045b/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786296600,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786296600,
+        "endTime": 1786298400,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/4aac8d88-09c5-4e63-99df-d6cbeb68bc2f/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809183000 +0100",
+          "stop": "20260809190000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/4aac8d88-09c5-4e63-99df-d6cbeb68bc2f/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786298400,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786298400,
+        "endTime": 1786302000,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/83cec38d-9315-4c1f-a5fc-2a8bd871cdd1/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809190000 +0100",
+          "stop": "20260809200000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/83cec38d-9315-4c1f-a5fc-2a8bd871cdd1/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786302000,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786302000,
+        "endTime": 1786303800,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/15bd6dc0-81ad-4d9a-8177-4e256d3738cb/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809200000 +0100",
+          "stop": "20260809203000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/15bd6dc0-81ad-4d9a-8177-4e256d3738cb/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786303800,
+      "duration": 30,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786303800,
+        "endTime": 1786305600,
+        "duration": 30,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/c235926f-babf-4c95-aa85-a8739ecf6dd8/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809203000 +0100",
+          "stop": "20260809210000 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/c235926f-babf-4c95-aa85-a8739ecf6dd8/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786305600,
+      "duration": 30,
+      "name": "RTÉ News: Nine O'Clock",
+      "description": "(And Weather)",
+      "synopsis": "(And Weather)",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786305600,
+        "endTime": 1786307400,
+        "duration": 30,
+        "name": "RTÉ News: Nine O'Clock",
+        "description": "(And Weather)",
+        "synopsis": "(And Weather)",
+        "image": "https://images.metadata.sky.com/pd-image/ef025e32-c200-4272-b41e-2275938c9d97/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809210000 +0100",
+          "stop": "20260809213000 +0100",
+          "title": "RTÉ News: Nine O'Clock",
+          "desc": "(And Weather)",
+          "icon": "https://images.metadata.sky.com/pd-image/ef025e32-c200-4272-b41e-2275938c9d97/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786307400,
+      "duration": 30,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786307400,
+        "endTime": 1786309200,
+        "duration": 30,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/81520e3b-834a-4e48-a150-f2d4a1702df6/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809213000 +0100",
+          "stop": "20260809220000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/81520e3b-834a-4e48-a150-f2d4a1702df6/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786309200,
+      "duration": 60,
+      "name": "Latest News and Weather",
+      "description": "Latest News and Weather.",
+      "synopsis": "Latest News and Weather.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786309200,
+        "endTime": 1786312800,
+        "duration": 60,
+        "name": "Latest News and Weather",
+        "description": "Latest News and Weather.",
+        "synopsis": "Latest News and Weather.",
+        "image": "https://images.metadata.sky.com/pd-image/91b2006e-4583-416b-a9c9-832ff0934596/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809220000 +0100",
+          "stop": "20260809230000 +0100",
+          "title": "Latest News and Weather",
+          "desc": "Latest News and Weather.",
+          "icon": "https://images.metadata.sky.com/pd-image/91b2006e-4583-416b-a9c9-832ff0934596/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786312800,
+      "duration": 15,
+      "name": "Nuacht RTÉ",
+      "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786312800,
+        "endTime": 1786313700,
+        "duration": 15,
+        "name": "Nuacht RTÉ",
+        "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+        "image": "https://images.metadata.sky.com/pd-image/ea7d5a40-079e-4efc-9405-1af0780b26da/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809230000 +0100",
+          "stop": "20260809231500 +0100",
+          "title": "Nuacht RTÉ",
+          "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+          "icon": "https://images.metadata.sky.com/pd-image/ea7d5a40-079e-4efc-9405-1af0780b26da/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
+    },
+    {
+      "startTime": 1786313700,
+      "duration": 405,
+      "name": "EuroNews",
+      "description": "The latest International and European news.",
+      "synopsis": "The latest International and European news.",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "startTime": 1786313700,
+        "endTime": 1786338000,
+        "duration": 405,
+        "name": "EuroNews",
+        "description": "The latest International and European news.",
+        "synopsis": "The latest International and European news.",
+        "image": "https://images.metadata.sky.com/pd-image/e02ef8fb-56f5-41cc-9528-d4e3ca972cf0/cover",
+        "_source": {
+          "channel": "RTENews.ie",
+          "start": "20260809231500 +0100",
+          "stop": "20260810060000 +0100",
+          "title": "EuroNews",
+          "desc": "The latest International and European news.",
+          "icon": "https://images.metadata.sky.com/pd-image/e02ef8fb-56f5-41cc-9528-d4e3ca972cf0/cover",
+          "episode_xmltv_ns": null,
+          "episode_onscreen": null,
+          "categories": []
+        }
+      }
     }
   ],
   "compat": {
@@ -4579,678 +4495,6 @@
           "logo": "img/channels/placeholder.svg"
         },
         "event": [
-          {
-            "startTime": 1785618000,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785618000,
-              "endTime": 1785621600,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/ea3e3dec-da51-40f8-9acc-79f977992770/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260801220000 +0100",
-                "stop": "20260801230000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/ea3e3dec-da51-40f8-9acc-79f977992770/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785621600,
-            "duration": 15,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785621600,
-              "endTime": 1785622500,
-              "duration": 15,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/9b94bd2f-adc2-4e03-8831-766af81d0f5a/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260801230000 +0100",
-                "stop": "20260801231500 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/9b94bd2f-adc2-4e03-8831-766af81d0f5a/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785622500,
-            "duration": 405,
-            "name": "EuroNews",
-            "description": "The latest International and European news.",
-            "synopsis": "The latest International and European news.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785622500,
-              "endTime": 1785646800,
-              "duration": 405,
-              "name": "EuroNews",
-              "description": "The latest International and European news.",
-              "synopsis": "The latest International and European news.",
-              "image": "https://images.metadata.sky.com/pd-image/cf745324-8802-475f-be37-d2aee41f619b/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260801231500 +0100",
-                "stop": "20260802060000 +0100",
-                "title": "EuroNews",
-                "desc": "The latest International and European news.",
-                "icon": "https://images.metadata.sky.com/pd-image/cf745324-8802-475f-be37-d2aee41f619b/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785646800,
-            "duration": 120,
-            "name": "EuroNews",
-            "description": "European and international headlines live via satellite.",
-            "synopsis": "European and international headlines live via satellite.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785646800,
-              "endTime": 1785654000,
-              "duration": 120,
-              "name": "EuroNews",
-              "description": "European and international headlines live via satellite.",
-              "synopsis": "European and international headlines live via satellite.",
-              "image": "https://images.metadata.sky.com/pd-image/e6ce280e-99e1-46b9-ab1b-5d17a8b30c0d/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802060000 +0100",
-                "stop": "20260802080000 +0100",
-                "title": "EuroNews",
-                "desc": "European and international headlines live via satellite.",
-                "icon": "https://images.metadata.sky.com/pd-image/e6ce280e-99e1-46b9-ab1b-5d17a8b30c0d/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785654000,
-            "duration": 60,
-            "name": "Current Affairs Round Up",
-            "description": "News and Current Affairs highlights from the past week.",
-            "synopsis": "News and Current Affairs highlights from the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785654000,
-              "endTime": 1785657600,
-              "duration": 60,
-              "name": "Current Affairs Round Up",
-              "description": "News and Current Affairs highlights from the past week.",
-              "synopsis": "News and Current Affairs highlights from the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/fbef1d14-0a9d-4c1d-bf80-3a18f09029bd/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802080000 +0100",
-                "stop": "20260802090000 +0100",
-                "title": "Current Affairs Round Up",
-                "desc": "News and Current Affairs highlights from the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/fbef1d14-0a9d-4c1d-bf80-3a18f09029bd/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785657600,
-            "duration": 60,
-            "name": "Current Affairs Round Up",
-            "description": "News and Current Affairs highlights from the past week.",
-            "synopsis": "News and Current Affairs highlights from the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785657600,
-              "endTime": 1785661200,
-              "duration": 60,
-              "name": "Current Affairs Round Up",
-              "description": "News and Current Affairs highlights from the past week.",
-              "synopsis": "News and Current Affairs highlights from the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/40a9f36a-a4c2-4810-b695-3456d1a1a191/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802090000 +0100",
-                "stop": "20260802100000 +0100",
-                "title": "Current Affairs Round Up",
-                "desc": "News and Current Affairs highlights from the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/40a9f36a-a4c2-4810-b695-3456d1a1a191/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785661200,
-            "duration": 60,
-            "name": "Current Affairs Round Up",
-            "description": "News and Current Affairs highlights from the past week.",
-            "synopsis": "News and Current Affairs highlights from the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785661200,
-              "endTime": 1785664800,
-              "duration": 60,
-              "name": "Current Affairs Round Up",
-              "description": "News and Current Affairs highlights from the past week.",
-              "synopsis": "News and Current Affairs highlights from the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/ac082b67-7475-4319-aea4-00a844cfdafd/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802100000 +0100",
-                "stop": "20260802110000 +0100",
-                "title": "Current Affairs Round Up",
-                "desc": "News and Current Affairs highlights from the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/ac082b67-7475-4319-aea4-00a844cfdafd/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785664800,
-            "duration": 60,
-            "name": "Current Affairs Round Up",
-            "description": "News and Current Affairs highlights from the past week.",
-            "synopsis": "News and Current Affairs highlights from the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785664800,
-              "endTime": 1785668400,
-              "duration": 60,
-              "name": "Current Affairs Round Up",
-              "description": "News and Current Affairs highlights from the past week.",
-              "synopsis": "News and Current Affairs highlights from the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/37f5a4c7-88a1-4bb7-bf53-45ac525df142/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802110000 +0100",
-                "stop": "20260802120000 +0100",
-                "title": "Current Affairs Round Up",
-                "desc": "News and Current Affairs highlights from the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/37f5a4c7-88a1-4bb7-bf53-45ac525df142/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785668400,
-            "duration": 60,
-            "name": "Current Affairs Round Up",
-            "description": "News and Current Affairs highlights from the past week.",
-            "synopsis": "News and Current Affairs highlights from the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785668400,
-              "endTime": 1785672000,
-              "duration": 60,
-              "name": "Current Affairs Round Up",
-              "description": "News and Current Affairs highlights from the past week.",
-              "synopsis": "News and Current Affairs highlights from the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/d46ba0d5-a14f-42b9-835a-ab3a026412f4/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802120000 +0100",
-                "stop": "20260802130000 +0100",
-                "title": "Current Affairs Round Up",
-                "desc": "News and Current Affairs highlights from the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/d46ba0d5-a14f-42b9-835a-ab3a026412f4/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785672000,
-            "duration": 60,
-            "name": "This Week",
-            "description": "Catch up on the events making the news in the past week.",
-            "synopsis": "Catch up on the events making the news in the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785672000,
-              "endTime": 1785675600,
-              "duration": 60,
-              "name": "This Week",
-              "description": "Catch up on the events making the news in the past week.",
-              "synopsis": "Catch up on the events making the news in the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/e235a2a8-7729-4acf-95f8-2b9f3a35c513/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802130000 +0100",
-                "stop": "20260802140000 +0100",
-                "title": "This Week",
-                "desc": "Catch up on the events making the news in the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/e235a2a8-7729-4acf-95f8-2b9f3a35c513/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785675600,
-            "duration": 15,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785675600,
-              "endTime": 1785676500,
-              "duration": 15,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/6f680c71-ea5c-485d-be4b-3a97b49a3784/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802140000 +0100",
-                "stop": "20260802141500 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/6f680c71-ea5c-485d-be4b-3a97b49a3784/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785676500,
-            "duration": 45,
-            "name": "Sunday Service",
-            "description": "Morning worship and song",
-            "synopsis": "Morning worship and song",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785676500,
-              "endTime": 1785679200,
-              "duration": 45,
-              "name": "Sunday Service",
-              "description": "Morning worship and song",
-              "synopsis": "Morning worship and song",
-              "image": "https://images.metadata.sky.com/pd-image/335ac15b-0947-4c33-ae1d-4fceb7fe4c7d/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802141500 +0100",
-                "stop": "20260802150000 +0100",
-                "title": "Sunday Service",
-                "desc": "Morning worship and song",
-                "icon": "https://images.metadata.sky.com/pd-image/335ac15b-0947-4c33-ae1d-4fceb7fe4c7d/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785679200,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785679200,
-              "endTime": 1785682800,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/05175ac7-9836-448e-9117-c7e45fe07070/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802150000 +0100",
-                "stop": "20260802160000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/05175ac7-9836-448e-9117-c7e45fe07070/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785682800,
-            "duration": 60,
-            "name": "This Week",
-            "description": "Catch up on the events making the news in the past week.",
-            "synopsis": "Catch up on the events making the news in the past week.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785682800,
-              "endTime": 1785686400,
-              "duration": 60,
-              "name": "This Week",
-              "description": "Catch up on the events making the news in the past week.",
-              "synopsis": "Catch up on the events making the news in the past week.",
-              "image": "https://images.metadata.sky.com/pd-image/e26adb70-98af-4bac-8a25-5244145a411c/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802160000 +0100",
-                "stop": "20260802170000 +0100",
-                "title": "This Week",
-                "desc": "Catch up on the events making the news in the past week.",
-                "icon": "https://images.metadata.sky.com/pd-image/e26adb70-98af-4bac-8a25-5244145a411c/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785686400,
-            "duration": 40,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785686400,
-              "endTime": 1785688800,
-              "duration": 40,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/57db3aac-369f-4900-b658-cee6c866c59d/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802170000 +0100",
-                "stop": "20260802174000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/57db3aac-369f-4900-b658-cee6c866c59d/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785688800,
-            "duration": 15,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785688800,
-              "endTime": 1785689700,
-              "duration": 15,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/6076da41-d2de-48ce-bcc3-104bf23559dc/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802174000 +0100",
-                "stop": "20260802175500 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/6076da41-d2de-48ce-bcc3-104bf23559dc/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785689700,
-            "duration": 6,
-            "name": "ISL Weekly Weather",
-            "description": "The latest national weather forecast with Irish Sign Language (ISL).",
-            "synopsis": "The latest national weather forecast with Irish Sign Language (ISL).",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785689700,
-              "endTime": 1785690060,
-              "duration": 6,
-              "name": "ISL Weekly Weather",
-              "description": "The latest national weather forecast with Irish Sign Language (ISL).",
-              "synopsis": "The latest national weather forecast with Irish Sign Language (ISL).",
-              "image": "https://images.metadata.sky.com/pd-image/95cbb45d-61b9-444a-b76f-1898e5ccd240/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802175500 +0100",
-                "stop": "20260802180100 +0100",
-                "title": "ISL Weekly Weather",
-                "desc": "The latest national weather forecast with Irish Sign Language (ISL).",
-                "icon": "https://images.metadata.sky.com/pd-image/95cbb45d-61b9-444a-b76f-1898e5ccd240/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785690060,
-            "duration": 29,
-            "name": "RTÉ News: Six One",
-            "description": "(And Weather)",
-            "synopsis": "(And Weather)",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785690060,
-              "endTime": 1785691800,
-              "duration": 29,
-              "name": "RTÉ News: Six One",
-              "description": "(And Weather)",
-              "synopsis": "(And Weather)",
-              "image": "https://images.metadata.sky.com/pd-image/27960b1e-6290-41d1-ba5c-8e6d5969c012/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802180100 +0100",
-                "stop": "20260802183000 +0100",
-                "title": "RTÉ News: Six One",
-                "desc": "(And Weather)",
-                "icon": "https://images.metadata.sky.com/pd-image/27960b1e-6290-41d1-ba5c-8e6d5969c012/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785691800,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785691800,
-              "endTime": 1785693600,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/9399fd76-b6fd-4b86-bd47-993beb8ee11e/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802183000 +0100",
-                "stop": "20260802190000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/9399fd76-b6fd-4b86-bd47-993beb8ee11e/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785693600,
-            "duration": 60,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785693600,
-              "endTime": 1785697200,
-              "duration": 60,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/f1e8aa12-174f-4759-91de-669970216424/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802190000 +0100",
-                "stop": "20260802200000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/f1e8aa12-174f-4759-91de-669970216424/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785697200,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785697200,
-              "endTime": 1785699000,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/d2ed3b17-d2a7-4caa-ace8-8fce46b2647a/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802200000 +0100",
-                "stop": "20260802203000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/d2ed3b17-d2a7-4caa-ace8-8fce46b2647a/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785699000,
-            "duration": 30,
-            "name": "Nuacht RTÉ",
-            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785699000,
-              "endTime": 1785700800,
-              "duration": 30,
-              "name": "Nuacht RTÉ",
-              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
-              "image": "https://images.metadata.sky.com/pd-image/47cdb276-6cfe-45f0-bbbb-9733b9dbae64/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802203000 +0100",
-                "stop": "20260802210000 +0100",
-                "title": "Nuacht RTÉ",
-                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
-                "icon": "https://images.metadata.sky.com/pd-image/47cdb276-6cfe-45f0-bbbb-9733b9dbae64/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785700800,
-            "duration": 30,
-            "name": "RTÉ News: Nine O'Clock",
-            "description": "(And Weather)",
-            "synopsis": "(And Weather)",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785700800,
-              "endTime": 1785702600,
-              "duration": 30,
-              "name": "RTÉ News: Nine O'Clock",
-              "description": "(And Weather)",
-              "synopsis": "(And Weather)",
-              "image": "https://images.metadata.sky.com/pd-image/8b0457ac-6820-4ddb-bd89-c465d21227be/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802210000 +0100",
-                "stop": "20260802213000 +0100",
-                "title": "RTÉ News: Nine O'Clock",
-                "desc": "(And Weather)",
-                "icon": "https://images.metadata.sky.com/pd-image/8b0457ac-6820-4ddb-bd89-c465d21227be/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
-          {
-            "startTime": 1785702600,
-            "duration": 30,
-            "name": "Latest News and Weather",
-            "description": "Latest News and Weather.",
-            "synopsis": "Latest News and Weather.",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "startTime": 1785702600,
-              "endTime": 1785704400,
-              "duration": 30,
-              "name": "Latest News and Weather",
-              "description": "Latest News and Weather.",
-              "synopsis": "Latest News and Weather.",
-              "image": "https://images.metadata.sky.com/pd-image/abf2c36b-a616-4240-a58a-ce4dd0a5ef67/cover",
-              "_source": {
-                "channel": "RTENews.ie",
-                "start": "20260802213000 +0100",
-                "stop": "20260802220000 +0100",
-                "title": "Latest News and Weather",
-                "desc": "Latest News and Weather.",
-                "icon": "https://images.metadata.sky.com/pd-image/abf2c36b-a616-4240-a58a-ce4dd0a5ef67/cover",
-                "episode_xmltv_ns": null,
-                "episode_onscreen": null,
-                "categories": []
-              }
-            }
-          },
           {
             "startTime": 1785704400,
             "duration": 60,
@@ -9137,6 +8381,594 @@
                 "title": "EuroNews",
                 "desc": "The latest International and European news.",
                 "icon": "https://images.metadata.sky.com/pd-image/30cdca85-fc2c-46c4-9276-fc7e57db636d/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786258800,
+            "duration": 60,
+            "name": "Current Affairs Round Up",
+            "description": "News and Current Affairs highlights from the past week.",
+            "synopsis": "News and Current Affairs highlights from the past week.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786258800,
+              "endTime": 1786262400,
+              "duration": 60,
+              "name": "Current Affairs Round Up",
+              "description": "News and Current Affairs highlights from the past week.",
+              "synopsis": "News and Current Affairs highlights from the past week.",
+              "image": "https://images.metadata.sky.com/pd-image/113681eb-d858-4eb5-8384-99f09e347cd6/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809080000 +0100",
+                "stop": "20260809090000 +0100",
+                "title": "Current Affairs Round Up",
+                "desc": "News and Current Affairs highlights from the past week.",
+                "icon": "https://images.metadata.sky.com/pd-image/113681eb-d858-4eb5-8384-99f09e347cd6/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786262400,
+            "duration": 60,
+            "name": "Current Affairs Round Up",
+            "description": "News and Current Affairs highlights from the past week.",
+            "synopsis": "News and Current Affairs highlights from the past week.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786262400,
+              "endTime": 1786266000,
+              "duration": 60,
+              "name": "Current Affairs Round Up",
+              "description": "News and Current Affairs highlights from the past week.",
+              "synopsis": "News and Current Affairs highlights from the past week.",
+              "image": "https://images.metadata.sky.com/pd-image/ab00018c-ae1a-416e-a269-cee88a6832b2/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809090000 +0100",
+                "stop": "20260809100000 +0100",
+                "title": "Current Affairs Round Up",
+                "desc": "News and Current Affairs highlights from the past week.",
+                "icon": "https://images.metadata.sky.com/pd-image/ab00018c-ae1a-416e-a269-cee88a6832b2/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786266000,
+            "duration": 60,
+            "name": "Current Affairs Round Up",
+            "description": "News and Current Affairs highlights from the past week.",
+            "synopsis": "News and Current Affairs highlights from the past week.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786266000,
+              "endTime": 1786269600,
+              "duration": 60,
+              "name": "Current Affairs Round Up",
+              "description": "News and Current Affairs highlights from the past week.",
+              "synopsis": "News and Current Affairs highlights from the past week.",
+              "image": "https://images.metadata.sky.com/pd-image/ece80e5b-fc1f-488e-8b09-2d4ea9c12b8c/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809100000 +0100",
+                "stop": "20260809110000 +0100",
+                "title": "Current Affairs Round Up",
+                "desc": "News and Current Affairs highlights from the past week.",
+                "icon": "https://images.metadata.sky.com/pd-image/ece80e5b-fc1f-488e-8b09-2d4ea9c12b8c/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786269600,
+            "duration": 60,
+            "name": "Current Affairs Round Up",
+            "description": "News and Current Affairs highlights from the past week.",
+            "synopsis": "News and Current Affairs highlights from the past week.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786269600,
+              "endTime": 1786273200,
+              "duration": 60,
+              "name": "Current Affairs Round Up",
+              "description": "News and Current Affairs highlights from the past week.",
+              "synopsis": "News and Current Affairs highlights from the past week.",
+              "image": "https://images.metadata.sky.com/pd-image/daf27b45-ab42-43f7-ab47-b689dbabb805/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809110000 +0100",
+                "stop": "20260809120000 +0100",
+                "title": "Current Affairs Round Up",
+                "desc": "News and Current Affairs highlights from the past week.",
+                "icon": "https://images.metadata.sky.com/pd-image/daf27b45-ab42-43f7-ab47-b689dbabb805/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786273200,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786273200,
+              "endTime": 1786276800,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/0c71594c-a3c5-4776-acab-2cde171c5daa/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809120000 +0100",
+                "stop": "20260809130000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/0c71594c-a3c5-4776-acab-2cde171c5daa/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786276800,
+            "duration": 60,
+            "name": "This Week",
+            "description": "Catch up on the events making the news in the past week.",
+            "synopsis": "Catch up on the events making the news in the past week.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786276800,
+              "endTime": 1786280400,
+              "duration": 60,
+              "name": "This Week",
+              "description": "Catch up on the events making the news in the past week.",
+              "synopsis": "Catch up on the events making the news in the past week.",
+              "image": "https://images.metadata.sky.com/pd-image/f127fc9f-8244-4486-a9d5-add0c0b770ca/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809130000 +0100",
+                "stop": "20260809140000 +0100",
+                "title": "This Week",
+                "desc": "Catch up on the events making the news in the past week.",
+                "icon": "https://images.metadata.sky.com/pd-image/f127fc9f-8244-4486-a9d5-add0c0b770ca/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786280400,
+            "duration": 15,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786280400,
+              "endTime": 1786281300,
+              "duration": 15,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/88633bf0-fcfd-40ea-a74f-e0dd4162d89e/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809140000 +0100",
+                "stop": "20260809141500 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/88633bf0-fcfd-40ea-a74f-e0dd4162d89e/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786281300,
+            "duration": 45,
+            "name": "Sunday Mass",
+            "description": "Sunday Mass",
+            "synopsis": "Sunday Mass",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786281300,
+              "endTime": 1786284000,
+              "duration": 45,
+              "name": "Sunday Mass",
+              "description": "Sunday Mass",
+              "synopsis": "Sunday Mass",
+              "image": "https://images.metadata.sky.com/pd-image/2730c359-d697-410a-ad3c-a6aa1079b690/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809141500 +0100",
+                "stop": "20260809150000 +0100",
+                "title": "Sunday Mass",
+                "desc": "Sunday Mass",
+                "icon": "https://images.metadata.sky.com/pd-image/2730c359-d697-410a-ad3c-a6aa1079b690/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786284000,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786284000,
+              "endTime": 1786287600,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/31f36368-0493-4aa7-8c58-8c203a947c4e/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809150000 +0100",
+                "stop": "20260809160000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/31f36368-0493-4aa7-8c58-8c203a947c4e/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786287600,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786287600,
+              "endTime": 1786291200,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/42af15a6-9be1-49bf-894d-970b9135b59a/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809160000 +0100",
+                "stop": "20260809170000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/42af15a6-9be1-49bf-894d-970b9135b59a/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786291200,
+            "duration": 61,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786291200,
+              "endTime": 1786294860,
+              "duration": 61,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/3dea1e23-73b5-4815-9454-49cc49f361cb/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809170000 +0100",
+                "stop": "20260809180100 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/3dea1e23-73b5-4815-9454-49cc49f361cb/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786294860,
+            "duration": 29,
+            "name": "RTÉ News: Six One",
+            "description": "(And Weather)",
+            "synopsis": "(And Weather)",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786294860,
+              "endTime": 1786296600,
+              "duration": 29,
+              "name": "RTÉ News: Six One",
+              "description": "(And Weather)",
+              "synopsis": "(And Weather)",
+              "image": "https://images.metadata.sky.com/pd-image/39b8c764-0dda-4a73-938e-6ff7a3bf045b/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809180100 +0100",
+                "stop": "20260809183000 +0100",
+                "title": "RTÉ News: Six One",
+                "desc": "(And Weather)",
+                "icon": "https://images.metadata.sky.com/pd-image/39b8c764-0dda-4a73-938e-6ff7a3bf045b/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786296600,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786296600,
+              "endTime": 1786298400,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/4aac8d88-09c5-4e63-99df-d6cbeb68bc2f/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809183000 +0100",
+                "stop": "20260809190000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/4aac8d88-09c5-4e63-99df-d6cbeb68bc2f/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786298400,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786298400,
+              "endTime": 1786302000,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/83cec38d-9315-4c1f-a5fc-2a8bd871cdd1/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809190000 +0100",
+                "stop": "20260809200000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/83cec38d-9315-4c1f-a5fc-2a8bd871cdd1/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786302000,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786302000,
+              "endTime": 1786303800,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/15bd6dc0-81ad-4d9a-8177-4e256d3738cb/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809200000 +0100",
+                "stop": "20260809203000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/15bd6dc0-81ad-4d9a-8177-4e256d3738cb/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786303800,
+            "duration": 30,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786303800,
+              "endTime": 1786305600,
+              "duration": 30,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/c235926f-babf-4c95-aa85-a8739ecf6dd8/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809203000 +0100",
+                "stop": "20260809210000 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/c235926f-babf-4c95-aa85-a8739ecf6dd8/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786305600,
+            "duration": 30,
+            "name": "RTÉ News: Nine O'Clock",
+            "description": "(And Weather)",
+            "synopsis": "(And Weather)",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786305600,
+              "endTime": 1786307400,
+              "duration": 30,
+              "name": "RTÉ News: Nine O'Clock",
+              "description": "(And Weather)",
+              "synopsis": "(And Weather)",
+              "image": "https://images.metadata.sky.com/pd-image/ef025e32-c200-4272-b41e-2275938c9d97/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809210000 +0100",
+                "stop": "20260809213000 +0100",
+                "title": "RTÉ News: Nine O'Clock",
+                "desc": "(And Weather)",
+                "icon": "https://images.metadata.sky.com/pd-image/ef025e32-c200-4272-b41e-2275938c9d97/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786307400,
+            "duration": 30,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786307400,
+              "endTime": 1786309200,
+              "duration": 30,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/81520e3b-834a-4e48-a150-f2d4a1702df6/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809213000 +0100",
+                "stop": "20260809220000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/81520e3b-834a-4e48-a150-f2d4a1702df6/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786309200,
+            "duration": 60,
+            "name": "Latest News and Weather",
+            "description": "Latest News and Weather.",
+            "synopsis": "Latest News and Weather.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786309200,
+              "endTime": 1786312800,
+              "duration": 60,
+              "name": "Latest News and Weather",
+              "description": "Latest News and Weather.",
+              "synopsis": "Latest News and Weather.",
+              "image": "https://images.metadata.sky.com/pd-image/91b2006e-4583-416b-a9c9-832ff0934596/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809220000 +0100",
+                "stop": "20260809230000 +0100",
+                "title": "Latest News and Weather",
+                "desc": "Latest News and Weather.",
+                "icon": "https://images.metadata.sky.com/pd-image/91b2006e-4583-416b-a9c9-832ff0934596/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786312800,
+            "duration": 15,
+            "name": "Nuacht RTÉ",
+            "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786312800,
+              "endTime": 1786313700,
+              "duration": 15,
+              "name": "Nuacht RTÉ",
+              "description": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "synopsis": "Príomhscéalta an lae ó Nuacht RTÉ.",
+              "image": "https://images.metadata.sky.com/pd-image/ea7d5a40-079e-4efc-9405-1af0780b26da/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809230000 +0100",
+                "stop": "20260809231500 +0100",
+                "title": "Nuacht RTÉ",
+                "desc": "Príomhscéalta an lae ó Nuacht RTÉ.",
+                "icon": "https://images.metadata.sky.com/pd-image/ea7d5a40-079e-4efc-9405-1af0780b26da/cover",
+                "episode_xmltv_ns": null,
+                "episode_onscreen": null,
+                "categories": []
+              }
+            }
+          },
+          {
+            "startTime": 1786313700,
+            "duration": 405,
+            "name": "EuroNews",
+            "description": "The latest International and European news.",
+            "synopsis": "The latest International and European news.",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "startTime": 1786313700,
+              "endTime": 1786338000,
+              "duration": 405,
+              "name": "EuroNews",
+              "description": "The latest International and European news.",
+              "synopsis": "The latest International and European news.",
+              "image": "https://images.metadata.sky.com/pd-image/e02ef8fb-56f5-41cc-9528-d4e3ca972cf0/cover",
+              "_source": {
+                "channel": "RTENews.ie",
+                "start": "20260809231500 +0100",
+                "stop": "20260810060000 +0100",
+                "title": "EuroNews",
+                "desc": "The latest International and European news.",
+                "icon": "https://images.metadata.sky.com/pd-image/e02ef8fb-56f5-41cc-9528-d4e3ca972cf0/cover",
                 "episode_xmltv_ns": null,
                 "episode_onscreen": null,
                 "categories": []
