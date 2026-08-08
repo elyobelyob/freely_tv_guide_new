@@ -1,5 +1,5 @@
 {
-  "start": 1786060800,
+  "start": 1786147200,
   "channels": [
     {
       "id": "4seven.uk",
@@ -290,6 +290,18 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioBristol.uk",
+      "name": "BBC Radio Bristol",
+      "path": "channels/BBCRadioBristol.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioCambridgeshire.uk",
+      "name": "BBC Radio Cambridgeshire",
+      "path": "channels/BBCRadioCambridgeshire.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioCornwall.uk",
       "name": "BBC Radio Cornwall",
       "path": "channels/BBCRadioCornwall.uk.json",
@@ -314,6 +326,18 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioDerby.uk",
+      "name": "BBC Radio Derby",
+      "path": "channels/BBCRadioDerby.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioDevon.uk",
+      "name": "BBC Radio Devon",
+      "path": "channels/BBCRadioDevon.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioFoyle.uk",
       "name": "BBC Radio Foyle",
       "path": "channels/BBCRadioFoyle.uk.json",
@@ -326,9 +350,21 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioGloucestershire.uk",
+      "name": "BBC Radio Gloucestershire",
+      "path": "channels/BBCRadioGloucestershire.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioHumberside.uk",
       "name": "BBC Radio Humberside",
       "path": "channels/BBCRadioHumberside.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioJersey.uk",
+      "name": "BBC Radio Jersey",
+      "path": "channels/BBCRadioJersey.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -350,6 +386,12 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioLeicester.uk",
+      "name": "BBC Radio Leicester",
+      "path": "channels/BBCRadioLeicester.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioLincolnshire.uk",
       "name": "BBC Radio Lincolnshire",
       "path": "channels/BBCRadioLincolnshire.uk.json",
@@ -368,15 +410,57 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioMerseyside.uk",
+      "name": "BBC Radio Merseyside",
+      "path": "channels/BBCRadioMerseyside.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioNewcastle.uk",
       "name": "BBC Radio Newcastle",
       "path": "channels/BBCRadioNewcastle.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "BBCRadioNorfolk.uk",
+      "name": "BBC Radio Norfolk",
+      "path": "channels/BBCRadioNorfolk.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioNorthampton.uk",
+      "name": "BBC Radio Northampton",
+      "path": "channels/BBCRadioNorthampton.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioNottingham.uk",
+      "name": "BBC Radio Nottingham",
+      "path": "channels/BBCRadioNottingham.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioOrkney.uk",
+      "name": "BBC Radio Orkney",
+      "path": "channels/BBCRadioOrkney.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "BBCRadioSheffield.uk",
       "name": "BBC Radio Sheffield",
       "path": "channels/BBCRadioSheffield.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioShetland.uk",
+      "name": "BBC Radio Shetland",
+      "path": "channels/BBCRadioShetland.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "BBCRadioShropshire.uk",
+      "name": "BBC Radio Shropshire",
+      "path": "channels/BBCRadioShropshire.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -783,8 +867,14 @@
     },
     {
       "id": "GreatRomance.uk",
-      "name": "GREAT! romance",
+      "name": "GREAT! Romance",
       "path": "channels/GreatRomance.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "GreatRomancePlus1.uk",
+      "name": "GREAT! Romance +1",
+      "path": "channels/GreatRomancePlus1.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1190,12 +1280,6 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "Quest.uk",
-      "name": "Quest",
-      "path": "channels/Quest.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
       "id": "QuestHD.ie",
       "name": "Quest HD ROI",
       "path": "channels/QuestHD.ie.json",
@@ -1454,21 +1538,21 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "ThatsDance.uk",
-      "name": "That's Dance",
-      "path": "channels/ThatsDance.uk.json",
+      "id": "Thats20thCentury.uk",
+      "name": "That's 20th Century",
+      "path": "channels/Thats20thCentury.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "ThatsFabulous.uk",
-      "name": "That's Fabulous",
-      "path": "channels/ThatsFabulous.uk.json",
+      "id": "Thats60s.uk",
+      "name": "That's 60s",
+      "path": "channels/Thats60s.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "ThatsMelody.uk",
-      "name": "That's Melody",
-      "path": "channels/ThatsMelody.uk.json",
+      "id": "Thats70s.uk",
+      "name": "That's 70s",
+      "path": "channels/Thats70s.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1484,15 +1568,15 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "ThatsTV3.uk",
-      "name": "That's TV 3",
-      "path": "channels/ThatsTV3.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
       "id": "TogetherTV.uk",
       "name": "Together TV",
       "path": "channels/TogetherTV.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "TogetherTVPlus1.uk",
+      "name": "Together TV +1",
+      "path": "channels/TogetherTVPlus1.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1619,12 +1703,6 @@
       "id": "VirginRadio.uk",
       "name": "Virgin Radio",
       "path": "channels/VirginRadio.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
-      "id": "WION.in",
-      "name": "WION HD",
-      "path": "channels/WION.in.json",
       "logo": "img/channels/placeholder.svg"
     }
   ]
