@@ -1,5 +1,5 @@
 {
-  "start": 1794009600,
+  "start": 1794096000,
   "channels": [
     {
       "id": "4seven.uk",
@@ -848,6 +848,18 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
+      "id": "GreatChristmas.uk",
+      "name": "GREAT! Christmas",
+      "path": "channels/GreatChristmas.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "GreatChristmasPlus1.uk",
+      "name": "GREAT! Christmas +1",
+      "path": "channels/GreatChristmasPlus1.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
       "id": "GreatMovies.uk",
       "name": "GREAT! Movies",
       "path": "channels/GreatMovies.uk.json",
@@ -863,18 +875,6 @@
       "id": "GreatMysteryPlus1.uk",
       "name": "GREAT! Mystery +1",
       "path": "channels/GreatMysteryPlus1.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
-      "id": "GreatRomance.uk",
-      "name": "GREAT! Romance",
-      "path": "channels/GreatRomance.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
-      "id": "GreatRomancePlus1.uk",
-      "name": "GREAT! Romance +1",
-      "path": "channels/GreatRomancePlus1.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1256,27 +1256,33 @@
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "QVCBeautyUK.uk",
+      "id": "QVC.uk",
+      "name": "QVC",
+      "path": "channels/QVC.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "QVC2.uk",
+      "name": "QVC 2",
+      "path": "channels/QVC2.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "QVCBeauty.uk",
       "name": "QVC Beauty",
-      "path": "channels/QVCBeautyUK.uk.json",
+      "path": "channels/QVCBeauty.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "QVCExtraUK.uk",
+      "id": "QVCExtra.uk",
       "name": "QVC Extra",
-      "path": "channels/QVCExtraUK.uk.json",
+      "path": "channels/QVCExtra.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
-      "id": "QVCStyleUK.uk",
-      "name": "QVC Style UK",
-      "path": "channels/QVCStyleUK.uk.json",
-      "logo": "img/channels/placeholder.svg"
-    },
-    {
-      "id": "QVCUK.uk",
-      "name": "QVC UK",
-      "path": "channels/QVCUK.uk.json",
+      "id": "QVCStyle.uk",
+      "name": "QVC Style",
+      "path": "channels/QVCStyle.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1481,6 +1487,12 @@
       "id": "SmoothRadio.uk",
       "name": "Smooth Radio",
       "path": "channels/SmoothRadio.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "TBN.uk",
+      "name": "TBN UK",
+      "path": "channels/TBN.uk.json",
       "logo": "img/channels/placeholder.svg"
     },
     {
@@ -1703,6 +1715,12 @@
       "id": "VirginRadio.uk",
       "name": "Virgin Radio",
       "path": "channels/VirginRadio.uk.json",
+      "logo": "img/channels/placeholder.svg"
+    },
+    {
+      "id": "WeDoTVMovies.uk",
+      "name": "wedotv Movies UK",
+      "path": "channels/WeDoTVMovies.uk.json",
       "logo": "img/channels/placeholder.svg"
     }
   ]
